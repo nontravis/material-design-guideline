@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="md_touch_icon_size">48dp</dimen>
+    <dimen name="md_icon_touch_size">48dp</dimen>
     <dimen name="md_icon_size">24dp</dimen>
+
+    <dimen name="material_icon_touch_size">48dp</dimen>
+    <dimen name="material_icon_size">24dp</dimen>
 
     <!-- ========================== Md default Text size ======================================= -->
     <!-- https://material.io/guidelines/style/typography.html#typography-styles -->
@@ -27,8 +30,8 @@
     <dimen name="md_dense_text_headline_regular">24sp</dimen>
     <dimen name="md_dense_text_title_medium">21sp</dimen>
     <dimen name="md_dense_text_subheading_regular">17sp</dimen>
-    <dimen name="md_dense_text_body_medium">15sp</dimen>
     <dimen name="md_dense_text_body_regular">15sp</dimen>
+    <dimen name="md_dense_text_body_medium">15sp</dimen>
     <dimen name="md_dense_text_caption_regular">13sp</dimen>
     <dimen name="md_dense_text_button_medium">15sp</dimen>
 
@@ -52,32 +55,32 @@
     <dimen name="md_sub_title_height">48dp</dimen>
     <dimen name="md_list_item_height">72dp</dimen>
     <dimen name="md_list_space">8dp</dimen>
-    <dimen name="md_start_margin_content">72dp</dimen>
-    <dimen name="md_navigation_margin">56dp</dimen>
+    <dimen name="md_margin_content_start">72dp</dimen>
+    <dimen name="md_margin_drawer_navigation">56dp</dimen>
 
     <!-- ========================= Md Elevation ================================================ -->
     <dimen name="md_elevation_dialog">24dp</dimen>
     <dimen name="md_elevation_picker">24dp</dimen>
 
-    <dimen name="md_elevation_nav_drawer">16dp</dimen>
+    <dimen name="md_elevation_navigation_drawer">16dp</dimen>
     <dimen name="md_elevation_right_drawer">16dp</dimen>
     <dimen name="md_elevation_bottom_sheet">16dp</dimen>
 
     <dimen name="md_elevation_fab_pressed">12dp</dimen>
 
-    <dimen name="md_elevation_submenu_3">12dp</dimen>
-    <dimen name="md_elevation_submenu_2">11dp</dimen>
-    <dimen name="md_elevation_submenu_1">10dp</dimen>
-    <dimen name="md_elevation_submenu_0">9dp</dimen>
-
+    <dimen name="md_elevation_submenu_4">12dp</dimen>
+    <dimen name="md_elevation_submenu_3">11dp</dimen>
+    <dimen name="md_elevation_submenu_2">10dp</dimen>
+    <dimen name="md_elevation_submenu_1">9dp</dimen>
     <dimen name="md_elevation_menu">8dp</dimen>
+
     <dimen name="md_elevation_button_pressed">8dp</dimen>
     <dimen name="md_elevation_card_pressed">8dp</dimen>
 
     <dimen name="md_elevation_fab">6dp</dimen>
     <dimen name="md_elevation_snackbar">6dp</dimen>
 
-    <dimen name="md_elevation_app_bar">4dp</dimen>
+    <dimen name="md_elevation_toolbar">4dp</dimen>
 
     <dimen name="md_elevation_refresh_indicator">3dp</dimen>
     <dimen name="md_elevation_quick_entry_scrolled">3dp</dimen>
@@ -143,7 +146,7 @@
     <dimen name="material_elevation_dialog">24dp</dimen>
     <dimen name="material_elevation_picker">24dp</dimen>
 
-    <dimen name="material_elevation_nav_drawer">16dp</dimen>
+    <dimen name="material_elevation_navigation_drawer">16dp</dimen>
     <dimen name="material_elevation_right_drawer">16dp</dimen>
     <dimen name="material_elevation_bottom_sheet">16dp</dimen>
 
@@ -161,7 +164,7 @@
     <dimen name="material_elevation_fab">6dp</dimen>
     <dimen name="material_elevation_snackbar">6dp</dimen>
 
-    <dimen name="material_elevation_app_bar">4dp</dimen>
+    <dimen name="material_elevation_toolbar">4dp</dimen>
 
     <dimen name="material_elevation_refresh_indicator">3dp</dimen>
     <dimen name="material_elevation_quick_entry_scrolled">3dp</dimen>
