@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbarStyle="insideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/md_list_space"
+            android:paddingStart="@dimen/md_list_space"
+            android:layout_marginBottom="@dimen/md_list_space"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/MaterialTextView.DarkTheme.Body.Regular"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:text="Display 4"
+                    android:textColor="@color/md_text_color_secondary_light"/>
+
+                <TextView
+                    android:id="@+id/tv_display_4"
+                    style="@style/MaterialTextView.LightTheme.Display4.Light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Light 112sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/MaterialTextView.DarkTheme.Body.Regular"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:text="Display 3"
+                    android:textColor="@color/md_text_color_secondary_light"/>
+
+                <TextView
+                    android:id="@+id/tv_display_3"
+                    style="@style/MaterialTextView.LightTheme.Display3.Regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regular 56sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/MaterialTextView.DarkTheme.Body.Regular"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:text="Display 2"
+                    android:textColor="@color/md_text_color_secondary_light"/>
+
+                <TextView
+                    android:id="@+id/tv_display_2"
+                    style="@style/MaterialTextView.LightTheme.Display2.Regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regular 45sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/MaterialTextView.DarkTheme.Body.Regular"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:text="Display 1"
+                    android:textColor="@color/md_text_color_secondary_light"/>
+
+                <TextView
+                    android:id="@+id/tv_display_1"
+                    style="@style/MaterialTextView.LightTheme.Display1.Regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regular 34sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/MaterialTextView.DarkTheme.Body.Regular"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:text="Headline"
+                    android:textColor="@color/md_text_color_secondary_light"/>
+
+                <TextView
+                    android:id="@+id/tv_headline"
+                    style="@style/MaterialTextView.LightTheme.Headline.Regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regular 24sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/MaterialTextView.DarkTheme.Body.Regular"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textColor="@color/md_text_color_secondary_light"/>
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    style="@style/MaterialTextView.LightTheme.Title.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium 20sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/MaterialTextView.DarkTheme.Body.Regular"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:text="Subheading"
+                    android:textColor="@color/md_text_color_secondary_light"/>
+
+                <TextView
+                    android:id="@+id/tv_subheading"
+                    style="@style/MaterialTextView.LightTheme.Subheading.Regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regular 16sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/MaterialTextView.DarkTheme.Body.Regular"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:text="Body 2"
+                    android:textColor="@color/md_text_color_secondary_light"/>
+
+                <TextView
+                    android:id="@+id/tv_body_2"
+                    style="@style/MaterialTextView.LightTheme.Body.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium 14sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/MaterialTextView.DarkTheme.Body.Regular"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:text="Body 1"
+                    android:textColor="@color/md_text_color_secondary_light"/>
+
+                <TextView
+                    android:id="@+id/tv_body_1"
+                    style="@style/MaterialTextView.LightTheme.Body.Regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regular 14sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/MaterialTextView.DarkTheme.Body.Regular"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:text="Caption"
+                    android:textColor="@color/md_text_color_secondary_light"/>
+
+                <TextView
+                    android:id="@+id/tv_caption"
+                    style="@style/MaterialTextView.LightTheme.Caption.Regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regular 12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/MaterialTextView.DarkTheme.Body.Regular"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:text="Button"
+                    android:textColor="@color/md_text_color_secondary_light"/>
+
+                <TextView
+                    android:id="@+id/tv_button"
+                    style="@style/MaterialTextView.LightTheme.Button.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MEDIUM 14sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

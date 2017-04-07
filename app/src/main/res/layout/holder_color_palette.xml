@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/md_color_50"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/md_icon_color_size"
+        android:layout_weight="1"
+        tools:background="@color/md_red50"/>
+
+    <View
+        android:id="@+id/md_color_100"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/md_icon_color_size"
+        android:layout_weight="1"
+        tools:background="@color/md_red100"/>
+
+    <View
+        android:id="@+id/md_color_200"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/md_icon_color_size"
+        android:layout_weight="1"
+        tools:background="@color/md_red200"/>
+
+    <View
+        android:id="@+id/md_color_300"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/md_icon_color_size"
+        android:layout_weight="1"
+        tools:background="@color/md_red300"/>
+
+    <View
+        android:id="@+id/md_color_400"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/md_icon_color_size"
+        android:layout_weight="1"
+        tools:background="@color/md_red400"/>
+
+    <View
+        android:id="@+id/md_color_500"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/md_icon_color_size"
+        android:layout_weight="1"
+        tools:background="@color/md_red500"/>
+
+    <View
+        android:id="@+id/md_color_600"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/md_icon_color_size"
+        android:layout_weight="1"
+        tools:background="@color/md_red600"/>
+
+    <View
+        android:id="@+id/md_color_700"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/md_icon_color_size"
+        android:layout_weight="1"
+        tools:background="@color/md_red700"/>
+
+    <View
+        android:id="@+id/md_color_800"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/md_icon_color_size"
+        android:layout_weight="1"
+        tools:background="@color/md_red800"/>
+
+    <View
+        android:id="@+id/md_color_900"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/md_icon_color_size"
+        android:layout_weight="1"
+        tools:background="@color/md_red900"/>
+
+    <View
+        android:id="@+id/md_color_a100"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/md_icon_color_size"
+        android:layout_weight="1"
+        tools:background="@color/md_redA100"/>
+
+    <View
+        android:id="@+id/md_color_a200"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/md_icon_color_size"
+        android:layout_weight="1"
+        tools:background="@color/md_redA200"/>
+
+    <View
+        android:id="@+id/md_color_a400"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/md_icon_color_size"
+        android:layout_weight="1"
+        tools:background="@color/md_redA400"/>
+
+    <View
+        android:id="@+id/md_color_a700"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/md_icon_color_size"
+        android:layout_weight="1"
+        tools:background="@color/md_redA700"/>
+
+</LinearLayout>
