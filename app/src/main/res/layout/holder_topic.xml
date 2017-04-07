@@ -7,13 +7,14 @@
 
     <TextView
         android:id="@+id/tv_topic"
-        style="@style/MaterialTextView.LightTheme.Headline.Regular"
+        style="@style/MaterialTextView.LightTheme.Display1.Regular"
+        android:layout_gravity="center_horizontal"
         android:layout_width="match_parent"
+        android:gravity="center_vertical"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/md_list_space"
+        android:minHeight="@dimen/md_list_item_height"
         android:layout_marginEnd="@dimen/md_margin_content"
         android:layout_marginStart="@dimen/md_margin_content"
-        android:layout_marginTop="@dimen/md_list_space"
         tools:text="Color palette"/>
 
 </LinearLayout>

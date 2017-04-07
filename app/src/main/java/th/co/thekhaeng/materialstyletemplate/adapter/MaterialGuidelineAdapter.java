@@ -8,15 +8,21 @@ import java.util.List;
 import th.co.thekhaeng.materialstyletemplate.adapter.base.BaseItem;
 import th.co.thekhaeng.materialstyletemplate.adapter.base.BaseViewHolder;
 import th.co.thekhaeng.materialstyletemplate.adapter.holder.ColorPaletteHolder;
+import th.co.thekhaeng.materialstyletemplate.adapter.holder.ElevationHolder;
+import th.co.thekhaeng.materialstyletemplate.adapter.holder.IconHolder;
 import th.co.thekhaeng.materialstyletemplate.adapter.holder.KeylinesHolder;
 import th.co.thekhaeng.materialstyletemplate.adapter.holder.TextHolder;
 import th.co.thekhaeng.materialstyletemplate.adapter.holder.TopicHolder;
 import th.co.thekhaeng.materialstyletemplate.adapter.item.ColorItem;
+import th.co.thekhaeng.materialstyletemplate.adapter.item.ElevationItem;
+import th.co.thekhaeng.materialstyletemplate.adapter.item.IconItem;
 import th.co.thekhaeng.materialstyletemplate.adapter.item.KeylinesItem;
 import th.co.thekhaeng.materialstyletemplate.adapter.item.TextItem;
 import th.co.thekhaeng.materialstyletemplate.adapter.item.TopicItem;
 
 import static th.co.thekhaeng.materialstyletemplate.adapter.ItemCreator.TYPE_COLOR_PALETTE;
+import static th.co.thekhaeng.materialstyletemplate.adapter.ItemCreator.TYPE_ELEVATION;
+import static th.co.thekhaeng.materialstyletemplate.adapter.ItemCreator.TYPE_ICON;
 import static th.co.thekhaeng.materialstyletemplate.adapter.ItemCreator.TYPE_KEYLINES;
 import static th.co.thekhaeng.materialstyletemplate.adapter.ItemCreator.TYPE_TEXT;
 import static th.co.thekhaeng.materialstyletemplate.adapter.ItemCreator.TYPE_TOPIC;
@@ -51,10 +57,14 @@ public class MaterialGuidelineAdapter extends RecyclerView.Adapter<BaseViewHolde
                 return new TopicHolder( parent );
             case TYPE_COLOR_PALETTE:
                 return new ColorPaletteHolder( parent );
+            case TYPE_ICON:
+                return new IconHolder( parent );
             case TYPE_TEXT:
                 return new TextHolder( parent );
             case TYPE_KEYLINES:
                 return new KeylinesHolder( parent );
+            case TYPE_ELEVATION:
+                return new ElevationHolder( parent );
         }
         return null;
     }
@@ -72,12 +82,18 @@ public class MaterialGuidelineAdapter extends RecyclerView.Adapter<BaseViewHolde
             ColorPaletteHolder holder = (ColorPaletteHolder) viewHolder;
             ColorItem item = (ColorItem) baseItem;
             holder.onBind( item );
+        }else if( type == TYPE_ICON ){
+            IconHolder holder = (IconHolder) viewHolder;
+            IconItem item = (IconItem) baseItem;
         }else if( type == TYPE_TEXT ){
             TextHolder holder = (TextHolder) viewHolder;
             TextItem item = (TextItem) baseItem;
         }else if( type == TYPE_KEYLINES ){
             KeylinesHolder holder = (KeylinesHolder) viewHolder;
             KeylinesItem item = (KeylinesItem) baseItem;
+        }else if( type == TYPE_ELEVATION ){
+            ElevationHolder holder = (ElevationHolder) viewHolder;
+            ElevationItem item = (ElevationItem) baseItem;
         }
     }
 

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="@dimen/default_padding_margin_extra_large"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="@dimen/md_icon_touch_size"
+        android:layout_height="@dimen/md_icon_touch_size"
+        android:layout_gravity="center_horizontal">
+
+
+        <ImageView
+            android:layout_width="@dimen/md_icon_touch_size"
+            android:layout_height="@dimen/md_icon_touch_size"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:padding="12dp"
+            android:src="@drawable/ic_settings_24dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/board_keyline"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:background="@drawable/board_keyline"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/default_padding_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/MaterialTextView.LightTheme.Body.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            android:text="Touch size"/>
+
+        <TextView
+            style="@style/MaterialTextView.LightTheme.Body.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="48dp"
+            android:textColor="@color/md_pink500"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/default_padding_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/MaterialTextView.LightTheme.Body.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            android:text="Icon size"/>
+
+        <TextView
+            style="@style/MaterialTextView.LightTheme.Body.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24dp"
+            android:textColor="@color/md_pink500"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -3,6 +3,7 @@
               xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
+              android:layout_marginBottom="@dimen/default_padding_margin_extra_large"
               android:orientation="vertical">
 
     <HorizontalScrollView
@@ -15,10 +16,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingEnd="@dimen/md_list_space"
-            android:paddingStart="@dimen/md_list_space"
             android:layout_marginBottom="@dimen/md_list_space"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/md_list_space"
+            android:paddingStart="@dimen/md_list_space">
 
             <LinearLayout
                 android:layout_width="match_parent"

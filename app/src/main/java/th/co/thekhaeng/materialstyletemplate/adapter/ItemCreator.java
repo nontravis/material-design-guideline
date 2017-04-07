@@ -1,14 +1,19 @@
 package th.co.thekhaeng.materialstyletemplate.adapter;
 
+import android.support.annotation.ColorInt;
+
 import java.util.ArrayList;
 import java.util.List;
 
 import th.co.thekhaeng.materialstyletemplate.R;
 import th.co.thekhaeng.materialstyletemplate.adapter.base.BaseItem;
 import th.co.thekhaeng.materialstyletemplate.adapter.item.ColorItem;
+import th.co.thekhaeng.materialstyletemplate.adapter.item.ElevationItem;
+import th.co.thekhaeng.materialstyletemplate.adapter.item.IconItem;
 import th.co.thekhaeng.materialstyletemplate.adapter.item.KeylinesItem;
 import th.co.thekhaeng.materialstyletemplate.adapter.item.TextItem;
 import th.co.thekhaeng.materialstyletemplate.adapter.item.TopicItem;
+import th.co.thekhaeng.materialstyletemplate.library.MaterialColor;
 
 /**
  * Created by thekhaeng on 4/7/2017 AD.
@@ -18,13 +23,15 @@ public class ItemCreator{
 
     public static final int TYPE_TOPIC = 0;
     public static final int TYPE_COLOR_PALETTE = 1;
-    public static final int TYPE_TEXT = 2;
-    public static final int TYPE_KEYLINES = 3;
+    public static final int TYPE_ICON = 2;
+    public static final int TYPE_TEXT = 3;
+    public static final int TYPE_KEYLINES = 4;
+    public static final int TYPE_ELEVATION = 5;
 
     public static List<BaseItem> createItem(){
-        List<BaseItem> configs = new ArrayList<>();
-        configs.add( createTopicItem( "Color palette" ) );
-        configs.add( createColorItem(
+        List<BaseItem> items = new ArrayList<>();
+        items.add( createTopicItem( "Color palette", MaterialColor.TEAL_500 ) );
+        items.add( createColorItem(
                 new int[]{R.color.md_red50,
                         R.color.md_red100,
                         R.color.md_red200,
@@ -40,7 +47,7 @@ public class ItemCreator{
                         R.color.md_redA400,
                         R.color.md_redA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_pink50,
                         R.color.md_pink100,
@@ -57,7 +64,7 @@ public class ItemCreator{
                         R.color.md_pinkA400,
                         R.color.md_pinkA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_purple50,
                         R.color.md_purple100,
@@ -74,7 +81,7 @@ public class ItemCreator{
                         R.color.md_purpleA400,
                         R.color.md_purpleA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_deeppurple50,
                         R.color.md_deeppurple100,
@@ -91,7 +98,7 @@ public class ItemCreator{
                         R.color.md_deeppurpleA400,
                         R.color.md_deeppurpleA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_indigo50,
                         R.color.md_indigo100,
@@ -108,7 +115,7 @@ public class ItemCreator{
                         R.color.md_indigoA400,
                         R.color.md_indigoA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_blue50,
                         R.color.md_blue100,
@@ -126,7 +133,7 @@ public class ItemCreator{
                         R.color.md_blueA700
                 } ) );
 
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_lightblue50,
                         R.color.md_lightblue100,
@@ -143,7 +150,7 @@ public class ItemCreator{
                         R.color.md_lightblueA400,
                         R.color.md_lightblueA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_cyan50,
                         R.color.md_cyan100,
@@ -160,7 +167,7 @@ public class ItemCreator{
                         R.color.md_cyanA400,
                         R.color.md_cyanA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_lightblue50,
                         R.color.md_lightblue100,
@@ -177,7 +184,7 @@ public class ItemCreator{
                         R.color.md_lightblueA400,
                         R.color.md_lightblueA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_teal50,
                         R.color.md_teal100,
@@ -195,7 +202,7 @@ public class ItemCreator{
                         R.color.md_tealA700
                 } ) );
 
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_green50,
                         R.color.md_green100,
@@ -212,7 +219,7 @@ public class ItemCreator{
                         R.color.md_greenA400,
                         R.color.md_greenA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_lightgreen50,
                         R.color.md_lightgreen100,
@@ -229,7 +236,7 @@ public class ItemCreator{
                         R.color.md_lightgreenA400,
                         R.color.md_lightgreenA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_lime50,
                         R.color.md_lime100,
@@ -246,7 +253,7 @@ public class ItemCreator{
                         R.color.md_limeA400,
                         R.color.md_limeA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_yellow50,
                         R.color.md_yellow100,
@@ -263,7 +270,7 @@ public class ItemCreator{
                         R.color.md_yellowA400,
                         R.color.md_yellowA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_amber50,
                         R.color.md_amber100,
@@ -280,7 +287,7 @@ public class ItemCreator{
                         R.color.md_amberA400,
                         R.color.md_amberA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_orange50,
                         R.color.md_orange100,
@@ -297,7 +304,7 @@ public class ItemCreator{
                         R.color.md_orangeA400,
                         R.color.md_orangeA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_deeporange50,
                         R.color.md_deeporange100,
@@ -314,7 +321,7 @@ public class ItemCreator{
                         R.color.md_deeporangeA400,
                         R.color.md_deeporangeA700
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_brown50,
                         R.color.md_brown100,
@@ -326,12 +333,12 @@ public class ItemCreator{
                         R.color.md_brown700,
                         R.color.md_brown800,
                         R.color.md_brown900,
-                        0,
-                        0,
-                        0,
-                        0
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_grey50,
                         R.color.md_grey100,
@@ -343,12 +350,12 @@ public class ItemCreator{
                         R.color.md_grey700,
                         R.color.md_grey800,
                         R.color.md_grey900,
-                        0,
-                        0,
-                        0,
-                        0
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white
                 } ) );
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_bluegrey50,
                         R.color.md_bluegrey100,
@@ -360,41 +367,48 @@ public class ItemCreator{
                         R.color.md_bluegrey700,
                         R.color.md_bluegrey800,
                         R.color.md_bluegrey900,
-                        0,
-                        0,
-                        0,
-                        0
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white
                 } ) );
 
-        configs.add( createColorItem(
+        items.add( createColorItem(
                 new int[]{
                         R.color.md_white,
                         R.color.md_black,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white,
+                        R.color.md_white
                 } ) );
-        configs.add( createTopicItem( "Icon" ) );
-        configs.add( createTopicItem( "Typography" ) );
-        configs.add( createTextItem() );
-        configs.add( createTopicItem( "Metrics & keylines size" ) );
-        configs.add( createKeylinesItem() );
-        configs.add( createTopicItem( "Elevation" ) );
+        items.add( createTopicItem( "Icon", MaterialColor.TEAL_500 ) );
+        items.add( createIconItem() );
+        items.add( createTopicItem( "Typography", MaterialColor.TEAL_500 ) );
+        items.add( createTextItem() );
+        items.add( createTopicItem( "Metrics & keylines size", MaterialColor.PINK_500 ) );
+        items.add( createKeylinesItem() );
+        items.add( createTopicItem( "Elevation", MaterialColor.CYAN_500 ) );
+        items.add( createElevationItem() );
 
-        return configs;
+        return items;
     }
 
-    private static TopicItem createTopicItem( String topic ){
-        return new TopicItem( topic );
+    private static BaseItem createIconItem(){
+        return new IconItem();
+    }
+
+
+    private static TopicItem createTopicItem( String topic, @ColorInt int resId ){
+        return new TopicItem( topic, resId );
     }
 
     private static ColorItem createColorItem( int[] colors ){
@@ -409,4 +423,7 @@ public class ItemCreator{
         return new KeylinesItem();
     }
 
+    private static BaseItem createElevationItem(){
+        return new ElevationItem();
+    }
 }
