@@ -94,8 +94,8 @@
 
     <dimen name="md_elevation_switch">1dp</dimen>
 
-
-    <!-- ========================= Material default Text size ================================== -->
+    <!-- ========================== Material default Text size ======================================= -->
+    <!-- https://material.io/guidelines/style/typography.html#typography-styles -->
     <dimen name="material_text_size_display_4_light">112sp</dimen>
     <dimen name="material_text_size_display_3_regular">56sp</dimen>
     <dimen name="material_text_size_display_2_regular">45sp</dimen>
@@ -108,7 +108,8 @@
     <dimen name="material_text_caption_regular">12sp</dimen>
     <dimen name="material_text_button_medium">14sp</dimen>
 
-    <!-- ========================= Material Dense scripts Text size ============================ -->
+    <!-- ========================= Material Dense scripts Text size ================================== -->
+    <!-- Chinese, Japanese, and Korean. -->
     <dimen name="material_dense_text_size_display_4_light">112sp</dimen>
     <dimen name="material_dense_text_size_display_3_regular">56sp</dimen>
     <dimen name="material_dense_text_size_display_2_regular">45sp</dimen>
@@ -116,12 +117,13 @@
     <dimen name="material_dense_text_headline_regular">24sp</dimen>
     <dimen name="material_dense_text_title_medium">21sp</dimen>
     <dimen name="material_dense_text_subheading_regular">17sp</dimen>
-    <dimen name="material_dense_text_body_medium">15sp</dimen>
     <dimen name="material_dense_text_body_regular">15sp</dimen>
+    <dimen name="material_dense_text_body_medium">15sp</dimen>
     <dimen name="material_dense_text_caption_regular">13sp</dimen>
     <dimen name="material_dense_text_button_medium">15sp</dimen>
 
-    <!-- ========================= Material Tall scripts Text size ============================= -->
+    <!-- ========================= Material Tall scripts Text size =================================== -->
+    <!-- South and Southeast Asian and Middle Eastern languages, including Arabic, Hindi, and Thai. -->
     <dimen name="material_tall_text_size_display_4_regular">112sp</dimen>
     <dimen name="material_tall_text_size_display_3_regular">56sp</dimen>
     <dimen name="material_tall_text_size_display_2_regular">45sp</dimen>
@@ -134,16 +136,17 @@
     <dimen name="material_tall_text_caption_regular">13sp</dimen>
     <dimen name="material_tall_text_button_bold">15sp</dimen>
 
-    <!-- ========================= Material metrics & keylines ================================= -->
+    <!-- ========================= Material metrics & keylines ======================================= -->
     <dimen name="material_status_bar_height">24dp</dimen>
-    <dimen name="material_toolbar_height">?actionBarSize</dimen> <!-- 48dp & 56dp -->
+    <dimen name="material_toolbar_height">56dp</dimen>
     <dimen name="material_sub_title_height">48dp</dimen>
     <dimen name="material_list_item_height">72dp</dimen>
     <dimen name="material_list_space">8dp</dimen>
-    <dimen name="material_start_margin_content">72dp</dimen>
-    <dimen name="material_navigation_margin">56dp</dimen>
+    <dimen name="material_margin_content">16dp</dimen>
+    <dimen name="material_margin_content_from_screen_edge">72dp</dimen>
+    <dimen name="material_margin_drawer_navigation">56dp</dimen>
 
-    <!-- ========================= Material Elevation ========================================== -->
+    <!-- ========================= Material Elevation ================================================ -->
     <dimen name="material_elevation_dialog">24dp</dimen>
     <dimen name="material_elevation_picker">24dp</dimen>
 
@@ -153,12 +156,12 @@
 
     <dimen name="material_elevation_fab_pressed">12dp</dimen>
 
-    <dimen name="material_elevation_submenu_3">12dp</dimen>
-    <dimen name="material_elevation_submenu_2">11dp</dimen>
-    <dimen name="material_elevation_submenu_1">10dp</dimen>
-    <dimen name="material_elevation_submenu_0">9dp</dimen>
-
+    <dimen name="material_elevation_submenu_4">12dp</dimen>
+    <dimen name="material_elevation_submenu_3">11dp</dimen>
+    <dimen name="material_elevation_submenu_2">10dp</dimen>
+    <dimen name="material_elevation_submenu_1">9dp</dimen>
     <dimen name="material_elevation_menu">8dp</dimen>
+
     <dimen name="material_elevation_button_pressed">8dp</dimen>
     <dimen name="material_elevation_card_pressed">8dp</dimen>
 
@@ -177,5 +180,6 @@
     <dimen name="material_elevation_search_bar">2dp</dimen>
 
     <dimen name="material_elevation_switch">1dp</dimen>
+
 
 </resources>

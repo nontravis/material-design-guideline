@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="md_icon_color_size">24dp</dimen>
+    <dimen name="icon_color_size">24dp</dimen>
+
+    <dimen name="default_padding_margin_extra_small">2dp</dimen>
+    <dimen name="default_padding_margin_small">4dp</dimen>
+    <dimen name="default_padding_margin">8dp</dimen>
+    <dimen name="default_padding_margin_large">16dp</dimen>
+    <dimen name="default_padding_margin_extra_large">24dp</dimen>
+    <dimen name="default_padding_margin_extra_extra_large">48dp</dimen>
+
+    <dimen name="default_icon_size_extra_small">12dp</dimen>
+    <dimen name="default_icon_size_small">16dp</dimen>
+    <dimen name="default_icon_size">24dp</dimen>
+    <dimen name="default_icon_size_large">36dp</dimen>
+    <dimen name="default_icon_size_extra_large">48dp</dimen>
+    <dimen name="default_icon_size_extra_extra_large">56dp</dimen>
+
+    <dimen name="default_stroke">2dp</dimen>
+    <dimen name="default_stroke_small">1dp</dimen>
 </resources>

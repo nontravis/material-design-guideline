@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item name="md_hint_alpha_dark" format="float" type="dimen">0.50</item>
+    <item name="md_hint_alpha_light" format="float" type="dimen">0.38</item>
+    <item name="md_hint_pressed_alpha_dark" format="float" type="dimen">0.70</item>
+    <item name="md_hint_pressed_alpha_light" format="float" type="dimen">0.54</item>
+    <item name="md_disabled_alpha_light" format="float" type="dimen">0.26</item>
+    <item name="md_disabled_alpha_dark" format="float" type="dimen">0.30</item>
+    <item name="md_highlight_alpha_light" format="float" type="dimen">0.12</item>
+    <item name="md_highlight_alpha_dark" format="float" type="dimen">0.20</item>
+    <item name="md_highlight_alpha_colored" format="float" type="dimen">0.26</item>
+
+    <dimen name="text_size_large_material">22sp</dimen>
+    <dimen name="text_size_medium_material">18sp</dimen>
+    <dimen name="text_size_small_material">14sp</dimen>
 
     <!-- ================================ Md Text color ======================================== -->
     <!-- https://material.io/guidelines/style/color.html#color-text-background-colors -->
