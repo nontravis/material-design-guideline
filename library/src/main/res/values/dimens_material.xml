@@ -51,11 +51,12 @@
 
     <!-- ========================= Md metrics & keylines ======================================= -->
     <dimen name="md_status_bar_height">24dp</dimen>
-    <dimen name="md_toolbar_height">?actionBarSize</dimen> <!-- 48dp & 56dp -->
+    <dimen name="md_toolbar_height">56dp</dimen>
     <dimen name="md_sub_title_height">48dp</dimen>
     <dimen name="md_list_item_height">72dp</dimen>
     <dimen name="md_list_space">8dp</dimen>
-    <dimen name="md_margin_content_start">72dp</dimen>
+    <dimen name="md_margin_content">16dp</dimen>
+    <dimen name="md_margin_content_from_screen_edge">72dp</dimen>
     <dimen name="md_margin_drawer_navigation">56dp</dimen>
 
     <!-- ========================= Md Elevation ================================================ -->

@@ -1,14 +1,38 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'TheKhaeng'
+    bintrayName = 'material-design-style'
+
+    publishedGroupId = 'th.co.thekhaeng'
+    libraryName = 'MaterialDesignStyle'
+    artifact = 'material-design-style'
+
+    libraryDescription = 'This library follow Google Material guidline.'
+
+    siteUrl = 'https://github.com/TheKhaeng/Material-Design-style'
+    gitUrl = 'https://github.com/TheKhaeng/Material-Design-style.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'nonthawit'
+    developerName = 'Nonthawit'
+    developerEmail = 'nonthawit.kub@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        minSdkVersion 18
+        minSdkVersion 16
         targetSdkVersion 25
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -29,3 +53,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+
+
