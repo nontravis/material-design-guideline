@@ -2,16 +2,16 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'TheKhaeng'
-    bintrayName = 'material-design-style'
+    bintrayName = 'material-design-guideline'
 
-    publishedGroupId = 'th.co.thekhaeng'
-    libraryName = 'MaterialDesignStyle'
-    artifact = 'material-design-style'
+    publishedGroupId = 'com.github.thekhaeng'
+    libraryName = 'MaterialDesignGuideline'
+    artifact = 'material-design-guideline'
 
     libraryDescription = 'This library follow Google Material guidline.'
 
-    siteUrl = 'https://github.com/TheKhaeng/Material-Design-style'
-    gitUrl = 'https://github.com/TheKhaeng/Material-Design-style.git'
+    siteUrl = 'https://github.com/TheKhaeng/material-design-guideline'
+    gitUrl = 'https://github.com/TheKhaeng/material-design-guideline.git'
 
     libraryVersion = '1.0.0'
 
@@ -46,12 +46,6 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    testCompile 'junit:junit:4.12'
 }
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
