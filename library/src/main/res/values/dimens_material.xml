@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- ========================== Md default alpha =========================================== -->
+    <item name="md_alpha_text_primary_dark" format="float" type="dimen">1.0</item>
+    <item name="md_alpha_text_secondary_dark" format="float" type="dimen">0.70</item>
+    <item name="md_alpha_text_disable_dark" format="float" type="dimen">0.50</item>
+    <item name="md_alpha_divider_dark" format="float" type="dimen">0.12</item>
+
+    <item name="md_alpha_text_primary_light" format="float" type="dimen">0.87</item>
+    <item name="md_alpha_text_secondary_light" format="float" type="dimen">0.54</item>
+    <item name="md_alpha_text_disable_light" format="float" type="dimen">0.38</item>
+    <item name="md_alpha_divider_light" format="float" type="dimen">0.12</item>
+
+    <item name="md_alpha_icon_active_dark" format="float" type="dimen">1.0</item>
+    <item name="md_alpha_icon_inactive_dark" format="float" type="dimen">0.30</item>
+    <item name="md_alpha_icon_active_light" format="float" type="dimen">0.54</item>
+    <item name="md_alpha_icon_inactive_light" format="float" type="dimen">0.26</item>
+
+
+    <!-- ========================== Md default icon size ======================================= -->
     <dimen name="md_icon_touch_size">48dp</dimen>
     <dimen name="md_icon_size">24dp</dimen>
-
-    <dimen name="material_icon_touch_size">48dp</dimen>
-    <dimen name="material_icon_size">24dp</dimen>
 
     <!-- ========================== Md default Text size ======================================= -->
     <!-- https://material.io/guidelines/style/typography.html#typography-styles -->
@@ -20,6 +35,10 @@
     <dimen name="md_text_body_medium">14sp</dimen>
     <dimen name="md_text_caption_regular">12sp</dimen>
     <dimen name="md_text_button_medium">14sp</dimen>
+
+    <dimen name="md_text_size_large">22sp</dimen>
+    <dimen name="md_text_size_medium">18sp</dimen>
+    <dimen name="md_text_size_small">14sp</dimen>
 
     <!-- ========================= Md Dense scripts Text size ================================== -->
     <!-- Chinese, Japanese, and Korean. -->
@@ -94,6 +113,30 @@
 
     <dimen name="md_elevation_switch">1dp</dimen>
 
+    <!-- ========================== Material default alpha ===================================== -->
+    <item name="material_alpha_text_primary_dark" format="float" type="dimen">1.0</item>
+    <item name="material_alpha_text_secondary_dark" format="float" type="dimen">0.70</item>
+    <item name="material_alpha_text_disable_dark" format="float" type="dimen">0.50</item>
+    <item name="material_alpha_divider_dark" format="float" type="dimen">0.12</item>
+
+    <item name="material_alpha_text_primary_light" format="float" type="dimen">0.87</item>
+    <item name="material_alpha_text_secondary_light" format="float" type="dimen">0.54</item>
+    <item name="material_alpha_text_disable_light" format="float" type="dimen">0.38</item>
+    <item name="material_alpha_divider_light" format="float" type="dimen">0.12</item>
+
+    <item name="material_alpha_icon_active_dark" format="float" type="dimen">1.0</item>
+    <item name="material_alpha_icon_inactive_dark" format="float" type="dimen">0.30</item>
+    <item name="material_alpha_icon_active_light" format="float" type="dimen">0.54</item>
+    <item name="material_alpha_icon_inactive_light" format="float" type="dimen">0.26</item>
+
+
+    <!-- ========================== Material default icon size ================================= -->
+    <dimen name="material_icon_touch_size">48dp</dimen>
+    <dimen name="material_icon_size">24dp</dimen>
+
+
+
+
     <!-- ========================== Material default Text size ======================================= -->
     <!-- https://material.io/guidelines/style/typography.html#typography-styles -->
     <dimen name="material_text_size_display_4_light">112sp</dimen>
@@ -107,6 +150,10 @@
     <dimen name="material_text_body_medium">14sp</dimen>
     <dimen name="material_text_caption_regular">12sp</dimen>
     <dimen name="material_text_button_medium">14sp</dimen>
+
+    <dimen name="material_text_size_large">22sp</dimen>
+    <dimen name="material_text_size_medium">18sp</dimen>
+    <dimen name="material_text_size_small">14sp</dimen>
 
     <!-- ========================= Material Dense scripts Text size ================================== -->
     <!-- Chinese, Japanese, and Korean. -->
