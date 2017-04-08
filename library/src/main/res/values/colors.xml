@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_color_white_alpha_10">#10ffffff</color>
+    <color name="default_color_white_alpha_20">#33ffffff</color>
+    <color name="default_color_white_alpha_40">#66ffffff</color>
+    <color name="default_color_white_alpha_60">#99ffffff</color>
+    <color name="default_color_white_alpha_80">#CCffffff</color>
+    <color name="default_color_white_alpha_90">#E6ffffff</color>
+
+    <color name="default_color_black_alpha_10">#10000000</color>
+    <color name="default_color_black_alpha_20">#33000000</color>
+    <color name="default_color_black_alpha_40">#66000000</color>
+    <color name="default_color_black_alpha_60">#99000000</color>
+    <color name="default_color_black_alpha_80">#CC000000</color>
+    <color name="default_color_black_alpha_90">#E6000000</color>
+</resources>
