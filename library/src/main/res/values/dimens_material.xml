@@ -14,6 +14,7 @@
 
     <item name="md_alpha_icon_active_dark" format="float" type="dimen">1.0</item>
     <item name="md_alpha_icon_inactive_dark" format="float" type="dimen">0.30</item>
+
     <item name="md_alpha_icon_active_light" format="float" type="dimen">0.54</item>
     <item name="md_alpha_icon_inactive_light" format="float" type="dimen">0.26</item>
 

@@ -6,7 +6,7 @@
 This library follows [Google Material guideline](https://material.io/) for Android Developers.
 
 
-It's layout principle library that help Android developer easy to put layout in
+It's layout principle library include important XML Resource that help Android developer easy to put layout in
 your new project or project want to follows material design principle.
 
 
@@ -22,17 +22,28 @@ your new project or project want to follows material design principle.
 
 ## 「 DEMO APPLICATION 」
 
-<a href="">
+<a href="https://play.google.com/store/apps/details?id=th.co.thekhaeng.materialstyletemplate" target="_blank">
 <img src="https://storage.googleapis.com/support-kms-prod/D90D94331E54D2005CC8CEE352FF98ECF639" height="60" width="200">
 </a>
 
 
-
-
 ## 「 INSTALL 」
 
+Maven
 ```
-Comming soon...
+<dependency>
+  <groupId>com.github.thekhaeng</groupId>
+  <artifactId>material-design-guideline</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
+
+Gradle
+```
+compile ('com.github.thekhaeng:material-design-guideline:1.0.0') {
+    exclude group: 'com.android.support', module: 'support-annotations'
+}
 ```
 
 > **NOTE**: this library use **md_** or **material_** prefix name
@@ -41,9 +52,9 @@ Comming soon...
 
 Help you to add **margin** or **padding** or **size** to your XML faster. You can override it if you want to custom.
 
-> **NOTE:** base ton material design principle +4dp +8dp +16dp or +24dp
+> **NOTE:** base ton material design principle **+4dp** **+8dp** **+16dp** or **+24dp**
 
-**Dimens**
+### Dimens
 
 |DIMEN NAMES                    |VALUE  |
 | ----------------------------- | -----:|
@@ -70,7 +81,7 @@ Help you to add **margin** or **padding** or **size** to your XML faster. You ca
 |**Divider size** |
 |default_divider_size               | 1dp
 
-**Base Color (for Dark theme)**
+### Base Color (for Dark theme)
 
 Recommend you don't use it directly.
 
@@ -91,7 +102,7 @@ Recommend you don't use it directly.
 |default_color_white_alpha_80|#CCffffff| 80% white |
 |default_color_white_alpha_90|#E6ffffff| 90% white |
 
-**Base Color (for Light theme)**
+### Base Color (for Light theme)
 
 |COLOR NAMES                    |VALUE  | PERCENT |
 | ----------------------------- | :-----|:-------:|
@@ -140,7 +151,6 @@ You can use both **XML** or **Java class**.
 
 ### Size
 
-
 |DIMEN NAMES                    |VALUE  |
 | ----------------------------- | -----:|
 |md_icon_touch_size | 48dp
@@ -148,22 +158,35 @@ You can use both **XML** or **Java class**.
 |md_avatar_size | 40dp
 |md_button_height | 36dp
 
-### COLOR
-
-**Color (for Dark theme)**
-
+### COLOR (for Dark theme)
 
 |COLOR NAMES                    |VALUE  | PERCENT |
 | ----------------------------- | :-----|:-------:|
 |md_icon_color_active_dark|#ffffffff| 100% white |
 |md_icon_color_inactive_dark|#4dffffff| 30% white |
 
-**Color (for Light theme)**
+### COLOR (for Light theme)
 
 |COLOR NAMES                    |VALUE  | PERCENT |
 | ----------------------------- | :-----|:-------:|
 |md_icon_color_active_light|#8a000000| 54% black|
 |md_icon_color_inactive_light|#42000000| 26% black|
+
+
+### ALPHA (for Dark theme)
+
+|DIMEN NAMES                    |FLOAT  |
+| ----------------------------- | :-----|
+|md_alpha_icon_active_dark|1.0|
+|md_alpha_icon_inactive_dark|0.30|
+
+### ALPHA (for Light theme)
+
+|DIMEN NAMES                    |FLOAT  |
+| ----------------------------- | :-----|
+|md_alpha_icon_active_light|0.54|
+|md_alpha_icon_inactive_light|0.26|
+
 
 
 ## [「 Typography 」](https://material.io/guidelines/style/typography.html#typography-typeface)
@@ -211,7 +234,9 @@ ex. 中国 (chinese), 日本の (japan), and 한국의 (korean).
 
 **Tall scripts**
 
-South and Southeast Asian and Middle Eastern languages, including اللغة العربية (arabic), हिन्दी (hindi), and ภาษาไทย (thai).
+South and Southeast Asian and Middle Eastern languages,
+
+including اللغة العربية (arabic), हिन्दी (hindi), and ภาษาไทย (thai).
 
   
 
@@ -229,9 +254,7 @@ South and Southeast Asian and Middle Eastern languages, including اللغة ا�
 |md_tall_text_body_regular        | **regular**     | 13sp  |
 |md_tall_text_button_bold          | **BOLD**      | 15sp  |
 
-### COLOR
-
-**Text color (for Dark theme)**
+### COLOR (for Dark theme)
 
 
 |COLOR NAMES                    |VALUE  | PERCENT |
@@ -254,8 +277,7 @@ South and Southeast Asian and Middle Eastern languages, including اللغة ا�
 |md_text_color_button_dark|**primary**|
 
 
-**Text color (for Light theme)**
-
+### COLOR (for Light theme)
 
 |COLOR NAMES                    |VALUE  | PERCENT |
 | ----------------------------- | :-----|:-------:|
@@ -276,6 +298,29 @@ South and Southeast Asian and Middle Eastern languages, including اللغة ا�
 |md_text_color_menu_light| **primary**|
 |md_text_color_button_light| **primary**|
 
+
+
+### ALPHA (for Dark theme)
+|DIMEN NAMES                    |FLOAT  |
+| ----------------------------- | :-----|
+|md_alpha_text_primary_dark|1.0|
+|md_alpha_text_secondary_dark|0.70|
+|md_alpha_text_disable_dark|0.50|
+|md_alpha_divider_dark|0.12|
+
+
+
+### ALPHA (for Light theme)
+|DIMEN NAMES                    |FLOAT  |
+| ----------------------------- | :-----|
+|md_alpha_text_primary_light|0.87|
+|md_alpha_text_secondary_light|0.54|
+|md_alpha_text_disable_light|0.38|
+|md_alpha_divider_light|0.12|
+
+
+
+
 ## [「 Metrics & keylines size 」](https://material.io/guidelines/layout/metrics-keylines.html)
 
  
@@ -287,7 +332,8 @@ South and Southeast Asian and Middle Eastern languages, including اللغة ا�
 |md_sub_title_height|48dp|
 |md_list_item_height|72dp|
 |md_list_space|8dp|
-|md_margin_content_start|72dp|
+|md_margin_content|16dp|
+|md_margin_content_from_screen_edge|72dp|
 |md_margin_drawer_navigation|56dp|
 
 ## [「 Elevation 」](https://material.io/guidelines/material-design/elevation-shadows.html#elevation-shadows-elevation-android)
