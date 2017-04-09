@@ -21,6 +21,8 @@
     <!-- ========================== Md default icon size ======================================= -->
     <dimen name="md_icon_touch_size">48dp</dimen>
     <dimen name="md_icon_size">24dp</dimen>
+    <dimen name="md_avatar_size">40dp</dimen>
+    <dimen name="md_button_height">36dp</dimen>
 
     <!-- ========================== Md default Text size ======================================= -->
     <!-- https://material.io/guidelines/style/typography.html#typography-styles -->
@@ -133,8 +135,8 @@
     <!-- ========================== Material default icon size ================================= -->
     <dimen name="material_icon_touch_size">48dp</dimen>
     <dimen name="material_icon_size">24dp</dimen>
-
-
+    <dimen name="material_avatar_size">40dp</dimen>
+    <dimen name="material_button_height">36dp</dimen>
 
 
     <!-- ========================== Material default Text size ======================================= -->

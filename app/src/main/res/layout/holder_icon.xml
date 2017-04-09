@@ -33,10 +33,10 @@
     </FrameLayout>
 
     <LinearLayout
-        android:layout_marginTop="@dimen/default_padding_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/default_padding_margin"
         android:orientation="horizontal">
 
         <TextView
@@ -56,10 +56,11 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_marginTop="@dimen/default_padding_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/default_padding_margin_extra_large"
+        android:layout_marginTop="@dimen/default_padding_margin"
         android:orientation="horizontal">
 
         <TextView
@@ -75,6 +76,172 @@
             android:layout_height="wrap_content"
             android:text="24dp"
             android:textColor="@color/md_pink500"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/md_icon_touch_size"
+        android:layout_height="@dimen/md_icon_touch_size"
+        android:layout_gravity="center_horizontal">
+
+
+        <ImageView
+            android:layout_width="@dimen/md_avatar_size"
+            android:layout_height="@dimen/md_avatar_size"
+            android:layout_gravity="center"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:src="@drawable/mock_oval"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/board_keyline"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:background="@drawable/board_keyline"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/default_padding_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/MaterialTextView.LightTheme.Body.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            android:text="Touch size"/>
+
+        <TextView
+            style="@style/MaterialTextView.LightTheme.Body.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="48dp"
+            android:textColor="@color/md_pink500"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/default_padding_margin_extra_large"
+        android:layout_marginTop="@dimen/default_padding_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/MaterialTextView.LightTheme.Body.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            android:text="Avatar size"/>
+
+        <TextView
+            style="@style/MaterialTextView.LightTheme.Body.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40dp"
+            android:textColor="@color/md_pink500"/>
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="@dimen/md_icon_touch_size"
+        android:layout_gravity="center_horizontal">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:src="@drawable/mock_oval"
+            android:stateListAnimator="@null"
+            android:text="Yes"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/board_keyline"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/board_keyline"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/default_padding_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/MaterialTextView.LightTheme.Body.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            android:text="Touch size"/>
+
+        <TextView
+            style="@style/MaterialTextView.LightTheme.Body.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="48dp"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            android:textColor="@color/md_pink500"/>
+        <TextView
+            style="@style/MaterialTextView.LightTheme.Caption.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            android:text="(default)"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/default_padding_margin"
+        android:layout_marginBottom="@dimen/default_padding_margin_large"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/MaterialTextView.LightTheme.Body.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            android:text="Button height"/>
+
+        <TextView
+            style="@style/MaterialTextView.LightTheme.Body.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            android:text="36dp"
+            android:textColor="@color/md_pink500"/>
+
+        <TextView
+            style="@style/MaterialTextView.LightTheme.Caption.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            android:text="(default)"/>
 
     </LinearLayout>
 
