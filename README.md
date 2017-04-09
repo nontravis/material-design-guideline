@@ -3,18 +3,17 @@
 ![alt text](./picture/logo.png)
 
 
-This library follows [Google Material guideline](https://material.io/) for Android Developers.
-
-
-It's layout principle library include important XML Resource that help Android developer easy to put layout in
-your new project or project want to follows material design principle.
+A library for Android developers who want to create layout which follows
+Google material design principle. This library contains many XML resources
+that follows [Google Material guideline](https://material.io/) makes
+it easy to customize your new project as well as your existing one.
 
 
 ### TOPIC
 * Demo app
 * Install
-* Default Color and Dimens
-* Color resource names
+* Default color and dimens
+* Color names
 * Icons
 * Typography
 * Text XML Style
@@ -29,7 +28,7 @@ your new project or project want to follows material design principle.
 </a>
 
 
-## 「 INSTALL 」
+## 「 INSTALLATION 」
 
 Maven
 ```
@@ -85,7 +84,7 @@ Help you to add **margin** or **padding** or **size** to your XML faster. You ca
 
 ### Base Color (for Dark theme)
 
-Recommend you don't use it directly.
+It is recommended that you should not use it directly.
 
 **Usage example**
 ```
@@ -364,7 +363,7 @@ use [Noto Font](https://www.google.com/get/noto/)
     MaterialTextView.DarkTheme.Button.Medium
 ```
 
-**NOTE:** if you use **Dense** or **Tall scripts** font you must own custom it.
+**NOTE:** if you use **Dense** or **Tall scripts** font, you must customize it yourself.
 
 
 ## [「 Metrics & keylines size 」](https://material.io/guidelines/layout/metrics-keylines.html)
@@ -415,7 +414,7 @@ use [Noto Font](https://www.google.com/get/noto/)
 
 ## [「 Elevation Anim 」](https://material.io/guidelines/material-design/elevation-shadows.html#elevation-shadows-elevation-android)
 
-**NOTE:** This animation support API 21+
+**NOTE:** Animations are only available starting from API level 21
 
 **Usage example**
 
