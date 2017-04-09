@@ -3,9 +3,15 @@
 ![alt text](./picture/logo.png)
 
 
-This library follow [Google Material guideline](https://material.io/) for Android Developers.
+This library follows [Google Material guideline](https://material.io/) for Android Developers.
+
+
+It's layout principle library that help Android developer easy to put layout in
+your new project or project want to follows material design principle.
+
 
 ### TOPIC
+* Demo app
 * Install
 * Default Color and Dimens
 * Color resource names
@@ -13,6 +19,14 @@ This library follow [Google Material guideline](https://material.io/) for Androi
 * Typography
 * Metrics & keylines size
 * Elevation
+
+## 「 DEMO APPLICATION 」
+
+<a href="">
+<img src="https://storage.googleapis.com/support-kms-prod/D90D94331E54D2005CC8CEE352FF98ECF639" height="60" width="200">
+</a>
+
+
 
 
 ## 「 INSTALL 」
@@ -24,6 +38,10 @@ Comming soon...
 > **NOTE**: this library use **md_** or **material_** prefix name
 
 ## 「 DEFAULT COLOR AND DIMENS 」
+
+Help you to add **margin** or **padding** or **size** to your XML faster. You can override it if you want to custom.
+
+> **NOTE:** base ton material design principle +4dp +8dp +16dp or +24dp
 
 **Dimens**
 
@@ -53,6 +71,13 @@ Comming soon...
 |default_divider_size               | 1dp
 
 **Base Color (for Dark theme)**
+
+Recommend you don't use it directly.
+
+**ex**
+```
+<color name="your_background_overlay">@color/default_color_black_alpha_50</color>
+```
 
 |COLOR NAMES                    |VALUE  | PERCENT |
 | ----------------------------- | :-----|:-------:|
@@ -120,6 +145,8 @@ You can use both **XML** or **Java class**.
 | ----------------------------- | -----:|
 |md_icon_touch_size | 48dp
 |md_icon_size | 24dp
+|md_avatar_size | 40dp
+|md_button_height | 36dp
 
 ### COLOR
 
@@ -141,11 +168,12 @@ You can use both **XML** or **Java class**.
 
 ## [「 Typography 」](https://material.io/guidelines/style/typography.html#typography-typeface)
 
+<img src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3N3d4REJ0enZqd2M/style_typography_style1.png" height="746" width="1000">
+
 ### SIZE
 
 **English and English-like scripts**
 
-  
 
 |DIMEN NAMES                    | TEXT STYLE  |VALUE  |
 | ----------------------------- | :----------:| -----:|
@@ -164,7 +192,7 @@ You can use both **XML** or **Java class**.
 
 **Dense scripts**
 
-ex. Chinese, Japanese, and Korean.
+ex. 中国 (chinese), 日本の (japan), and 한국의 (korean).
 
 
 |DIMEN NAMES                          | TEXT STYLE  |VALUE  |
@@ -183,7 +211,7 @@ ex. Chinese, Japanese, and Korean.
 
 **Tall scripts**
 
-South and Southeast Asian and Middle Eastern languages, including Arabic, Hindi, and Thai.
+South and Southeast Asian and Middle Eastern languages, including اللغة العربية (arabic), हिन्दी (hindi), and ภาษาไทย (thai).
 
   
 
@@ -264,7 +292,7 @@ South and Southeast Asian and Middle Eastern languages, including Arabic, Hindi,
 
 ## [「 Elevation 」](https://material.io/guidelines/material-design/elevation-shadows.html#elevation-shadows-elevation-android)
 
-  
+<img src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3VG9SaVpNbkpHb2s/whatismaterial_3d_elevation2.png" height="413" width="1000">
 
 |DIMEN NAMES                    | ELEVATION |
 | ----------------------------- | :----------:|
