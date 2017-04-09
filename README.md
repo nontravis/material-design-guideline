@@ -47,13 +47,13 @@ compile ('com.github.thekhaeng:material-design-guideline:1.0.0') {
 }
 ```
 
-> **NOTE**: this library use **md_** or **material_** prefix name
+ **NOTE**: This library use **md_** or **material_** prefix name
 
 ## 「 DEFAULT COLOR AND DIMENS 」
 
-Help you to add **margin** or **padding** or **size** to your XML faster. You can override it if you want to custom.
+Default values for margin, padding, and size to use in your XML layout
 
-> **NOTE:** base on material design principle **+4dp** **+8dp** **+16dp** or **+24dp**
+ **NOTE:** Base on material design principle **+4dp** **+8dp** **+16dp** or **+24dp**
 
 ### Dimens
 
