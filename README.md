@@ -87,7 +87,7 @@ Help you to add **margin** or **padding** or **size** to your XML faster. You ca
 
 Recommend you don't use it directly.
 
-**ex**
+**Usage example**
 ```
 <color name="your_background_overlay">@color/default_color_black_alpha_50</color>
 ```
