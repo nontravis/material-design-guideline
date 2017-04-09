@@ -17,8 +17,10 @@ your new project or project want to follows material design principle.
 * Color resource names
 * Icons
 * Typography
+* Text XML Style
 * Metrics & keylines size
 * Elevation
+* Elevation Anim
 
 ## 「 DEMO APPLICATION 」
 
@@ -52,7 +54,7 @@ compile ('com.github.thekhaeng:material-design-guideline:1.0.0') {
 
 Help you to add **margin** or **padding** or **size** to your XML faster. You can override it if you want to custom.
 
-> **NOTE:** base ton material design principle **+4dp** **+8dp** **+16dp** or **+24dp**
+> **NOTE:** base on material design principle **+4dp** **+8dp** **+16dp** or **+24dp**
 
 ### Dimens
 
@@ -195,7 +197,7 @@ You can use both **XML** or **Java class**.
 
 ### SIZE
 
-**English and English-like scripts**
+**English and English-like scripts (default)**
 
 
 |DIMEN NAMES                    | TEXT STYLE  |VALUE  |
@@ -216,6 +218,8 @@ You can use both **XML** or **Java class**.
 **Dense scripts**
 
 ex. 中国 (chinese), 日本の (japan), and 한국의 (korean).
+
+use [Noto CJK Font](https://www.google.com/get/noto/help/cjk/)
 
 
 |DIMEN NAMES                          | TEXT STYLE  |VALUE  |
@@ -238,7 +242,7 @@ South and Southeast Asian and Middle Eastern languages,
 
 including اللغة العربية (arabic), हिन्दी (hindi), and ภาษาไทย (thai).
 
-  
+use [Noto Font](https://www.google.com/get/noto/)
 
 |DIMEN NAMES                    | TEXT STYLE  |VALUE  |
 | ----------------------------- | :----------:| -----:|
@@ -319,12 +323,53 @@ including اللغة العربية (arabic), हिन्दी (hindi), and �
 |md_alpha_divider_light|0.12|
 
 
+## Text XML Style
+
+**Usage example**
+
+```
+<TextView
+    ...
+    style="@style/MaterialTextView.LightTheme.Subheading.Regular"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Regular 16sp"
+    ... />
+```
+
+### Style XML
+```
+    MaterialTextView.LightTheme.Display4.Light
+    MaterialTextView.LightTheme.Display3.Regular
+    MaterialTextView.LightTheme.Display2.Regular
+    MaterialTextView.LightTheme.Display1.Regular
+    MaterialTextView.LightTheme.Headline.Regular
+    MaterialTextView.LightTheme.Title.Medium
+    MaterialTextView.LightTheme.Subheading.Regular
+    MaterialTextView.LightTheme.Body.Regular
+    MaterialTextView.LightTheme.Body.Medium
+    MaterialTextView.LightTheme.Caption.Regular
+    MaterialTextView.LightTheme.Button.Medium
+
+    MaterialTextView.DarkTheme.Display4.Light
+    MaterialTextView.DarkTheme.Display3.Regular
+    MaterialTextView.DarkTheme.Display2.Regular
+    MaterialTextView.DarkTheme.Display1.Regular
+    MaterialTextView.DarkTheme.Headline.Regular
+    MaterialTextView.DarkTheme.Title.Medium
+    MaterialTextView.DarkTheme.Subheading.Regular
+    MaterialTextView.DarkTheme.Body.Regular
+    MaterialTextView.DarkTheme.Body.Medium
+    MaterialTextView.DarkTheme.Caption.Regular
+    MaterialTextView.DarkTheme.Button.Medium
+```
+
+**NOTE:** if you use **Dense** or **Tall scripts** font you must own custom it.
 
 
 ## [「 Metrics & keylines size 」](https://material.io/guidelines/layout/metrics-keylines.html)
 
  
-
 |DIMEN NAMES                    |VALUE  |
 | ----------------------------- | :----------:|
 |md_status_bar_height|24dp|
@@ -366,6 +411,34 @@ including اللغة العربية (arabic), हिन्दी (hindi), and �
 |md_elevation_quick_entry|2dp|
 |md_elevation_search_bar|2dp|
 |md_elevation_switch|1dp|
+
+
+## [「 Elevation Anim 」](https://material.io/guidelines/material-design/elevation-shadows.html#elevation-shadows-elevation-android)
+
+**NOTE:** This animation support API 21+
+
+**Usage example**
+
+```
+<View
+    ...
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:stateListAnimator="@drawable/md_selector_anim_cardview_elevation"
+    ... />
+```
+
+
+**Drawable names**
+
+```
+R.drawable.md_selector_anim_button_elevation
+R.drawable.md_selector_anim_cardview_elevation
+```
+
+<img src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B-Ef4kCjUzkPSy1NQUtNdW5idXc/whatismaterial_3d_elevation_component02.png" height="277" width="1000">
+
 
 
 ### Special thank
