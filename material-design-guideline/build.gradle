@@ -8,7 +8,7 @@ ext {
     libraryName = 'MaterialDesignGuideline'
     artifact = 'material-design-guideline'
 
-    libraryDescription = ''
+    libraryDescription = 'A library for Android developers who want to create layout which follows Google material design principle. This library contains many XML resources that follows Google Material guideline makes it easy to customize your new project as well as your existing one.'
 
     siteUrl = 'https://github.com/TheKhaeng/material-design-guideline'
     gitUrl = 'https://github.com/TheKhaeng/material-design-guideline.git'

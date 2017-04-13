@@ -363,6 +363,13 @@ use [Noto Font](https://www.google.com/get/noto/)
     MaterialTextView.DarkTheme.Button.Medium
 ```
 
+### You can override.
+```
+    <style name="YourTextStyle" parent="MaterialTextView.LightTheme.Display4">
+        your custom...
+    </style>
+```
+
 **NOTE:** if you use **Dense** or **Tall scripts** font, you must customize it yourself.
 
 
@@ -454,9 +461,10 @@ http://www.apache.org/licenses/LICENSE-2.0
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 
-### Developed By
+### Developed By Thai android developer.
 
 ![alt text](./picture/thekhaeng_logo.png)
+
 
 Follow [facebook.com/thekhaeng.io](https://www.facebook.com/thekhaeng.io) on Facebook page.
 or [@nonthawit](https://medium.com/@nonthawit) at my Medium blog. :)
