@@ -121,9 +121,9 @@ It is recommended that you should not use it directly.
 
 You can use both **XML** or **Java class**.
 
- XML: ```java R.id.md_red400 ```
+ XML: ``` R.id.md_red400 ```
 
- Java class: ```java MaterialColor.RED400 ```
+ Java class: ``` MaterialColor.RED400 ```
 
 
 * Red
@@ -337,7 +337,7 @@ use [Noto Font](https://www.google.com/get/noto/)
 ```
 
 ### Style XML
-```xml
+```java
     MaterialTextView.LightTheme.Display4.Light
     MaterialTextView.LightTheme.Display3.Regular
     MaterialTextView.LightTheme.Display2.Regular
