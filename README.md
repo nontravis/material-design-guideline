@@ -31,7 +31,7 @@ it easy to customize your new project as well as your existing one.
 ## 「 INSTALLATION 」
 
 Maven
-```
+```xml
 <dependency>
   <groupId>com.github.thekhaeng</groupId>
   <artifactId>material-design-guideline</artifactId>
@@ -41,7 +41,7 @@ Maven
 ```
 
 Gradle
-```
+```gradle
 compile ('com.github.thekhaeng:material-design-guideline:1.0.0') {
     exclude group: 'com.android.support', module: 'support-annotations'
 }
@@ -87,7 +87,7 @@ Default values for margin, padding, and size to use in your XML layout
 It is recommended that you should not use it directly.
 
 **Usage example**
-```
+```xml
 <color name="your_background_overlay">@color/default_color_black_alpha_50</color>
 ```
 
@@ -121,9 +121,9 @@ It is recommended that you should not use it directly.
 
 You can use both **XML** or **Java class**.
 
- XML: ``` R.id.md_red400 ```
+ XML: ```java R.id.md_red400 ```
 
- Java class: ``` MaterialColor.RED400 ```
+ Java class: ```java MaterialColor.RED400 ```
 
 
 * Red
@@ -326,7 +326,7 @@ use [Noto Font](https://www.google.com/get/noto/)
 
 **Usage example**
 
-```
+```xml
 <TextView
     ...
     style="@style/MaterialTextView.LightTheme.Subheading.Regular"
@@ -337,7 +337,7 @@ use [Noto Font](https://www.google.com/get/noto/)
 ```
 
 ### Style XML
-```
+```xml
     MaterialTextView.LightTheme.Display4.Light
     MaterialTextView.LightTheme.Display3.Regular
     MaterialTextView.LightTheme.Display2.Regular
@@ -364,7 +364,7 @@ use [Noto Font](https://www.google.com/get/noto/)
 ```
 
 ### You can override.
-```
+```xml
     <style name="YourTextStyle" parent="MaterialTextView.LightTheme.Display4">
         your custom...
     </style>
@@ -425,7 +425,7 @@ use [Noto Font](https://www.google.com/get/noto/)
 
 **Usage example**
 
-```
+```xml
 <View
     ...
     android:layout_width="wrap_content"
@@ -438,7 +438,7 @@ use [Noto Font](https://www.google.com/get/noto/)
 
 **Drawable names**
 
-```
+```java
 R.drawable.md_selector_anim_button_elevation
 R.drawable.md_selector_anim_cardview_elevation
 ```
