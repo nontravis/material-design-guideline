@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/TheKhaeng/material-design-guideline'
     gitUrl = 'https://github.com/TheKhaeng/material-design-guideline.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'nonthawit'
     developerName = 'Nonthawit Doungsodsri'
@@ -26,13 +26,13 @@ ext {
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "25.0.3"
 
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 25
         versionCode 1
-        versionName "1.0.0"
+        versionName "1.0.1"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 

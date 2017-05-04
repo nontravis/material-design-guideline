@@ -10,7 +10,8 @@
     <dimen name="default_padding_margin">8dp</dimen>
     <dimen name="default_padding_margin_large">16dp</dimen>
     <dimen name="default_padding_margin_extra_large">24dp</dimen>
-    <dimen name="default_padding_margin_extra_extra_large">48dp</dimen>
+    <dimen name="default_padding_margin_extra_extra_large">32dp</dimen>
+    <dimen name="default_padding_margin_extra_extra_extra_large">48dp</dimen>
 
     <dimen name="default_icon_size_extra_small">12dp</dimen>
     <dimen name="default_icon_size_small">16dp</dimen>

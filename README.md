@@ -35,19 +35,28 @@ Maven
 <dependency>
   <groupId>com.github.thekhaeng</groupId>
   <artifactId>material-design-guideline</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <type>pom</type>
 </dependency>
 ```
 
 Gradle
 ```gradle
-compile ('com.github.thekhaeng:material-design-guideline:1.0.0') {
+compile ('com.github.thekhaeng:material-design-guideline:1.0.1') {
     exclude group: 'com.android.support', module: 'support-annotations'
 }
 ```
 
+
  **NOTE**: This library use **md_** or **material_** prefix name
+
+
+### Changelog
+
+- 1.0.1
+    - Added **default_padding_margin_extra_extra_extra_large** 48dp
+    - Changed **default_padding_margin_extra_extra_large** 48dp to 32dp
+
 
 ## 「 DEFAULT COLOR AND DIMENS 」
 
@@ -68,7 +77,8 @@ Default values for margin, padding, and size to use in your XML layout
 |default_padding_margin             | 8dp
 |default_padding_margin_large       | 16dp
 |default_padding_margin_extra_large | 24dp
-|default_padding_margin_extra_extra_large | 48dp
+|default_padding_margin_extra_extra_large | 32dp
+|default_padding_margin_extra_extra_extra_large | 48dp
 |**Icon size** |
 |default_icon_size_extra_small      | 12dp
 |default_icon_size_small            | 16dp
