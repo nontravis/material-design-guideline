@@ -51,7 +51,7 @@ compile ('com.github.thekhaeng:material-design-guideline:1.0.2') {
  **NOTE**: This library use **md_** or **material_** prefix name
 
 
- **IMPORTANT:** Every resource in this project is recommended that you should not use it directly. [see example](./app/src/main/res/values)
+ **IMPORTANT:** Every resource in this project is not recommended to use it directly. [see example](./app/src/main/res/values)
 
 ### Changelog
 
