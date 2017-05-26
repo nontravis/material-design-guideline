@@ -2,20 +2,30 @@
 <resources>
     <dimen name="icon_color_size">24dp</dimen>
 
-    <dimen name="default_padding_margin_extra_small">2dp</dimen>
-    <dimen name="default_padding_margin_small">4dp</dimen>
-    <dimen name="default_padding_margin">8dp</dimen>
-    <dimen name="default_padding_margin_large">16dp</dimen>
-    <dimen name="default_padding_margin_extra_large">24dp</dimen>
-    <dimen name="default_padding_margin_extra_extra_large">48dp</dimen>
+    <item name="default_alpha_primary_dark_theme" format="float" type="dimen">@dimen/md_alpha_text_primary_dark</item>
+    <item name="default_alpha_secondary_dark_theme" format="float" type="dimen">@dimen/md_alpha_text_secondary_dark</item>
+    <item name="default_alpha_disable_dark_theme" format="float" type="dimen">@dimen/md_alpha_text_disable_dark</item>
+    <item name="default_alpha_divider_dark_theme" format="float" type="dimen">@dimen/md_alpha_divider_dark</item>
 
-    <dimen name="default_icon_size_extra_small">12dp</dimen>
-    <dimen name="default_icon_size_small">16dp</dimen>
-    <dimen name="default_icon_size">24dp</dimen>
-    <dimen name="default_icon_size_large">36dp</dimen>
-    <dimen name="default_icon_size_extra_large">48dp</dimen>
-    <dimen name="default_icon_size_extra_extra_large">56dp</dimen>
+    <item name="default_alpha_primary_light_theme"  format="float" type="dimen">@dimen/md_alpha_text_primary_light</item>
+    <item name="default_alpha_secondary_light_theme" format="float" type="dimen">@dimen/md_alpha_text_secondary_light</item>
+    <item name="default_alpha_disable_light_theme" format="float" type="dimen">@dimen/md_alpha_text_disable_light</item>
+    <item name="default_alpha_divider_light_theme" format="float" type="dimen">@dimen/md_alpha_divider_light</item>
 
-    <dimen name="default_stroke">2dp</dimen>
-    <dimen name="default_stroke_small">1dp</dimen>
+    <item name="default_alpha_icon_active_dark_theme" format="float" type="dimen">@dimen/md_alpha_icon_active_dark</item>
+    <item name="default_alpha_icon_inactive_dark_theme" format="float" type="dimen">@dimen/md_alpha_icon_inactive_dark</item>
+    <item name="default_alpha_icon_active_light_theme" format="float" type="dimen">@dimen/md_alpha_icon_active_light</item>
+    <item name="default_alpha_icon_inactive_light_theme" format="float" type="dimen">@dimen/md_alpha_icon_inactive_light</item>
+
+    <dimen name="default_text_size_display_4">@dimen/md_text_size_display_4_light</dimen>
+    <dimen name="default_text_size_display_3">@dimen/md_text_size_display_3_regular</dimen>
+    <dimen name="default_text_size_display_2">@dimen/md_text_size_display_2_regular</dimen>
+    <dimen name="default_text_size_display_1">@dimen/md_text_size_display_1_regular</dimen>
+    <dimen name="default_text_headline">@dimen/md_text_headline_regular</dimen>
+    <dimen name="default_text_title">@dimen/md_text_title_medium</dimen>
+    <dimen name="default_text_subheading">@dimen/md_text_subheading_regular</dimen>
+    <dimen name="default_text_body">@dimen/md_text_body_regular</dimen>
+    <dimen name="default_text_caption">@dimen/md_text_caption_regular</dimen>
+    <dimen name="default_text_button">@dimen/md_text_button_medium</dimen>
+
 </resources>

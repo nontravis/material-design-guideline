@@ -35,14 +35,14 @@ Maven
 <dependency>
   <groupId>com.github.thekhaeng</groupId>
   <artifactId>material-design-guideline</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <type>pom</type>
 </dependency>
 ```
 
 Gradle
 ```gradle
-compile ('com.github.thekhaeng:material-design-guideline:1.0.1') {
+compile ('com.github.thekhaeng:material-design-guideline:1.0.2') {
     exclude group: 'com.android.support', module: 'support-annotations'
 }
 ```
@@ -51,7 +51,14 @@ compile ('com.github.thekhaeng:material-design-guideline:1.0.1') {
  **NOTE**: This library use **md_** or **material_** prefix name
 
 
+ **IMPORTANT:** Every resource in this project is recommended that you should not use it directly. [see example](./app/src/main/res/values)
+
 ### Changelog
+
+- 1.0.2
+    - Added **some example usage in demo project**
+    - Changed name **light to light_theme**
+    - Changed name **dark to dark_theme**
 
 - 1.0.1
     - Added **default_padding_margin_extra_extra_extra_large** 48dp
@@ -63,6 +70,9 @@ compile ('com.github.thekhaeng:material-design-guideline:1.0.1') {
 Default values for margin, padding, and size to use in your XML layout
 
  **NOTE:** Base on material design principle **+4dp** **+8dp** **+16dp** or **+24dp**
+
+
+
 
 ### Dimens
 
@@ -93,8 +103,6 @@ Default values for margin, padding, and size to use in your XML layout
 |default_divider_size               | 1dp
 
 ### Base Color (for Dark theme)
-
-It is recommended that you should not use it directly.
 
 **Usage example**
 ```xml
@@ -173,30 +181,30 @@ You can use both **XML** or **Java class**.
 
 |COLOR NAMES                    |VALUE  | PERCENT |
 | ----------------------------- | :-----|:-------:|
-|md_icon_color_active_dark|#ffffffff| 100% white |
-|md_icon_color_inactive_dark|#4dffffff| 30% white |
+|md_icon_color_active_dark_theme|#ffffffff| 100% white |
+|md_icon_color_inactive_dark_theme|#4dffffff| 30% white |
 
 ### COLOR (for Light theme)
 
 |COLOR NAMES                    |VALUE  | PERCENT |
 | ----------------------------- | :-----|:-------:|
-|md_icon_color_active_light|#8a000000| 54% black|
-|md_icon_color_inactive_light|#42000000| 26% black|
+|md_icon_color_active_light_theme|#8a000000| 54% black|
+|md_icon_color_inactive_light_theme|#42000000| 26% black|
 
 
 ### ALPHA (for Dark theme)
 
 |DIMEN NAMES                    |FLOAT  |
 | ----------------------------- | :-----|
-|md_alpha_icon_active_dark|1.0|
-|md_alpha_icon_inactive_dark|0.30|
+|md_alpha_icon_active_dark_theme|1.0|
+|md_alpha_icon_inactive_dark_theme|0.30|
 
 ### ALPHA (for Light theme)
 
 |DIMEN NAMES                    |FLOAT  |
 | ----------------------------- | :-----|
-|md_alpha_icon_active_light|0.54|
-|md_alpha_icon_inactive_light|0.26|
+|md_alpha_icon_active_light_theme|0.54|
+|md_alpha_icon_inactive_light_theme|0.26|
 
 
 
@@ -272,64 +280,64 @@ use [Noto Font](https://www.google.com/get/noto/)
 
 |COLOR NAMES                    |VALUE  | PERCENT |
 | ----------------------------- | :-----|:-------:|
-|md_text_color_primary_dark|#ffffffff|100% white|
-|md_text_color_secondary_dark|#b3ffffff| 70% white|
-|md_text_color_disabled_dark|#80ffffff|50% white |
-|md_text_color_divider_dark|#1fffffff| 12% white |
-|md_text_color_display_4_dark|secondary|
-|md_text_color_display_2_dark|secondary|
-|md_text_color_display_3_dark|secondary|
-|md_text_color_display_1_dark|secondary|
-|md_text_color_headline_dark|**primary**|
-|md_text_color_title_dark|**primary**|
-|md_text_color_subheading_dark|**primary**|
-|md_text_color_body_2_dark|**primary**|
-|md_text_color_body_1_dark|**primary**|
-|md_text_color_caption_dark|secondary|
-|md_text_color_menu_dark|**primary**|
-|md_text_color_button_dark|**primary**|
+|md_text_color_primary_dark_theme|#ffffffff|100% white|
+|md_text_color_secondary_dark_theme|#b3ffffff| 70% white|
+|md_text_color_disabled_dark_theme|#80ffffff|50% white |
+|md_text_color_divider_dark_theme|#1fffffff| 12% white |
+|md_text_color_display_4_dark_theme|secondary|
+|md_text_color_display_2_dark_theme|secondary|
+|md_text_color_display_3_dark_theme|secondary|
+|md_text_color_display_1_dark_theme|secondary|
+|md_text_color_headline_dark_theme|**primary**|
+|md_text_color_title_dark_theme|**primary**|
+|md_text_color_subheading_dark_theme|**primary**|
+|md_text_color_body_2_dark_theme|**primary**|
+|md_text_color_body_1_dark_theme|**primary**|
+|md_text_color_caption_dark_theme|secondary|
+|md_text_color_menu_dark_theme|**primary**|
+|md_text_color_button_dark_theme|**primary**|
 
 
 ### COLOR (for Light theme)
 
 |COLOR NAMES                    |VALUE  | PERCENT |
 | ----------------------------- | :-----|:-------:|
-|md_text_color_primary_light|#de000000|87% black|
-|md_text_color_secondary_light|#8a000000|54% black|
-|md_text_color_disabled_light|#61000000|38% black|
-|md_text_color_divider_light|#1f000000|12% black|
-|md_text_color_display_4_light| secondary|
-|md_text_color_display_2_light| secondary|
-|md_text_color_display_3_light| secondary|
-|md_text_color_display_1_light| secondary|
-|md_text_color_headline_light| **primary**|
-|md_text_color_title_light| **primary**|
-|md_text_color_subheading_light| **primary**|
-|md_text_color_body_2_light| **primary**|
-|md_text_color_body_1_light| **primary**|
-|md_text_color_caption_light| secondary|
-|md_text_color_menu_light| **primary**|
-|md_text_color_button_light| **primary**|
+|md_text_color_primary_light_theme|#de000000|87% black|
+|md_text_color_secondary_light_theme|#8a000000|54% black|
+|md_text_color_disabled_light_theme|#61000000|38% black|
+|md_text_color_divider_light_theme|#1f000000|12% black|
+|md_text_color_display_4_light_theme| secondary|
+|md_text_color_display_2_light_theme| secondary|
+|md_text_color_display_3_light_theme| secondary|
+|md_text_color_display_1_light_theme| secondary|
+|md_text_color_headline_light_theme| **primary**|
+|md_text_color_title_light_theme| **primary**|
+|md_text_color_subheading_light_theme| **primary**|
+|md_text_color_body_2_light_theme| **primary**|
+|md_text_color_body_1_light_theme| **primary**|
+|md_text_color_caption_light_theme| secondary|
+|md_text_color_menu_light_theme| **primary**|
+|md_text_color_button_light_theme| **primary**|
 
 
 
 ### ALPHA (for Dark theme)
 |DIMEN NAMES                    |FLOAT  |
 | ----------------------------- | :-----|
-|md_alpha_text_primary_dark|1.0|
-|md_alpha_text_secondary_dark|0.70|
-|md_alpha_text_disable_dark|0.50|
-|md_alpha_divider_dark|0.12|
+|md_alpha_text_primary_dark_theme|1.0|
+|md_alpha_text_secondary_dark_theme|0.70|
+|md_alpha_text_disable_dark_theme|0.50|
+|md_alpha_divider_dark_theme|0.12|
 
 
 
 ### ALPHA (for Light theme)
 |DIMEN NAMES                    |FLOAT  |
 | ----------------------------- | :-----|
-|md_alpha_text_primary_light|0.87|
-|md_alpha_text_secondary_light|0.54|
-|md_alpha_text_disable_light|0.38|
-|md_alpha_divider_light|0.12|
+|md_alpha_text_primary_light_theme|0.87|
+|md_alpha_text_secondary_light_theme|0.54|
+|md_alpha_text_disable_light_theme|0.38|
+|md_alpha_divider_light_theme|0.12|
 
 
 ## Text XML Style

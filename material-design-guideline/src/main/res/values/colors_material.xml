@@ -3,54 +3,54 @@
 
     <!-- ================================ Md Text color ======================================== -->
     <!-- https://material.io/guidelines/style/color.html#color-text-background-colors -->
-    <color name="md_text_color_primary_dark">#ffffffff</color> <!--100% white-->
-    <color name="md_text_color_secondary_dark">#b3ffffff</color> <!--70% white-->
-    <color name="md_text_color_disabled_dark">#80ffffff</color> <!--50% white-->
-    <color name="md_text_color_divider_dark">#1fffffff</color> <!--12% white-->
+    <color name="md_text_color_primary_dark_theme">#ffffffff</color> <!--100% white-->
+    <color name="md_text_color_secondary_dark_theme">#b3ffffff</color> <!--70% white-->
+    <color name="md_text_color_disabled_dark_theme">#80ffffff</color> <!--50% white-->
+    <color name="md_text_color_divider_dark_theme">#1fffffff</color> <!--12% white-->
 
-    <color name="md_text_color_primary_light">#de000000</color> <!--87% black-->
-    <color name="md_text_color_secondary_light">#8a000000</color> <!--54% black-->
-    <color name="md_text_color_disabled_light">#61000000</color> <!--38% black-->
-    <color name="md_text_color_divider_light">#1f000000</color> <!--12% black-->
+    <color name="md_text_color_primary_light_theme">#de000000</color> <!--87% black-->
+    <color name="md_text_color_secondary_light_theme">#8a000000</color> <!--54% black-->
+    <color name="md_text_color_disabled_light_theme">#61000000</color> <!--38% black-->
+    <color name="md_text_color_divider_light_theme">#1f000000</color> <!--12% black-->
 
-    <color name="md_text_color_display_4_dark">@color/md_text_color_secondary_dark</color>
-    <color name="md_text_color_display_2_dark">@color/md_text_color_secondary_dark</color>
-    <color name="md_text_color_display_3_dark">@color/md_text_color_secondary_dark</color>
-    <color name="md_text_color_display_1_dark">@color/md_text_color_secondary_dark</color>
-    <color name="md_text_color_headline_dark">@color/md_text_color_primary_dark</color>
-    <color name="md_text_color_title_dark">@color/md_text_color_primary_dark</color>
-    <color name="md_text_color_subheading_dark">@color/md_text_color_primary_dark</color>
-    <color name="md_text_color_body_2_dark">@color/md_text_color_primary_dark</color>
-    <color name="md_text_color_body_1_dark">@color/md_text_color_primary_dark</color>
-    <color name="md_text_color_caption_dark">@color/md_text_color_secondary_dark</color>
-    <color name="md_text_color_menu_dark">@color/md_text_color_primary_dark</color>
-    <color name="md_text_color_button_dark">@color/md_text_color_primary_dark</color>
+    <color name="md_text_color_display_4_dark_theme">@color/md_text_color_secondary_dark_theme</color>
+    <color name="md_text_color_display_3_dark_theme">@color/md_text_color_secondary_dark_theme</color>
+    <color name="md_text_color_display_2_dark_theme">@color/md_text_color_secondary_dark_theme</color>
+    <color name="md_text_color_display_1_dark_theme">@color/md_text_color_secondary_dark_theme</color>
+    <color name="md_text_color_headline_dark_theme">@color/md_text_color_primary_dark_theme</color>
+    <color name="md_text_color_title_dark_theme">@color/md_text_color_primary_dark_theme</color>
+    <color name="md_text_color_subheading_dark_theme">@color/md_text_color_primary_dark_theme</color>
+    <color name="md_text_color_body_2_dark_theme">@color/md_text_color_primary_dark_theme</color>
+    <color name="md_text_color_body_1_dark_theme">@color/md_text_color_primary_dark_theme</color>
+    <color name="md_text_color_caption_dark_theme">@color/md_text_color_secondary_dark_theme</color>
+    <color name="md_text_color_menu_dark_theme">@color/md_text_color_primary_dark_theme</color>
+    <color name="md_text_color_button_dark_theme">@color/md_text_color_primary_dark_theme</color>
 
-    <color name="md_text_color_display_4_light">@color/md_text_color_secondary_light</color>
-    <color name="md_text_color_display_2_light">@color/md_text_color_secondary_light</color>
-    <color name="md_text_color_display_3_light">@color/md_text_color_secondary_light</color>
-    <color name="md_text_color_display_1_light">@color/md_text_color_secondary_light</color>
-    <color name="md_text_color_headline_light">@color/md_text_color_primary_light</color>
-    <color name="md_text_color_title_light">@color/md_text_color_primary_light</color>
-    <color name="md_text_color_subheading_light">@color/md_text_color_primary_light</color>
-    <color name="md_text_color_body_2_light">@color/md_text_color_primary_light</color>
-    <color name="md_text_color_body_1_light">@color/md_text_color_primary_light</color>
-    <color name="md_text_color_caption_light">@color/md_text_color_secondary_light</color>
-    <color name="md_text_color_menu_light">@color/md_text_color_primary_light</color>
-    <color name="md_text_color_button_light">@color/md_text_color_primary_light</color>
+    <color name="md_text_color_display_4_light_theme">@color/md_text_color_secondary_light_theme</color>
+    <color name="md_text_color_display_3_light_theme">@color/md_text_color_secondary_light_theme</color>
+    <color name="md_text_color_display_2_light_theme">@color/md_text_color_secondary_light_theme</color>
+    <color name="md_text_color_display_1_light_theme">@color/md_text_color_secondary_light_theme</color>
+    <color name="md_text_color_headline_light_theme">@color/md_text_color_primary_light_theme</color>
+    <color name="md_text_color_title_light_theme">@color/md_text_color_primary_light_theme</color>
+    <color name="md_text_color_subheading_light_theme">@color/md_text_color_primary_light_theme</color>
+    <color name="md_text_color_body_2_light_theme">@color/md_text_color_primary_light_theme</color>
+    <color name="md_text_color_body_1_light_theme">@color/md_text_color_primary_light_theme</color>
+    <color name="md_text_color_caption_light_theme">@color/md_text_color_secondary_light_theme</color>
+    <color name="md_text_color_menu_light_theme">@color/md_text_color_primary_light_theme</color>
+    <color name="md_text_color_button_light_theme">@color/md_text_color_primary_light_theme</color>
 
     <!-- ================================ Md Icon color ======================================== -->
-    <color name="md_icon_color_active_dark">#ffffffff</color> <!--100% white-->
-    <color name="md_icon_color_inactive_dark">#4dffffff</color> <!--30% white-->
+    <color name="md_icon_color_active_dark_theme">#ffffffff</color> <!--100% white-->
+    <color name="md_icon_color_inactive_dark_theme">#4dffffff</color> <!--30% white-->
 
-    <color name="md_icon_color_active_light">#8a000000</color> <!--54% black-->
-    <color name="md_icon_color_inactive_light">#42000000</color> <!--26% black-->
+    <color name="md_icon_color_active_light_theme">#8a000000</color> <!--54% black-->
+    <color name="md_icon_color_inactive_light_theme">#42000000</color> <!--26% black-->
 
 
 
     <!-- Derived from Raised Button section of the guidelines. Make sure to set FAB elevation to 0dp! -->
-    <color name="md_fab_disabled_dark">#1fffffff</color> <!--12% white-->
-    <color name="md_fab_disabled_light">#1f000000</color> <!--12% black-->
+    <color name="md_fab_disabled_dark_theme">#1fffffff</color> <!--12% white-->
+    <color name="md_fab_disabled_light_theme">#1f000000</color> <!--12% black-->
 
 
 
@@ -333,54 +333,52 @@
     <color name="md_white">#ffffffff</color>
 
     <!-- ================================ Material Text color ================================== -->
-    <color name="material_text_color_primary_dark">#ffffffff</color> <!--100% white-->
-    <color name="material_text_color_secondary_dark">#b3ffffff</color> <!--70% white-->
-    <color name="material_text_color_disabled_dark">#80ffffff</color> <!--50% white-->
-    <color name="material_text_color_divider_dark">#1fffffff</color> <!--12% white-->
+    <color name="material_text_color_primary_dark_theme">#ffffffff</color> <!--100% white-->
+    <color name="material_text_color_secondary_dark_theme">#b3ffffff</color> <!--70% white-->
+    <color name="material_text_color_disabled_dark_theme">#80ffffff</color> <!--50% white-->
+    <color name="material_text_color_divider_dark_theme">#1fffffff</color> <!--12% white-->
 
-    <color name="material_text_color_primary_light">#de000000</color> <!--87% black-->
-    <color name="material_text_color_secondary_light">#8a000000</color> <!--54% black-->
-    <color name="material_text_color_disabled_light">#61000000</color> <!--38% black-->
-    <color name="material_text_color_divider_light">#1f000000</color> <!--12% black-->
+    <color name="material_text_color_primary_light_theme">#de000000</color> <!--87% black-->
+    <color name="material_text_color_secondary_light_theme">#8a000000</color> <!--54% black-->
+    <color name="material_text_color_disabled_light_theme">#61000000</color> <!--38% black-->
+    <color name="material_text_color_divider_light_theme">#1f000000</color> <!--12% black-->
 
-    <color name="material_text_color_display_4_dark">@color/md_text_color_secondary_dark</color>
-    <color name="material_text_color_display_2_dark">@color/md_text_color_secondary_dark</color>
-    <color name="material_text_color_display_3_dark">@color/md_text_color_secondary_dark</color>
-    <color name="material_text_color_display_1_dark">@color/md_text_color_secondary_dark</color>
-    <color name="material_text_color_headline_dark">@color/md_text_color_primary_dark</color>
-    <color name="material_text_color_title_dark">@color/md_text_color_primary_dark</color>
-    <color name="material_text_color_subheading_dark">@color/md_text_color_primary_dark</color>
-    <color name="material_text_color_body_2_dark">@color/md_text_color_primary_dark</color>
-    <color name="material_text_color_body_1_dark">@color/md_text_color_primary_dark</color>
-    <color name="material_text_color_caption_dark">@color/md_text_color_secondary_dark</color>
-    <color name="material_text_color_menu_dark">@color/md_text_color_primary_dark</color>
-    <color name="material_text_color_button_dark">@color/md_text_color_primary_dark</color>
+    <color name="material_text_color_display_4_dark_theme">@color/md_text_color_secondary_dark_theme</color>
+    <color name="material_text_color_display_2_dark_theme">@color/md_text_color_secondary_dark_theme</color>
+    <color name="material_text_color_display_3_dark_theme">@color/md_text_color_secondary_dark_theme</color>
+    <color name="material_text_color_display_1_dark_theme">@color/md_text_color_secondary_dark_theme</color>
+    <color name="material_text_color_headline_dark_theme">@color/md_text_color_primary_dark_theme</color>
+    <color name="material_text_color_title_dark_theme">@color/md_text_color_primary_dark_theme</color>
+    <color name="material_text_color_subheading_dark_theme">@color/md_text_color_primary_dark_theme</color>
+    <color name="material_text_color_body_2_dark_theme">@color/md_text_color_primary_dark_theme</color>
+    <color name="material_text_color_body_1_dark_theme">@color/md_text_color_primary_dark_theme</color>
+    <color name="material_text_color_caption_dark_theme">@color/md_text_color_secondary_dark_theme</color>
+    <color name="material_text_color_menu_dark_theme">@color/md_text_color_primary_dark_theme</color>
+    <color name="material_text_color_button_dark_theme">@color/md_text_color_primary_dark_theme</color>
 
-    <color name="material_text_color_display_4_light">@color/md_text_color_secondary_light</color>
-    <color name="material_text_color_display_2_light">@color/md_text_color_secondary_light</color>
-    <color name="material_text_color_display_3_light">@color/md_text_color_secondary_light</color>
-    <color name="material_text_color_display_1_light">@color/md_text_color_secondary_light</color>
-    <color name="material_text_color_headline_light">@color/md_text_color_primary_light</color>
-    <color name="material_text_color_title_light">@color/md_text_color_primary_light</color>
-    <color name="material_text_color_subheading_light">@color/md_text_color_primary_light</color>
-    <color name="material_text_color_body_2_light">@color/md_text_color_primary_light</color>
-    <color name="material_text_color_body_1_light">@color/md_text_color_primary_light</color>
-    <color name="material_text_color_caption_light">@color/md_text_color_secondary_light</color>
-    <color name="material_text_color_menu_light">@color/md_text_color_primary_light</color>
-    <color name="material_text_color_button_light">@color/md_text_color_primary_light</color>
-
-
+    <color name="material_text_color_display_4_light_theme">@color/md_text_color_secondary_light_theme</color>
+    <color name="material_text_color_display_2_light_theme">@color/md_text_color_secondary_light_theme</color>
+    <color name="material_text_color_display_3_light_theme">@color/md_text_color_secondary_light_theme</color>
+    <color name="material_text_color_display_1_light_theme">@color/md_text_color_secondary_light_theme</color>
+    <color name="material_text_color_headline_light_theme">@color/md_text_color_primary_light_theme</color>
+    <color name="material_text_color_title_light_theme">@color/md_text_color_primary_light_theme</color>
+    <color name="material_text_color_subheading_light_theme">@color/md_text_color_primary_light_theme</color>
+    <color name="material_text_color_body_2_light_theme">@color/md_text_color_primary_light_theme</color>
+    <color name="material_text_color_body_1_light_theme">@color/md_text_color_primary_light_theme</color>
+    <color name="material_text_color_caption_light_theme">@color/md_text_color_secondary_light_theme</color>
+    <color name="material_text_color_menu_light_theme">@color/md_text_color_primary_light_theme</color>
+    <color name="material_text_color_button_light_theme">@color/md_text_color_primary_light_theme</color>
 
 
     <!-- ================================ Material Icon color ================================== -->
-    <color name="material_icon_color_active_dark">#ffffffff</color> <!--100% white-->
-    <color name="material_icon_color_inactive_dark">#4dffffff</color> <!--30% white-->
+    <color name="material_icon_color_active_dark_theme">#ffffffff</color> <!--100% white-->
+    <color name="material_icon_color_inactive_dark_theme">#4dffffff</color> <!--30% white-->
 
-    <color name="material_icon_color_active_light">#8a000000</color> <!--54% black-->
-    <color name="material_icon_color_inactive_light">#42000000</color> <!--26% black-->
+    <color name="material_icon_color_active_light_theme">#8a000000</color> <!--54% black-->
+    <color name="material_icon_color_inactive_light_theme">#42000000</color> <!--26% black-->
 
-    <color name="material_fab_disabled_dark">#1fffffff</color> <!--12% white-->
-    <color name="material_fab_disabled_light">#1f000000</color> <!--12% black-->
+    <color name="material_fab_disabled_dark_theme">#1fffffff</color> <!--12% white-->
+    <color name="material_fab_disabled_light_theme">#1f000000</color> <!--12% black-->
 
     <!-- ================================== Material palette =================================== -->
     <color name="material_red50">#ffffebee</color>

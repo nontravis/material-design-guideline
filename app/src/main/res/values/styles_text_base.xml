@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="CustomTextView">
+    </style>
+
+    <style name="CustomTextView.Regular">
+        <!--custom your font attr-->
+    </style>
+
+    <style name="CustomTextView.Bold">
+        <!--custom your font attr-->
+    </style>
+
+</resources>

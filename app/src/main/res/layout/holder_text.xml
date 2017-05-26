@@ -31,7 +31,7 @@
                     android:layout_width="76dp"
                     android:layout_height="wrap_content"
                     android:text="Display 4"
-                    android:textColor="@color/md_text_color_secondary_light"/>
+                    android:textColor="@color/md_text_color_secondary_light_theme"/>
 
                 <TextView
                     android:id="@+id/tv_display_4"
@@ -52,7 +52,7 @@
                     android:layout_width="76dp"
                     android:layout_height="wrap_content"
                     android:text="Display 3"
-                    android:textColor="@color/md_text_color_secondary_light"/>
+                    android:textColor="@color/md_text_color_secondary_light_theme"/>
 
                 <TextView
                     android:id="@+id/tv_display_3"
@@ -72,7 +72,7 @@
                     android:layout_width="76dp"
                     android:layout_height="wrap_content"
                     android:text="Display 2"
-                    android:textColor="@color/md_text_color_secondary_light"/>
+                    android:textColor="@color/md_text_color_secondary_light_theme"/>
 
                 <TextView
                     android:id="@+id/tv_display_2"
@@ -92,7 +92,7 @@
                     android:layout_width="76dp"
                     android:layout_height="wrap_content"
                     android:text="Display 1"
-                    android:textColor="@color/md_text_color_secondary_light"/>
+                    android:textColor="@color/md_text_color_secondary_light_theme"/>
 
                 <TextView
                     android:id="@+id/tv_display_1"
@@ -112,7 +112,7 @@
                     android:layout_width="76dp"
                     android:layout_height="wrap_content"
                     android:text="Headline"
-                    android:textColor="@color/md_text_color_secondary_light"/>
+                    android:textColor="@color/md_text_color_secondary_light_theme"/>
 
                 <TextView
                     android:id="@+id/tv_headline"
@@ -132,7 +132,7 @@
                     android:layout_width="76dp"
                     android:layout_height="wrap_content"
                     android:text="Title"
-                    android:textColor="@color/md_text_color_secondary_light"/>
+                    android:textColor="@color/md_text_color_secondary_light_theme"/>
 
                 <TextView
                     android:id="@+id/tv_title"
@@ -152,7 +152,7 @@
                     android:layout_width="76dp"
                     android:layout_height="wrap_content"
                     android:text="Subheading"
-                    android:textColor="@color/md_text_color_secondary_light"/>
+                    android:textColor="@color/md_text_color_secondary_light_theme"/>
 
                 <TextView
                     android:id="@+id/tv_subheading"
@@ -172,7 +172,7 @@
                     android:layout_width="76dp"
                     android:layout_height="wrap_content"
                     android:text="Body 2"
-                    android:textColor="@color/md_text_color_secondary_light"/>
+                    android:textColor="@color/md_text_color_secondary_light_theme"/>
 
                 <TextView
                     android:id="@+id/tv_body_2"
@@ -192,7 +192,7 @@
                     android:layout_width="76dp"
                     android:layout_height="wrap_content"
                     android:text="Body 1"
-                    android:textColor="@color/md_text_color_secondary_light"/>
+                    android:textColor="@color/md_text_color_secondary_light_theme"/>
 
                 <TextView
                     android:id="@+id/tv_body_1"
@@ -212,7 +212,7 @@
                     android:layout_width="76dp"
                     android:layout_height="wrap_content"
                     android:text="Caption"
-                    android:textColor="@color/md_text_color_secondary_light"/>
+                    android:textColor="@color/md_text_color_secondary_light_theme"/>
 
                 <TextView
                     android:id="@+id/tv_caption"
@@ -232,7 +232,7 @@
                     android:layout_width="76dp"
                     android:layout_height="wrap_content"
                     android:text="Button"
-                    android:textColor="@color/md_text_color_secondary_light"/>
+                    android:textColor="@color/md_text_color_secondary_light_theme"/>
 
                 <TextView
                     android:id="@+id/tv_button"

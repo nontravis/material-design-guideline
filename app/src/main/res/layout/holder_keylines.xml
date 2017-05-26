@@ -23,7 +23,7 @@
             android:layout_marginStart="@dimen/md_margin_content"
             android:gravity="center_vertical"
             android:text="Status bar"
-            android:textColor="@color/material_text_color_secondary_light"/>
+            android:textColor="@color/material_text_color_secondary_light_theme"/>
 
         <TextView
             style="@style/MaterialTextView.LightTheme.Body.Regular"
@@ -56,7 +56,7 @@
             android:layout_marginStart="@dimen/md_margin_content"
             android:gravity="center_vertical"
             android:text="Title"
-            android:textColor="@color/material_text_color_secondary_light"/>
+            android:textColor="@color/material_text_color_secondary_light_theme"/>
 
         <TextView
             style="@style/MaterialTextView.LightTheme.Body.Regular"
@@ -88,7 +88,7 @@
             android:layout_marginStart="@dimen/md_margin_content"
             android:gravity="center_vertical"
             android:text="Subtitle"
-            android:textColor="@color/material_text_color_secondary_light"/>
+            android:textColor="@color/material_text_color_secondary_light_theme"/>
 
         <TextView
             style="@style/MaterialTextView.LightTheme.Body.Regular"
@@ -159,7 +159,7 @@
             android:layout_marginStart="@dimen/md_margin_content_from_screen_edge"
             android:gravity="center_vertical"
             android:text="List item height"
-            android:textColor="@color/material_text_color_secondary_light"/>
+            android:textColor="@color/material_text_color_secondary_light_theme"/>
 
         <TextView
             style="@style/MaterialTextView.LightTheme.Body.Regular"
@@ -210,7 +210,7 @@
             android:layout_marginEnd="@dimen/md_margin_content"
             android:layout_marginStart="@dimen/md_margin_content"
             android:text="List space"
-            android:textColor="@color/material_text_color_secondary_light"/>
+            android:textColor="@color/material_text_color_secondary_light_theme"/>
 
         <TextView
             style="@style/MaterialTextView.LightTheme.Caption.Regular"
@@ -230,7 +230,7 @@
             android:layout_marginStart="@dimen/md_margin_content_from_screen_edge"
             android:gravity="center_vertical"
             android:text="Content area"
-            android:textColor="@color/material_text_color_secondary_light"/>
+            android:textColor="@color/material_text_color_secondary_light_theme"/>
 
         <View
             android:layout_width="match_parent"
@@ -250,7 +250,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/grayLight"
+            android:background="@color/grey_light"
             android:gravity="center"
             android:text="Drawer navigation"/>
 

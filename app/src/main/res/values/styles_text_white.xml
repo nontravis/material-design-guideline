@@ -1,0 +1,347 @@
+<resources>
+
+    <!-- ================ Bold White primary ===========================================================-->
+    <style name="CustomTextView.Bold.White">
+    </style>
+
+    <style name="CustomTextView.Bold.White.Primary">
+        <item name="android:textColor">@color/default_text_color_primary_white</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Primary.Display4">
+        <item name="android:textSize">@dimen/md_text_size_display_4_light</item>
+    </style>
+
+
+    <style name="CustomTextView.Bold.White.Primary.Display3">
+        <item name="android:textSize">@dimen/md_text_size_display_3_regular</item>
+    </style>
+
+
+    <style name="CustomTextView.Bold.White.Primary.Display2">
+        <item name="android:textSize">@dimen/md_text_size_display_2_regular</item>
+    </style>
+
+
+    <style name="CustomTextView.Bold.White.Primary.Display1">
+        <item name="android:textSize">@dimen/md_text_size_display_1_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Primary.Headline">
+        <item name="android:textSize">@dimen/md_text_headline_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Primary.Title">
+        <item name="android:textSize">@dimen/md_text_title_medium</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Primary.Subheading">
+        <item name="android:textSize">@dimen/md_text_subheading_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Primary.Body">
+        <item name="android:textSize">@dimen/md_text_body_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Primary.Caption">
+        <item name="android:textSize">@dimen/md_text_caption_regular</item>
+    </style>
+
+    <!-- ================ Regular White primary ===========================================================-->
+    <style name="CustomTextView.Regular.White">
+    </style>
+
+    <style name="CustomTextView.Regular.White.Primary">
+        <item name="android:textColor">@color/default_text_color_primary_white</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Primary.Display4">
+        <item name="android:textSize">@dimen/md_text_size_display_4_light</item>
+    </style>
+
+
+    <style name="CustomTextView.Regular.White.Primary.Display3">
+        <item name="android:textSize">@dimen/md_text_size_display_3_regular</item>
+    </style>
+
+
+    <style name="CustomTextView.Regular.White.Primary.Display2">
+        <item name="android:textSize">@dimen/md_text_size_display_2_regular</item>
+    </style>
+
+
+    <style name="CustomTextView.Regular.White.Primary.Display1">
+        <item name="android:textSize">@dimen/md_text_size_display_1_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Primary.Headline">
+        <item name="android:textSize">@dimen/md_text_headline_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Primary.Title">
+        <item name="android:textSize">@dimen/md_text_title_medium</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Primary.Subheading">
+        <item name="android:textSize">@dimen/md_text_subheading_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Primary.Body">
+        <item name="android:textSize">@dimen/md_text_body_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Primary.Caption">
+        <item name="android:textSize">@dimen/md_text_caption_regular</item>
+    </style>
+
+
+    <!-- ======================= Bold White Secondary =============================================-->
+    <style name="CustomTextView.Bold.White.Secondary">
+        <item name="android:textColor">@color/default_text_color_secondary_white</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Secondary.Display4">
+        <item name="android:textSize">@dimen/md_text_size_display_4_light</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Secondary.Display3">
+        <item name="android:textSize">@dimen/md_text_size_display_3_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Secondary.Display2">
+        <item name="android:textSize">@dimen/md_text_size_display_2_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Secondary.Display1">
+        <item name="android:textSize">@dimen/md_text_size_display_1_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Secondary.Headline">
+        <item name="android:textSize">@dimen/md_text_headline_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Secondary.Title">
+        <item name="android:textSize">@dimen/md_text_title_medium</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Secondary.Subheading">
+        <item name="android:textSize">@dimen/md_text_subheading_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Secondary.Body">
+        <item name="android:textSize">@dimen/md_text_body_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Secondary.Caption">
+        <item name="android:textSize">@dimen/md_text_caption_regular</item>
+    </style>
+
+    <!-- ======================= Regular White Secondary =============================================-->
+    <style name="CustomTextView.Regular.White.Secondary">
+        <item name="android:textColor">@color/default_text_color_secondary_white</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Secondary.Display4">
+        <item name="android:textSize">@dimen/md_text_size_display_4_light</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Secondary.Display3">
+        <item name="android:textSize">@dimen/md_text_size_display_3_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Secondary.Display2">
+        <item name="android:textSize">@dimen/md_text_size_display_2_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Secondary.Display1">
+        <item name="android:textSize">@dimen/md_text_size_display_1_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Secondary.Headline">
+        <item name="android:textSize">@dimen/md_text_headline_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Secondary.Title">
+        <item name="android:textSize">@dimen/md_text_title_medium</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Secondary.Subheading">
+        <item name="android:textSize">@dimen/md_text_subheading_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Secondary.Body">
+        <item name="android:textSize">@dimen/md_text_body_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Secondary.Caption">
+        <item name="android:textSize">@dimen/md_text_caption_regular</item>
+    </style>
+
+
+
+    <!-- ======================= Bold White Hint ======================================================-->
+    <style name="CustomTextView.Bold.White.Hint">
+        <item name="android:textColor">@color/default_text_color_disabled_white</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Hint.Display4">
+        <item name="android:textSize">@dimen/md_text_size_display_4_light</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Hint.Display3">
+        <item name="android:textSize">@dimen/md_text_size_display_3_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Hint.Display2">
+        <item name="android:textSize">@dimen/md_text_size_display_2_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Hint.Display1">
+        <item name="android:textSize">@dimen/md_text_size_display_1_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Hint.Headline">
+        <item name="android:textSize">@dimen/md_text_headline_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Hint.Title">
+        <item name="android:textSize">@dimen/md_text_title_medium</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Hint.Subheading">
+        <item name="android:textSize">@dimen/md_text_subheading_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Hint.Body">
+        <item name="android:textSize">@dimen/md_text_body_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Hint.Caption">
+        <item name="android:textSize">@dimen/md_text_caption_regular</item>
+    </style>
+
+    <!-- ======================= Regular White Hint ======================================================-->
+    <style name="CustomTextView.Regular.White.Hint">
+        <item name="android:textColor">@color/default_text_color_disabled_white</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Hint.Display4">
+        <item name="android:textSize">@dimen/md_text_size_display_4_light</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Hint.Display3">
+        <item name="android:textSize">@dimen/md_text_size_display_3_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Hint.Display2">
+        <item name="android:textSize">@dimen/md_text_size_display_2_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Hint.Display1">
+        <item name="android:textSize">@dimen/md_text_size_display_1_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Hint.Headline">
+        <item name="android:textSize">@dimen/md_text_headline_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Hint.Title">
+        <item name="android:textSize">@dimen/md_text_title_medium</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Hint.Subheading">
+        <item name="android:textSize">@dimen/md_text_subheading_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Hint.Body">
+        <item name="android:textSize">@dimen/md_text_body_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Hint.Caption">
+        <item name="android:textSize">@dimen/md_text_caption_regular</item>
+    </style>
+
+
+    <!-- ======================= Bold White Divider ======================================================-->
+    <style name="CustomTextView.Bold.White.Divider">
+        <item name="android:textColor">@color/default_text_color_divider_white</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Divider.Display4">
+        <item name="android:textSize">@dimen/md_text_size_display_4_light</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Divider.Display3">
+        <item name="android:textSize">@dimen/md_text_size_display_3_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Divider.Display2">
+        <item name="android:textSize">@dimen/md_text_size_display_2_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Divider.Display1">
+        <item name="android:textSize">@dimen/md_text_size_display_1_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Divider.Headline">
+        <item name="android:textSize">@dimen/md_text_headline_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Divider.Title">
+        <item name="android:textSize">@dimen/md_text_title_medium</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Divider.Subheading">
+        <item name="android:textSize">@dimen/md_text_subheading_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Divider.Body">
+        <item name="android:textSize">@dimen/md_text_body_regular</item>
+    </style>
+
+    <style name="CustomTextView.Bold.White.Divider.Caption">
+        <item name="android:textSize">@dimen/md_text_caption_regular</item>
+    </style>
+
+    <!-- ======================= Regular White Divider ======================================================-->
+    <style name="CustomTextView.Regular.White.Divider">
+        <item name="android:textColor">@color/default_text_color_divider_white</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Divider.Display4">
+        <item name="android:textSize">@dimen/md_text_size_display_4_light</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Divider.Display3">
+        <item name="android:textSize">@dimen/md_text_size_display_3_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Divider.Display2">
+        <item name="android:textSize">@dimen/md_text_size_display_2_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Divider.Display1">
+        <item name="android:textSize">@dimen/md_text_size_display_1_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Divider.Headline">
+        <item name="android:textSize">@dimen/md_text_headline_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Divider.Title">
+        <item name="android:textSize">@dimen/md_text_title_medium</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Divider.Subheading">
+        <item name="android:textSize">@dimen/md_text_subheading_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Divider.Body">
+        <item name="android:textSize">@dimen/md_text_body_regular</item>
+    </style>
+
+    <style name="CustomTextView.Regular.White.Divider.Caption">
+        <item name="android:textSize">@dimen/md_text_caption_regular</item>
+    </style>
+
+</resources>

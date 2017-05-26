@@ -17,56 +17,56 @@
 
     <style name="MaterialTextView.LightTheme.Display4">
         <item name="android:textSize">@dimen/md_text_size_display_4_light</item>
-        <item name="android:textColor">@color/md_text_color_secondary_light</item>
+        <item name="android:textColor">@color/md_text_color_secondary_light_theme</item>
     </style>
     <style name="MaterialTextView.LightTheme.Display4.Light">
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
     <style name="MaterialTextView.LightTheme.Display3">
         <item name="android:textSize">@dimen/md_text_size_display_3_regular</item>
-        <item name="android:textColor">@color/md_text_color_secondary_light</item>
+        <item name="android:textColor">@color/md_text_color_secondary_light_theme</item>
     </style>
     <style name="MaterialTextView.LightTheme.Display3.Regular">
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="MaterialTextView.LightTheme.Display2">
         <item name="android:textSize">@dimen/md_text_size_display_2_regular</item>
-        <item name="android:textColor">@color/md_text_color_secondary_light</item>
+        <item name="android:textColor">@color/md_text_color_secondary_light_theme</item>
     </style>
     <style name="MaterialTextView.LightTheme.Display2.Regular">
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="MaterialTextView.LightTheme.Display1">
         <item name="android:textSize">@dimen/md_text_size_display_1_regular</item>
-        <item name="android:textColor">@color/md_text_color_secondary_light</item>
+        <item name="android:textColor">@color/md_text_color_secondary_light_theme</item>
     </style>
     <style name="MaterialTextView.LightTheme.Display1.Regular">
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="MaterialTextView.LightTheme.Headline">
         <item name="android:textSize">@dimen/md_text_headline_regular</item>
-        <item name="android:textColor">@color/md_text_color_primary_light</item>
+        <item name="android:textColor">@color/md_text_color_primary_light_theme</item>
     </style>
     <style name="MaterialTextView.LightTheme.Headline.Regular">
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="MaterialTextView.LightTheme.Title">
         <item name="android:textSize">@dimen/md_text_title_medium</item>
-        <item name="android:textColor">@color/md_text_color_primary_light</item>
+        <item name="android:textColor">@color/md_text_color_primary_light_theme</item>
     </style>
     <style name="MaterialTextView.LightTheme.Title.Medium">
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="MaterialTextView.LightTheme.Subheading">
         <item name="android:textSize">@dimen/md_text_subheading_regular</item>
-        <item name="android:textColor">@color/md_text_color_primary_light</item>
+        <item name="android:textColor">@color/md_text_color_primary_light_theme</item>
     </style>
     <style name="MaterialTextView.LightTheme.Subheading.Regular">
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="MaterialTextView.LightTheme.Body">
         <item name="android:textSize">@dimen/md_text_body_regular</item>
-        <item name="android:textColor">@color/md_text_color_primary_light</item>
+        <item name="android:textColor">@color/md_text_color_primary_light_theme</item>
     </style>
     <style name="MaterialTextView.LightTheme.Body.Regular">
         <item name="android:fontFamily">sans-serif</item>
@@ -76,14 +76,14 @@
     </style>
     <style name="MaterialTextView.LightTheme.Caption">
         <item name="android:textSize">@dimen/md_text_caption_regular</item>
-        <item name="android:textColor">@color/md_text_color_secondary_light</item>
+        <item name="android:textColor">@color/md_text_color_secondary_light_theme</item>
     </style>
     <style name="MaterialTextView.LightTheme.Caption.Regular">
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="MaterialTextView.LightTheme.Button">
         <item name="android:textSize">@dimen/md_text_button_medium</item>
-        <item name="android:textColor">@color/md_text_color_primary_light</item>
+        <item name="android:textColor">@color/md_text_color_primary_light_theme</item>
     </style>
     <style name="MaterialTextView.LightTheme.Button.Medium">
         <item name="android:fontFamily">sans-serif-medium</item>
@@ -96,56 +96,56 @@
 
     <style name="MaterialTextView.DarkTheme.Display4">
         <item name="android:textSize">@dimen/md_text_size_display_4_light</item>
-        <item name="android:textColor">@color/md_text_color_secondary_dark</item>
+        <item name="android:textColor">@color/md_text_color_secondary_dark_theme</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Display4.Light">
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Display3">
         <item name="android:textSize">@dimen/md_text_size_display_3_regular</item>
-        <item name="android:textColor">@color/md_text_color_secondary_dark</item>
+        <item name="android:textColor">@color/md_text_color_secondary_dark_theme</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Display3.Regular">
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Display2">
         <item name="android:textSize">@dimen/md_text_size_display_2_regular</item>
-        <item name="android:textColor">@color/md_text_color_secondary_dark</item>
+        <item name="android:textColor">@color/md_text_color_secondary_dark_theme</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Display2.Regular">
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Display1">
         <item name="android:textSize">@dimen/md_text_size_display_1_regular</item>
-        <item name="android:textColor">@color/md_text_color_secondary_dark</item>
+        <item name="android:textColor">@color/md_text_color_secondary_dark_theme</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Display1.Regular">
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Headline">
         <item name="android:textSize">@dimen/md_text_headline_regular</item>
-        <item name="android:textColor">@color/md_text_color_primary_dark</item>
+        <item name="android:textColor">@color/md_text_color_primary_dark_theme</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Headline.Regular">
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Title">
         <item name="android:textSize">@dimen/md_text_title_medium</item>
-        <item name="android:textColor">@color/md_text_color_primary_dark</item>
+        <item name="android:textColor">@color/md_text_color_primary_dark_theme</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Title.Medium">
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Subheading">
         <item name="android:textSize">@dimen/md_text_subheading_regular</item>
-        <item name="android:textColor">@color/md_text_color_primary_dark</item>
+        <item name="android:textColor">@color/md_text_color_primary_dark_theme</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Subheading.Regular">
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Body">
         <item name="android:textSize">@dimen/md_text_body_regular</item>
-        <item name="android:textColor">@color/md_text_color_primary_dark</item>
+        <item name="android:textColor">@color/md_text_color_primary_dark_theme</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Body.Regular">
         <item name="android:fontFamily">sans-serif</item>
@@ -155,14 +155,14 @@
     </style>
     <style name="MaterialTextView.DarkTheme.Caption">
         <item name="android:textSize">@dimen/md_text_caption_regular</item>
-        <item name="android:textColor">@color/md_text_color_secondary_dark</item>
+        <item name="android:textColor">@color/md_text_color_secondary_dark_theme</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Caption.Regular">
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Button">
         <item name="android:textSize">@dimen/md_text_button_medium</item>
-        <item name="android:textColor">@color/md_text_color_primary_dark</item>
+        <item name="android:textColor">@color/md_text_color_primary_dark_theme</item>
     </style>
     <style name="MaterialTextView.DarkTheme.Button.Medium">
         <item name="android:fontFamily">sans-serif-medium</item>
