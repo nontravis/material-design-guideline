@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/TheKhaeng/material-design-guideline'
     gitUrl = 'https://github.com/TheKhaeng/material-design-guideline.git'
 
-    libraryVersion = '1.0.2'
+    libraryVersion = '1.0.3'
 
     developerId = 'nonthawit'
     developerName = 'Nonthawit Doungsodsri'
@@ -32,7 +32,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 25
         versionCode 1
-        versionName "1.0.2"
+        versionName "1.0.3"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -46,7 +46,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-annotations:25.3.1'
+    compile 'com.android.support:support-annotations:25.4.0'
 }
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'

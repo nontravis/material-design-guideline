@@ -35,14 +35,14 @@ Maven
 <dependency>
   <groupId>com.github.thekhaeng</groupId>
   <artifactId>material-design-guideline</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <type>pom</type>
 </dependency>
 ```
 
 Gradle
 ```gradle
-compile ('com.github.thekhaeng:material-design-guideline:1.0.2') {
+compile ('com.github.thekhaeng:material-design-guideline:1.0.3') {
     exclude group: 'com.android.support', module: 'support-annotations'
 }
 ```
@@ -54,6 +54,11 @@ compile ('com.github.thekhaeng:material-design-guideline:1.0.2') {
  **IMPORTANT:** Every resource in this project is not recommended to use it directly. [see example](./app/src/main/res/values)
 
 ### Changelog
+
+- 1.0.3
+    - Added **no transparent text and icon color**
+    - Added **default_stroke_large**
+    - Added **default_divider_large**
 
 - 1.0.2
     - Added **some example usage in demo project**
@@ -97,9 +102,11 @@ Default values for margin, padding, and size to use in your XML layout
 |default_icon_size_extra_large      | 48dp
 |default_icon_size_extra_extra_large | 56dp
 |**Stroke size** |
+|default_stroke_large                     | 3dp
 |default_stroke                     | 2dp
 |default_stroke_small               | 1dp
 |**Divider size** |
+|default_divider_size_large               | 2dp
 |default_divider_size               | 1dp
 
 ### Base Color (for Dark theme)
@@ -184,12 +191,28 @@ You can use both **XML** or **Java class**.
 |md_icon_color_active_dark_theme|#ffffffff| 100% white |
 |md_icon_color_inactive_dark_theme|#4dffffff| 30% white |
 
+(no transparent)
+
+
+|COLOR NAMES                    |VALUE  |
+| ----------------------------- | :-----|
+|md_icon_color_active_dark_theme_no_transparent|#ffffff|
+|md_icon_color_inactive_dark_theme_no_transparent|#6E7071|
+
 ### COLOR (for Light theme)
 
 |COLOR NAMES                    |VALUE  | PERCENT |
 | ----------------------------- | :-----|:-------:|
 |md_icon_color_active_light_theme|#8a000000| 54% black|
 |md_icon_color_inactive_light_theme|#42000000| 26% black|
+
+(no transparent)
+
+
+|COLOR NAMES                    |VALUE  |
+| ----------------------------- | :-----|
+|md_icon_color_active_light_theme_no_transparent|#161718|
+|md_icon_color_inactive_light_theme_no_transparent|#242627|
 
 
 ### ALPHA (for Dark theme)
@@ -280,10 +303,10 @@ use [Noto Font](https://www.google.com/get/noto/)
 
 |COLOR NAMES                    |VALUE  | PERCENT |
 | ----------------------------- | :-----|:-------:|
-|md_text_color_primary_dark_theme|#ffffffff|100% white|
-|md_text_color_secondary_dark_theme|#b3ffffff| 70% white|
-|md_text_color_disabled_dark_theme|#80ffffff|50% white |
-|md_text_color_divider_dark_theme|#1fffffff| 12% white |
+|md_text_color_primary_dark_theme (primary)|#ffffffff|100% white|
+|md_text_color_secondary_dark_theme (secondary)|#b3ffffff| 70% white|
+|md_text_color_disabled_dark_theme (disabled)|#80ffffff|50% white |
+|md_text_color_divider_dark_theme (divider)|#1fffffff| 12% white |
 |md_text_color_display_4_dark_theme|secondary|
 |md_text_color_display_2_dark_theme|secondary|
 |md_text_color_display_3_dark_theme|secondary|
@@ -297,15 +320,36 @@ use [Noto Font](https://www.google.com/get/noto/)
 |md_text_color_menu_dark_theme|**primary**|
 |md_text_color_button_dark_theme|**primary**|
 
+(no transparent)
+
+|COLOR NAMES                    |VALUE  |
+| ----------------------------- | :-----|
+|md_text_color_primary_dark_theme_no_transparent (primary)|#ffffffff|
+|md_text_color_secondary_dark_theme_no_transparent (secondary)|#b3ffffff|
+|md_text_color_disabled_dark_theme_no_transparent (disabled)|#80ffffff|
+|md_text_color_divider_dark_theme_no_transparent (divider)|#1fffffff|
+|md_text_color_display_4_dark_theme_no_transparent|secondary|
+|md_text_color_display_2_dark_theme_no_transparent|secondary|
+|md_text_color_display_3_dark_theme_no_transparent|secondary|
+|md_text_color_display_1_dark_theme_no_transparent|secondary|
+|md_text_color_headline_dark_theme_no_transparent|**primary**|
+|md_text_color_title_dark_theme_no_transparent|**primary**|
+|md_text_color_subheading_dark_theme_no_transparent|**primary**|
+|md_text_color_body_2_dark_theme_no_transparent|**primary**|
+|md_text_color_body_1_dark_theme_no_transparent|**primary**|
+|md_text_color_caption_dark_theme_no_transparent|secondary|
+|md_text_color_menu_dark_theme_no_transparent|**primary**|
+|md_text_color_button_dark_theme_no_transparent|**primary**|
+
 
 ### COLOR (for Light theme)
 
 |COLOR NAMES                    |VALUE  | PERCENT |
 | ----------------------------- | :-----|:-------:|
-|md_text_color_primary_light_theme|#de000000|87% black|
-|md_text_color_secondary_light_theme|#8a000000|54% black|
-|md_text_color_disabled_light_theme|#61000000|38% black|
-|md_text_color_divider_light_theme|#1f000000|12% black|
+|md_text_color_primary_light_theme (primary)|#de000000|87% black|
+|md_text_color_secondary_light_theme (secondary)|#8a000000|54% black|
+|md_text_color_disabled_light_theme (disabled)|#61000000|38% black|
+|md_text_color_divider_light_theme (divider)|#1f000000|12% black|
 |md_text_color_display_4_light_theme| secondary|
 |md_text_color_display_2_light_theme| secondary|
 |md_text_color_display_3_light_theme| secondary|
@@ -318,6 +362,28 @@ use [Noto Font](https://www.google.com/get/noto/)
 |md_text_color_caption_light_theme| secondary|
 |md_text_color_menu_light_theme| **primary**|
 |md_text_color_button_light_theme| **primary**|
+
+(no transparent)
+
+|COLOR NAMES                    |VALUE  |
+| ----------------------------- | :-----|
+|md_text_color_primary_light_theme (primary)|#060707|
+|md_text_color_secondary_light_theme (secondary)|#161718|
+|md_text_color_disabled_light_theme (disabled)|#1E2021|
+|md_text_color_divider_light_theme (divider)|#2B2D2F|
+|md_text_color_display_4_light_theme| secondary|
+|md_text_color_display_2_light_theme| secondary|
+|md_text_color_display_3_light_theme| secondary|
+|md_text_color_display_1_light_theme| secondary|
+|md_text_color_headline_light_theme| **primary**|
+|md_text_color_title_light_theme| **primary**|
+|md_text_color_subheading_light_theme| **primary**|
+|md_text_color_body_2_light_theme| **primary**|
+|md_text_color_body_1_light_theme| **primary**|
+|md_text_color_caption_light_theme| secondary|
+|md_text_color_menu_light_theme| **primary**|
+|md_text_color_button_light_theme| **primary**|
+
 
 
 

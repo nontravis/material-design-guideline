@@ -20,8 +20,10 @@
     <dimen name="default_icon_size_extra_large">48dp</dimen>
     <dimen name="default_icon_size_extra_extra_large">56dp</dimen>
 
+    <dimen name="default_stroke_large">3dp</dimen>
     <dimen name="default_stroke">2dp</dimen>
     <dimen name="default_stroke_small">1dp</dimen>
 
+    <dimen name="default_divider_size_large">2dp</dimen>
     <dimen name="default_divider_size">1dp</dimen>
 </resources>
