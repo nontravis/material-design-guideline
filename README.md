@@ -35,14 +35,14 @@ Maven
 <dependency>
   <groupId>com.github.thekhaeng</groupId>
   <artifactId>material-design-guideline</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
   <type>pom</type>
 </dependency>
 ```
 
 Gradle
 ```gradle
-compile ('com.github.thekhaeng:material-design-guideline:1.0.3') {
+compile ('com.github.thekhaeng:material-design-guideline:1.0.4') {
     exclude group: 'com.android.support', module: 'support-annotations'
 }
 ```
@@ -54,6 +54,10 @@ compile ('com.github.thekhaeng:material-design-guideline:1.0.3') {
  **IMPORTANT:** Every resource in this project is not recommended to use it directly. [see example](./app/src/main/res/values)
 
 ### Changelog
+
+- 1.0.4
+    - Added **devices.xml** for check tablet (sw540dp)
+    - Added **tablet font size** +1sp
 
 - 1.0.3
     - Added **no transparent text and icon color**
@@ -77,7 +81,13 @@ Default values for margin, padding, and size to use in your XML layout
  **NOTE:** Base on material design principle **+4dp** **+8dp** **+16dp** or **+24dp**
 
 
+### Tablet
 
+``` java
+boolean isTabletSize = getResources().getBoolean(R.bool.isTablet);
+```
+
+> **NOTE :** split phone and tablet by **sw540dp**
 
 ### Dimens
 
@@ -236,6 +246,10 @@ You can use both **XML** or **Java class**.
 <img src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3N3d4REJ0enZqd2M/style_typography_style1.png" height="746" width="1000">
 
 ### SIZE
+
+> **NOTE :** for tablet font size +1sp
+
+> **EX :** use "_tablet" suffix  **md_text_body_medium_tablet**
 
 **English and English-like scripts (default)**
 
