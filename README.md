@@ -3,10 +3,10 @@
 ![alt text](./picture/logo.png)
 
 
-A library for Android developers who want to create layout which follows
-Google material design principle. This library contains many XML resources
-that follows [Google Material guideline](https://material.io/) makes
-it easy to customize your new project as well as your existing one.
+A library for Android developers that facilitate how you use XML resources, especially if you strictly follow
+Google material design principle. This library is mostly about XML resources. For example,
+colors that is defined by the principle or dimension sizes that is divisible by `8dp`.
+The guideline is here. [Google Material guideline](https://material.io/).
 
 
 ### TOPIC
@@ -48,10 +48,10 @@ compile ('com.github.thekhaeng:material-design-guideline:1.0.4') {
 ```
 
 
- **NOTE**: This library use **md_** or **material_** prefix name
+ **NOTE**: This library uses **md_** or **material_** prefix name
 
 
- **IMPORTANT:** Every resource in this project is not recommended to use it directly. [see example](./app/src/main/res/values)
+ **IMPORTANT:** Every resource in this project is not recommended to use directly. [see example](./app/src/main/res/values)
 
 ### Changelog
 
@@ -78,7 +78,7 @@ compile ('com.github.thekhaeng:material-design-guideline:1.0.4') {
 
 Default values for margin, padding, and size to use in your XML layout
 
- **NOTE:** Base on material design principle **+4dp** **+8dp** **+16dp** or **+24dp**
+ **NOTE:** Based on material design principle **+4dp** **+8dp** **+16dp** or **+24dp**
 
 
 ### Tablet
