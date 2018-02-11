@@ -243,7 +243,7 @@ You can use both **XML** or **Java class**.
 
 ## [「 Typography 」](https://material.io/guidelines/style/typography.html#typography-typeface)
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3N3d4REJ0enZqd2M/style_typography_style1.png" height="746" width="1000">
+<img src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3N3d4REJ0enZqd2M/style_typography_style1.png" width="1000">
 
 ### SIZE
 
@@ -487,7 +487,7 @@ use [Noto Font](https://www.google.com/get/noto/)
 
 ## [「 Elevation 」](https://material.io/guidelines/material-design/elevation-shadows.html#elevation-shadows-elevation-android)
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3VG9SaVpNbkpHb2s/whatismaterial_3d_elevation2.png" height="413" width="1000">
+<img src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3VG9SaVpNbkpHb2s/whatismaterial_3d_elevation2.png" width="1000">
 
 |DIMEN NAMES                    | ELEVATION |
 | ----------------------------- | :----------:|
@@ -541,7 +541,7 @@ R.drawable.md_selector_anim_button_elevation
 R.drawable.md_selector_anim_cardview_elevation
 ```
 
-<img src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B-Ef4kCjUzkPSy1NQUtNdW5idXc/whatismaterial_3d_elevation_component02.png" height="277" width="1000">
+<img src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B-Ef4kCjUzkPSy1NQUtNdW5idXc/whatismaterial_3d_elevation_component02.png" width="1000">
 
 
 
@@ -561,7 +561,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 ### Developed By Thai android developer.
 
-![alt text](./picture/thekhaeng_logo.png)
+<img src="./picture/profile2_circle.png" width="170"> ![alt text](./picture/thekhaeng_logo.png)
 
 
 Follow [facebook.com/thekhaeng.io](https://www.facebook.com/thekhaeng.io) on Facebook page.
