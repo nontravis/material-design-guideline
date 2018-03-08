@@ -13,17 +13,10 @@ android {
     }
     signingConfigs {
         release {
-//            storeFile file(KEYSTORE_FILE)
-//            storePassword KEYSTORE_PASSWORD
-//            keyAlias KEYSTORE_ALIAS
-//            keyPassword KEYSTORE_PASSWORD
-        }
-
-        debug {
-//            storeFile file('keystore/debug.keystore')
-            keyAlias 'androiddebugkey'
-            storePassword 'android'
-            keyPassword 'android'
+            storeFile file(KEYSTORE_FILE)
+            storePassword KEYSTORE_PASSWORD
+            keyAlias KEYSTORE_ALIAS
+            keyPassword KEYSTORE_PASSWORD
         }
     }
     buildTypes {
@@ -43,13 +36,13 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile project (':material-design-guideline')
-//    compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support:design:27.1.0'
     compile 'com.android.support:cardview-v7:27.1.0'
     compile 'com.android.support:recyclerview-v7:27.1.0'
     testCompile 'junit:junit:4.12'
-//    compile ('com.github.thekhaeng:material-design-guideline:1.0.0') {
-//        exclude group: 'com.android.support', module: 'support-annotations'
-//    }
+
+//    compile project (':material-design-guideline')
+    compile ('com.github.thekhaeng:material-design-guideline:1.0.4') {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
 }
