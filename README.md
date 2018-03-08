@@ -3,6 +3,8 @@
 ![alt text](./picture/logo.png)
 
 
+[![Build Status](https://travis-ci.org/TheKhaeng/material-design-guideline.svg?branch=master)](https://travis-ci.org/TheKhaeng/material-design-guideline) [ ![jCenter](https://api.bintray.com/packages/nonthawit/TheKhaeng/material-design-guideline/images/download.svg) ](https://bintray.com/nonthawit/TheKhaeng/material-design-guideline/_latestVersion) [![](https://jitpack.io/v/TheKhaeng/material-design-guideline.svg)](https://jitpack.io/#TheKhaeng/material-design-guideline) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Material%20Design%20Guideline-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5557)
+
 A library for Android developers that facilitate how you use XML resources, especially if you strictly follow
 Google material design principle. This library is mostly about XML resources. For example,
 colors that is defined by the principle or dimension sizes that is divisible by `8dp`.
@@ -156,9 +158,9 @@ boolean isTabletSize = getResources().getBoolean(R.bool.isTablet);
 
 You can use both **XML** or **Java class**.
 
- XML: ``` R.id.md_red400 ```
+ **XML:** ``` R.id.md_red400 ```
 
- Java class: ``` MaterialColor.RED400 ```
+ **Java class:** ``` MaterialColor.RED400 ```
 
 
 * Red
