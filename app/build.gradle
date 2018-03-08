@@ -11,17 +11,17 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-    signingConfigs {
-        release {
-            storeFile file(KEYSTORE_FILE)
-            storePassword KEYSTORE_PASSWORD
-            keyAlias KEYSTORE_ALIAS
-            keyPassword KEYSTORE_PASSWORD
-        }
-    }
+//    signingConfigs {
+//        release {
+//            storeFile file(KEYSTORE_FILE)
+//            storePassword KEYSTORE_PASSWORD
+//            keyAlias KEYSTORE_ALIAS
+//            keyPassword KEYSTORE_PASSWORD
+//        }
+//    }
     buildTypes {
         release {
-            signingConfig signingConfigs.release
+//            signingConfig signingConfigs.release
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
