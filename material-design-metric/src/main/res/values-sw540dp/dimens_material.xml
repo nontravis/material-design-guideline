@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ========================== Md component size ========================================== -->
+    <dimen name="md_toolbar_height">64dp</dimen>
+</resources>

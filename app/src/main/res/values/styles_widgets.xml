@@ -1,0 +1,50 @@
+<resources>
+
+    <style name="CodeView" parent="MaterialTextView.Roboto.BlackActive.Body2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/default_padding_margin</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:paddingEnd">@dimen/default_padding_margin_xx</item>
+        <item name="android:paddingStart">@dimen/default_padding_margin_xx</item>
+        <item name="android:paddingTop">@dimen/default_padding_margin</item>
+        <item name="android:textColor">@color/text_code_green</item>
+        <item name="android:background">@color/background_coding</item>
+        <item name="fontFamily">@font/font_coding</item>
+    </style>
+
+    <style name="CodeView.Caption" parent="MaterialTextView.Roboto.BlackActive.Caption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:paddingBottom">@dimen/default_padding_margin</item>
+        <item name="android:paddingEnd">@dimen/default_padding_margin_xx</item>
+        <item name="android:paddingStart">@dimen/default_padding_margin_xx</item>
+        <item name="android:paddingTop">@dimen/default_padding_margin</item>
+        <item name="android:textColor">@color/text_code_green</item>
+        <item name="android:background">@color/background_coding</item>
+        <item name="fontFamily">@font/font_coding</item>
+    </style>
+
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/md_text_size_body_1_regular</item>
+        <item name="tabSelectedTextColor">@color/md_text_color_active_light_theme</item>
+        <item name="tabTextColor">@color/md_text_color_disabled_light_theme</item>
+    </style>
+
+    <style name="TabLayoutTextStyle.Roboto">
+        <item name="android:fontFamily">@font/font_roboto_medium</item>
+    </style>
+
+    <style name="TabLayoutTextStyle.Raleway">
+        <item name="android:fontFamily">@font/font_raleway_semibold</item>
+    </style>
+
+    <style name="TabLayoutTextStyle.ProductSans">
+        <item name="android:fontFamily">@font/font_product_sans</item>
+    </style>
+
+</resources>

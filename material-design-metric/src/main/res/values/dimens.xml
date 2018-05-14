@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--========== Follow by Material design +4dp +8dp +12dp +16dp ==============================-->
+    <dimen name="default_round_corner_small">2dp</dimen>
+    <dimen name="default_round_corner">4dp</dimen>
+    <dimen name="default_round_corner_large">8dp</dimen>
+
+    <dimen name="default_padding_margin_small_x">2dp</dimen>
+    <dimen name="default_padding_margin_small">4dp</dimen>
+
+    <dimen name="default_padding_margin">8dp</dimen>
+    <dimen name="default_padding_margin_h">12dp</dimen>
+    <dimen name="default_padding_margin_x">16dp</dimen>
+    <dimen name="default_padding_margin_xh">20dp</dimen>
+    <dimen name="default_padding_margin_xx">24dp</dimen>
+    <dimen name="default_padding_margin_xxh">28dp</dimen>
+    <dimen name="default_padding_margin_xxx">32dp</dimen>
+    <dimen name="default_padding_margin_xxxh">36dp</dimen>
+    <dimen name="default_padding_margin_xxxx">40dp</dimen>
+    <dimen name="default_padding_margin_xxxxh">44dp</dimen>
+
+    <dimen name="default_padding_margin_huge">48dp</dimen>
+    <dimen name="default_padding_margin_huge_x">56dp</dimen>
+    <dimen name="default_padding_margin_huge_xh">60dp</dimen>
+    <dimen name="default_padding_margin_huge_xx">64dp</dimen>
+    <dimen name="default_padding_margin_huge_xxh">68dp</dimen>
+    <dimen name="default_padding_margin_huge_xxx">72dp</dimen>
+    <dimen name="default_padding_margin_huge_xxxh">76dp</dimen>
+    <dimen name="default_padding_margin_huge_xxxx">80dp</dimen>
+
+
+    <dimen name="default_icon_size_small_x">12dp</dimen>
+    <dimen name="default_icon_size_small">16dp</dimen>
+    <dimen name="default_icon_size">24dp</dimen>
+    <dimen name="default_icon_size_x">36dp</dimen>
+    <dimen name="default_icon_size_xx">48dp</dimen>
+    <dimen name="default_icon_size_xxx">56dp</dimen>
+
+    <dimen name="default_stroke_large">3dp</dimen>
+    <dimen name="default_stroke">2dp</dimen>
+    <dimen name="default_stroke_small">1dp</dimen>
+
+    <dimen name="default_divider_size_large">2dp</dimen>
+    <dimen name="default_divider_size">1dp</dimen>
+</resources>

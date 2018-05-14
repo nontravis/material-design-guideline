@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/holder_description_tv"
+        style="?attr/textSecondaryBody1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_space_margin_title_top"
+        android:lineSpacingExtra="2dp"
+        android:paddingEnd="@dimen/default_padding_margin_xx"
+        android:paddingStart="@dimen/default_padding_margin_xx"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi consequatur deleniti neque repellendus soluta tenetur totam ullam voluptatibus! Asperiores debitis labore odit perferendis reiciendis. Ab ad, animi commodi culpa doloremque eius exercitationem fugit laboriosam non officiis provident quasi quia quo saepe sequi! Aliquid fugiat laudantium quae soluta temporibus ullam." />
+
+</android.support.constraint.ConstraintLayout>

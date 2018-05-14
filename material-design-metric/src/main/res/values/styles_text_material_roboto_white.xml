@@ -1,0 +1,296 @@
+<resources>
+    <!--╔════╦════════════════════════════╦═════════════════════════════╗-->
+    <!--║    ║ FONT FAMILY                ║ TTF FILE                    ║-->
+    <!--╠════╬════════════════════════════╬═════════════════════════════╣-->
+    <!--║  1 ║ sans-serif                 ║ Roboto-Regular.ttf          ║-->
+    <!--║  2 ║ sans-serif-light           ║ Roboto-Light.ttf            ║-->
+    <!--║  3 ║ sans-serif-medium          ║ Roboto-Medium.ttf           ║-->
+    <!--║  4 ║ sans-serif-thin            ║ Roboto-Thin.ttf             ║-->
+    <!--╚════╩════════════════════════════╩═════════════════════════════╝-->
+
+    <!--╔════╦════════════════════════════╦═════════════════════════════╗-->
+    <!--║    ║ Scale Category             ║ Size                        ║-->
+    <!--╠════╬════════════════════════════╬═════════════════════════════╣-->
+    <!--║  1 ║ H1                         ║ 96 sp                       ║-->
+    <!--║  2 ║ H2                         ║ 60 sp                       ║-->
+    <!--║  3 ║ H3                         ║ 48 sp                       ║-->
+    <!--║  4 ║ H4                         ║ 34 sp                       ║-->
+    <!--║  5 ║ H5                         ║ 24 sp                       ║-->
+    <!--║  6 ║ H6                         ║ 20 sp                       ║-->
+    <!--║  7 ║ Subtitle 1                 ║ 16 sp                       ║-->
+    <!--║  8 ║ Subtitle 2                 ║ 14 sp                       ║-->
+    <!--║  9 ║ Body 1                     ║ 16 sp                       ║-->
+    <!--║ 10 ║ Body 2                     ║ 14 sp                       ║-->
+    <!--║ 11 ║ BUTTON                     ║ 14 sp                       ║-->
+    <!--║ 12 ║ Caption                    ║ 12 sp                       ║-->
+    <!--║ 13 ║ OVERLINE                   ║ 10 sp                       ║-->
+    <!--╚════╩════════════════════════════╩═════════════════════════════╝-->
+
+
+    <!-- ================ White Active ===========================================================-->
+    <style name="MaterialTextView.Roboto.WhiteActive.Headline1" parent="TextHeadline1">
+        <item name="android:textColor">@color/md_text_color_active_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto_light</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteActive.Headline2" parent="TextHeadline2">
+        <item name="android:textColor">@color/md_text_color_active_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto_light</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteActive.Headline3" parent="TextHeadline3">
+        <item name="android:textColor">@color/md_text_color_active_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteActive.Headline4" parent="TextHeadline4">
+        <item name="android:textColor">@color/md_text_color_active_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteActive.Headline5" parent="TextHeadline5">
+        <item name="android:textColor">@color/md_text_color_active_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteActive.Headline6" parent="TextHeadline6">
+        <item name="android:textColor">@color/md_text_color_active_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto_medium</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteActive.SubTitle1" parent="TextSubTitle1">
+        <item name="android:textColor">@color/md_text_color_active_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteActive.SubTitle2" parent="TextSubTitle2">
+        <item name="android:textColor">@color/md_text_color_active_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto_medium</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteActive.Body1" parent="TextBody1">
+        <item name="android:textColor">@color/md_text_color_active_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteActive.Body2" parent="TextBody2">
+        <item name="android:textColor">@color/md_text_color_active_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteActive.Button" parent="TextButton">
+        <item name="android:textColor">@color/md_text_color_active_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">@font/font_roboto_medium</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteActive.Button.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteActive.Caption" parent="TextCaption">
+        <item name="android:textColor">@color/md_text_color_active_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteActive.Overline" parent="TextOverline">
+        <item name="android:textColor">@color/md_text_color_active_dark_theme</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteActive.Overline.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <!-- ================ White Inactive ===========================================================-->
+    <style name="MaterialTextView.Roboto.WhiteInactive.Headline1" parent="TextHeadline1">
+        <item name="android:textColor">@color/md_text_color_inactive_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto_light</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteInactive.Headline2" parent="TextHeadline2">
+        <item name="android:textColor">@color/md_text_color_inactive_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto_light</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteInactive.Headline3" parent="TextHeadline3">
+        <item name="android:textColor">@color/md_text_color_inactive_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteInactive.Headline4" parent="TextHeadline4">
+        <item name="android:textColor">@color/md_text_color_inactive_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteInactive.Headline5" parent="TextHeadline5">
+        <item name="android:textColor">@color/md_text_color_inactive_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteInactive.Headline6" parent="TextHeadline6">
+        <item name="android:textColor">@color/md_text_color_inactive_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto_medium</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteInactive.SubTitle1" parent="TextSubTitle1">
+        <item name="android:textColor">@color/md_text_color_inactive_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteInactive.SubTitle2" parent="TextSubTitle2">
+        <item name="android:textColor">@color/md_text_color_inactive_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto_medium</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteInactive.Body1" parent="TextBody1">
+        <item name="android:textColor">@color/md_text_color_inactive_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteInactive.Body2" parent="TextBody2">
+        <item name="android:textColor">@color/md_text_color_inactive_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteInactive.Button" parent="TextButton">
+        <item name="android:textColor">@color/md_text_color_inactive_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">@font/font_roboto_medium</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteInactive.Button.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteInactive.Caption" parent="TextCaption">
+        <item name="android:textColor">@color/md_text_color_inactive_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteInactive.Overline" parent="TextOverline">
+        <item name="android:textColor">@color/md_text_color_inactive_dark_theme</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteInactive.Overline.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <!-- ================ White Disable ===========================================================-->
+    <style name="MaterialTextView.Roboto.WhiteDisabled.Headline1" parent="TextHeadline1">
+        <item name="android:textColor">@color/md_text_color_disabled_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto_light</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteDisabled.Headline2" parent="TextHeadline2">
+        <item name="android:textColor">@color/md_text_color_disabled_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto_light</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteDisabled.Headline3" parent="TextHeadline3">
+        <item name="android:textColor">@color/md_text_color_disabled_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteDisabled.Headline4" parent="TextHeadline4">
+        <item name="android:textColor">@color/md_text_color_disabled_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteDisabled.Headline5" parent="TextHeadline5">
+        <item name="android:textColor">@color/md_text_color_disabled_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteDisabled.Headline6" parent="TextHeadline6">
+        <item name="android:textColor">@color/md_text_color_disabled_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto_medium</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteDisabled.SubTitle1" parent="TextSubTitle1">
+        <item name="android:textColor">@color/md_text_color_disabled_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteDisabled.SubTitle2" parent="TextSubTitle2">
+        <item name="android:textColor">@color/md_text_color_disabled_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto_medium</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteDisabled.Body1" parent="TextBody1">
+        <item name="android:textColor">@color/md_text_color_disabled_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteDisabled.Body2" parent="TextBody2">
+        <item name="android:textColor">@color/md_text_color_disabled_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteDisabled.Button" parent="TextButton">
+        <item name="android:textColor">@color/md_text_color_disabled_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">@font/font_roboto_medium</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteDisabled.Button.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteDisabled.Caption" parent="TextCaption">
+        <item name="android:textColor">@color/md_text_color_disabled_dark_theme</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteDisabled.Overline" parent="TextOverline">
+        <item name="android:textColor">@color/md_text_color_disabled_dark_theme</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/font_roboto</item>
+    </style>
+
+    <style name="MaterialTextView.Roboto.WhiteDisabled.Overline.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

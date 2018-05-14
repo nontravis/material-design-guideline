@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Tablet +1 font size-->
+
+    <!-- ========================== Md default Text size ======================================= -->
+    <!-- https://material.io/guidelines/style/typography.html#typography-styles -->
+    <dimen name="md_text_size_headline_1_light_tablet">97sp</dimen>
+    <dimen name="md_text_size_headline_2_light_tablet">61sp</dimen>
+    <dimen name="md_text_size_headline_3_regular_tablet">49sp</dimen>
+    <dimen name="md_text_size_headline_4_regular_tablet">35sp</dimen>
+    <dimen name="md_text_size_headline_5_regular_tablet">25sp</dimen>
+    <dimen name="md_text_size_headline_6_medium_tablet">21sp</dimen>
+
+    <dimen name="md_text_subtitle_1_regular_tablet">17sp</dimen>
+    <dimen name="md_text_subtitle_2_medium_tablet">15sp</dimen>
+    <dimen name="md_text_body_1_regular_tablet">17sp</dimen>
+    <dimen name="md_text_body_2_regular_tablet">15sp</dimen>
+    <dimen name="md_text_button_medium_tablet">15sp</dimen>
+    <dimen name="md_text_caption_regular_tablet">13sp</dimen>
+    <dimen name="md_text_overline_regular_tablet">11sp</dimen>
+
+
+    <!-- ========================== Material default Text size ======================================= -->
+    <!-- https://material.io/guidelines/style/typography.html#typography-styles -->
+    <dimen name="material_text_size_headline_1_light_tablet">97sp</dimen>
+    <dimen name="material_text_size_headline_2_light_tablet">61sp</dimen>
+    <dimen name="material_text_size_headline_3_regular_tablet">49sp</dimen>
+    <dimen name="material_text_size_headline_4_regular_tablet">35sp</dimen>
+    <dimen name="material_text_size_headline_5_regular_tablet">25sp</dimen>
+    <dimen name="material_text_size_headline_6_medium_tablet">21sp</dimen>
+
+    <dimen name="material_text_subtitle_1_regular_tablet">17sp</dimen>
+    <dimen name="material_text_subtitle_2_medium_tablet">15sp</dimen>
+    <dimen name="material_text_body_1_regular_tablet">17sp</dimen>
+    <dimen name="material_text_body_2_regular_tablet">15sp</dimen>
+    <dimen name="material_text_button_medium_tablet">15sp</dimen>
+    <dimen name="material_text_caption_regular_tablet">13sp</dimen>
+    <dimen name="material_text_overline_regular_tablet">11sp</dimen>
+
+
+
+
+</resources>

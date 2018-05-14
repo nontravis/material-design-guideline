@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="md_scrim_color">#52000000</color>
+    <color name="md_divider_black">#12000000</color>
+    <color name="md_divider_white">#12FFFFFF</color>
+
+    <!-- ================================ Md Text color ======================================== -->
+    <!-- https://material.io/design/color/text-legibility.html#legibility-standards -->
+    <color name="md_text_color_active_light_theme">#de000000</color> <!--87% black-->
+    <color name="md_text_color_inactive_light_theme">#99000000</color> <!--60% black-->
+    <color name="md_text_color_disabled_light_theme">#61000000</color> <!--38% black-->
+
+    <color name="md_text_color_active_dark_theme">#ffffffff</color> <!--100% white-->
+    <color name="md_text_color_inactive_dark_theme">#99ffffff</color> <!--60% white-->
+    <color name="md_text_color_disabled_dark_theme">#61ffffff</color> <!--38% white-->
+
+
+    <color name="md_text_color_active_white_theme_no_transparent">#212121</color>
+    <color name="md_text_color_inactive_white_theme_no_transparent">#666666</color>
+    <color name="md_text_color_disabled_white_theme_no_transparent">#9E9E9E</color>
+
+    <color name="md_text_color_active_black_theme_no_transparent">#ffffff</color>
+    <color name="md_text_color_inactive_black_theme_no_transparent">#999999</color>
+    <color name="md_text_color_disabled_black_theme_no_transparent">#616161</color>
+
+    <!-- ================================ Md Icon color ======================================== -->
+    <!--https://material.io/design/iconography/system-icons.html-->
+    <color name="md_icon_color_active_light_theme">#DE000000</color> <!--87% black-->
+    <color name="md_icon_color_inactive_light_theme">#8A000000</color> <!--54% black-->
+    <color name="md_icon_color_disabled_light_theme">#61000000</color> <!--38% white-->
+
+    <color name="md_icon_color_active_dark_theme">#ffffffff</color> <!--100% white-->
+    <color name="md_icon_color_inactive_dark_theme">#8Affffff</color> <!--54% white-->
+    <color name="md_icon_color_disabled_dark_theme">#61ffffff</color> <!--38% white-->
+
+    <color name="md_icon_color_active_white_theme_no_transparent">#212121</color>
+    <color name="md_icon_color_inactive_white_theme_no_transparent">#757575</color>
+    <color name="md_icon_color_disabled_white_theme_no_transparent">#9E9E9E</color>
+
+    <color name="md_icon_color_active_black_theme_no_transparent">#ffffff</color>
+    <color name="md_icon_color_inactive_black_theme_no_transparent">#8A8A8A</color>
+    <color name="md_icon_color_disabled_black_theme_no_transparent">#616161</color>
+
+
+
+
+    <color name="material_scrim_color">#52000000</color>
+    <color name="material_divider_black">#12000000</color>
+    <color name="material_divider_white">#12FFFFFF</color>
+
+    <!-- ================================ Material Text color ======================================== -->
+    <!-- https://material.io/design/color/text-legibility.html#legibility-standards -->
+    <color name="material_text_color_active_light_theme">#de000000</color> <!--87% black-->
+    <color name="material_text_color_inactive_light_theme">#99000000</color> <!--60% black-->
+    <color name="material_text_color_disabled_light_theme">#61000000</color> <!--38% black-->
+
+    <color name="material_text_color_active_dark_theme">#ffffffff</color> <!--100% white-->
+    <color name="material_text_color_inactive_dark_theme">#99ffffff</color> <!--60% white-->
+    <color name="material_text_color_disabled_dark_theme">#61ffffff</color> <!--38% white-->
+
+
+    <color name="material_text_color_active_white_theme_no_transparent">#212121</color>
+    <color name="material_text_color_inactive_white_theme_no_transparent">#666666</color>
+    <color name="material_text_color_disabled_white_theme_no_transparent">#9E9E9E</color>
+
+    <color name="material_text_color_active_black_theme_no_transparent">#ffffff</color>
+    <color name="material_text_color_inactive_black_theme_no_transparent">#999999</color>
+    <color name="material_text_color_disabled_black_theme_no_transparent">#616161</color>
+
+    <!-- ================================ Material Icon color ======================================== -->
+    <!--https://material.io/design/iconography/system-icons.html-->
+    <color name="material_icon_color_active_light_theme">#DE000000</color> <!--87% black-->
+    <color name="material_icon_color_inactive_light_theme">#8A000000</color> <!--54% black-->
+    <color name="material_icon_color_disabled_light_theme">#61000000</color> <!--38% white-->
+
+    <color name="material_icon_color_active_dark_theme">#ffffffff</color> <!--100% white-->
+    <color name="material_icon_color_inactive_dark_theme">#8Affffff</color> <!--54% white-->
+    <color name="material_icon_color_disabled_dark_theme">#61ffffff</color> <!--38% white-->
+
+    <color name="material_icon_color_active_white_theme_no_transparent">#212121</color>
+    <color name="material_icon_color_inactive_white_theme_no_transparent">#757575</color>
+    <color name="material_icon_color_disabled_white_theme_no_transparent">#9E9E9E</color>
+
+    <color name="material_icon_color_active_black_theme_no_transparent">#ffffff</color>
+    <color name="material_icon_color_inactive_black_theme_no_transparent">#8A8A8A</color>
+    <color name="material_icon_color_disabled_black_theme_no_transparent">#616161</color>
+
+</resources>

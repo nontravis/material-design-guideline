@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/coding_view"
+            style="?attr/textPrimaryBody2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/background_coding"
+            android:letterSpacing="0"
+            android:lineSpacingExtra="4dp"
+            android:padding="@dimen/default_padding_margin"
+            android:textColor="@color/text_code_green"
+            app:fontFamily="@font/font_coding"
+            tools:text="test = test" />
+
+    </HorizontalScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

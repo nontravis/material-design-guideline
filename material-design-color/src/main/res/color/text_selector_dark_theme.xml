@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:color="@color/md_text_color_disabled_dark_theme" android:state_enabled="false" />
+
+    <item android:color="@color/md_text_color_active_dark_theme" android:state_pressed="true" />
+
+    <item android:color="@color/md_text_color_active_dark_theme" />
+
+</selector>

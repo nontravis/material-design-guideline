@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_footer"
+    android:layout_marginTop="@dimen/margin_top_title_large"
+    android:paddingEnd="@dimen/default_padding_margin_x"
+    android:paddingStart="@dimen/default_padding_margin_x"
+    tools:ignore="HardcodedText">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/footer_img_profile"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="@dimen/text_space_margin_body_paragraph"
+        android:src="@drawable/profile1_circle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/footer_tv_title"
+        style="?attr/textPrimarySubtitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_padding_margin"
+        android:text="Material Design Demo"
+        app:fontFamily="@font/font_roboto_mono"
+        app:layout_constraintBottom_toTopOf="@+id/footer_tv_sub_title"
+        app:layout_constraintStart_toEndOf="@+id/footer_img_profile"
+        app:layout_constraintTop_toTopOf="@+id/footer_img_profile" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/footer_tv_sub_title"
+        style="?attr/textSecondaryBody2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_padding_margin"
+        android:background="?attr/selectableItemBackground"
+        android:text="TheKhaeng.io"
+        app:layout_constraintBottom_toBottomOf="@+id/footer_img_profile"
+        app:layout_constraintStart_toEndOf="@+id/footer_img_profile"
+        app:layout_constraintTop_toBottomOf="@+id/footer_tv_title" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/footer_tv_desc"
+        style="?attr/textSecondaryBody2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_space_margin_body_paragraph"
+        android:lineSpacingExtra="2dp"
+        android:text="A library for Android developers that facilitate how you use XML resources, especially if you strictly follow Google material design principle. This library is mostly about XML resources."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/footer_img_profile" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/footer_tv_github"
+        style="?attr/textPrimaryCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_space_margin_body_paragraph"
+        android:background="?attr/selectableItemBackground"
+        android:text="Github"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/footer_tv_desc" />
+
+    <View
+        android:id="@+id/footer_divider_1"
+        style="?attr/dividerHorizontal"
+        android:layout_marginTop="@dimen/text_space_margin_body_paragraph"
+        app:layout_constraintTop_toBottomOf="@+id/footer_tv_github" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/footer_tv_section_2_title"
+        style="?attr/textPrimaryBody1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_space_margin_body_paragraph"
+        android:text="Developed By Thai android developer."
+        app:fontFamily="@font/font_product_sans"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/footer_divider_1" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/footer_tv_section_2_item_1"
+        style="?attr/textSecondaryBody2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_space_margin_body_paragraph"
+        android:background="?attr/selectableItemBackground"
+        android:text="facebook.com/thekhaeng.io"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/footer_tv_section_2_title" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/footer_tv_section_2_item_2"
+        style="?attr/textSecondaryBody2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_padding_margin_small"
+        android:background="?attr/selectableItemBackground"
+        android:text="medium @nonthawit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/footer_tv_section_2_item_1"
+        app:layout_goneMarginTop="@dimen/default_padding_margin_small" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/footer_tv_section_2_item_3"
+        style="?attr/textSecondaryBody2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_space_margin_body_paragraph"
+        android:layout_marginTop="@dimen/default_padding_margin_small"
+        android:background="?attr/selectableItemBackground"
+        android:text="nonthawit.thekhaeng@gmail.com"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/footer_tv_section_2_item_2"
+        app:layout_goneMarginTop="@dimen/default_padding_margin_small" />
+
+
+</android.support.constraint.ConstraintLayout>

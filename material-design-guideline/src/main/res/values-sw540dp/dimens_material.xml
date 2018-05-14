@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <!-- ========================= Md metrics & keylines ======================================= -->
-    <dimen name="md_toolbar_height">64dp</dimen>
-</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TextTheme">
+        <attr name="textPrimaryHeadline1" format="reference" />
+        <attr name="textPrimaryHeadline2" format="reference" />
+        <attr name="textPrimaryHeadline3" format="reference" />
+        <attr name="textPrimaryHeadline4" format="reference" />
+        <attr name="textPrimaryHeadline5" format="reference" />
+        <attr name="textPrimaryHeadline6" format="reference" />
+        <attr name="textPrimarySubtitle1" format="reference" />
+        <attr name="textPrimarySubtitle2" format="reference" />
+        <attr name="textPrimaryBody1" format="reference" />
+        <attr name="textPrimaryBody2" format="reference" />
+        <attr name="textPrimaryCaption" format="reference" />
+        <attr name="textPrimaryButton" format="reference" />
+        <attr name="textPrimaryOverline" format="reference" />
+
+        <attr name="textSecondaryHeadline1" format="reference" />
+        <attr name="textSecondaryHeadline2" format="reference" />
+        <attr name="textSecondaryHeadline3" format="reference" />
+        <attr name="textSecondaryHeadline4" format="reference" />
+        <attr name="textSecondaryHeadline5" format="reference" />
+        <attr name="textSecondaryHeadline6" format="reference" />
+        <attr name="textSecondarySubtitle1" format="reference" />
+        <attr name="textSecondarySubtitle2" format="reference" />
+        <attr name="textSecondaryBody1" format="reference" />
+        <attr name="textSecondaryBody2" format="reference" />
+        <attr name="textSecondaryCaption" format="reference" />
+        <attr name="textSecondaryButton" format="reference" />
+        <attr name="textSecondaryOverline" format="reference" />
+
+        <attr name="textDisabledHeadline1" format="reference" />
+        <attr name="textDisabledHeadline2" format="reference" />
+        <attr name="textDisabledHeadline3" format="reference" />
+        <attr name="textDisabledHeadline4" format="reference" />
+        <attr name="textDisabledHeadline5" format="reference" />
+        <attr name="textDisabledHeadline6" format="reference" />
+        <attr name="textDisabledSubtitle1" format="reference" />
+        <attr name="textDisabledSubtitle2" format="reference" />
+        <attr name="textDisabledBody1" format="reference" />
+        <attr name="textDisabledBody2" format="reference" />
+        <attr name="textDisabledCaption" format="reference" />
+        <attr name="textDisabledButton" format="reference" />
+        <attr name="textDisabledOverline" format="reference" />
+
+        <attr name="dividerHorizontal" format="reference" />
+        <attr name="dividerVertical" format="reference" />
+    </declare-styleable>
+</resources>

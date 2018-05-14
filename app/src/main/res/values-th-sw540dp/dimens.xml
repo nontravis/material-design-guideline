@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="default_text_display_4">@dimen/md_tall_text_size_display_4_regular_tablet</dimen>
-    <dimen name="default_text_display_3">@dimen/md_tall_text_size_display_3_regular_tablet</dimen>
-    <dimen name="default_text_display_2">@dimen/md_tall_text_size_display_2_regular_tablet</dimen>
-    <dimen name="default_text_display_1">@dimen/md_tall_text_size_display_1_regular_tablet</dimen>
-    <dimen name="default_text_headline">@dimen/md_tall_text_headline_regular_tablet</dimen>
-    <dimen name="default_text_title">@dimen/md_tall_text_title_bold_tablet</dimen>
-    <dimen name="default_text_subheading">@dimen/md_tall_text_subheading_regular_tablet</dimen>
-    <dimen name="default_text_body">@dimen/md_tall_text_body_regular_tablet</dimen>
-    <dimen name="default_text_caption">@dimen/md_tall_text_caption_regular_tablet</dimen>
-    <dimen name="default_text_button">@dimen/md_tall_text_button_bold_tablet</dimen>
+    <dimen name="default_text_size_headline_1">@dimen/md_text_size_headline_1_light_tablet</dimen>
+    <dimen name="default_text_size_headline_2">@dimen/md_text_size_headline_2_light_tablet</dimen>
+    <dimen name="default_text_size_headline_3">@dimen/md_text_size_headline_3_regular_tablet</dimen>
+    <dimen name="default_text_size_headline_4">@dimen/md_text_size_headline_4_regular_tablet</dimen>
+    <dimen name="default_text_size_headline_5">@dimen/md_text_size_headline_5_regular_tablet</dimen>
+    <dimen name="default_text_size_headline_6">@dimen/md_text_size_headline_6_medium_tablet</dimen>
+    <dimen name="default_text_subtitle_1">@dimen/md_text_subtitle_1_regular_tablet</dimen>
+    <dimen name="default_text_subtitle_2">@dimen/md_text_subtitle_2_medium_tablet</dimen>
+    <dimen name="default_text_body_1">@dimen/md_text_body_1_regular_tablet</dimen>
+    <dimen name="default_text_body_2">@dimen/md_text_body_2_regular_tablet</dimen>
+    <dimen name="default_text_button">@dimen/md_text_button_medium_tablet</dimen>
+    <dimen name="default_text_caption">@dimen/md_text_caption_regular_tablet</dimen>
+    <dimen name="default_text_overline">@dimen/md_text_overline_regular_tablet</dimen>
 
 </resources>

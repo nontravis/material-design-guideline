@@ -1,0 +1,109 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="NewApi">
+
+    <style name="TextHeadline1" parent="">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/md_text_size_headline_1_light</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">-0.015625</item>
+    </style>
+
+    <style name="TextHeadline2" parent="">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/md_text_size_headline_2_light</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">-0.00833333333</item>
+    </style>
+
+    <style name="TextHeadline3" parent="">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/md_text_size_headline_3_regular</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="TextHeadline4" parent="">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/md_text_size_headline_4_regular</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">0.00735294118</item>
+    </style>
+
+    <style name="TextHeadline5" parent="">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/md_text_size_headline_5_regular</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="TextHeadline6" parent="">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/md_text_size_headline_6_medium</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">0.0125</item>
+    </style>
+
+    <style name="TextSubTitle1" parent="">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/md_text_size_subtitle_1_regular</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">0.009375</item>
+    </style>
+
+    <style name="TextSubTitle2" parent="">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/md_text_size_subtitle_2_medium</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">0.00714285714</item>
+    </style>
+
+    <style name="TextBody1" parent="">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/md_text_size_body_1_regular</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">0.03125</item>
+    </style>
+
+    <style name="TextBody2" parent="">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/md_text_size_body_2_regular</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">0.0178571429</item>
+    </style>
+
+    <style name="TextButton" parent="">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/md_text_size_button_medium</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.0892857143</item>
+    </style>
+
+
+    <style name="TextCaption" parent="">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/md_text_size_caption_regular</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">0.0333333333</item>
+    </style>
+
+    <style name="TextOverline" parent="">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/md_text_size_overline_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.166666667</item>
+    </style>
+
+
+</resources>

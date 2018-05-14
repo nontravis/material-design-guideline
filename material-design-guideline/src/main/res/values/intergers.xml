@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="md_pressed_animation_duration">100</integer>
-    <integer name="md_pressed_animation_delay">100</integer>
-</resources>

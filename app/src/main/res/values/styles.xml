@@ -5,13 +5,77 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
+
         <item name="colorAccent">@color/accent</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+
+        <!-- The color applied to framework controls in their normal state. -->
+        <!--<item name="colorControlNormal"></item>-->
+        <!-- The color applied to framework controls in their activated (ex. checked) state. -->
+        <!--<item name="colorControlActivated"></item>-->
+        <!-- The color applied to framework control highlights (ex. ripples, list selectors). -->
+        <!--<item name="colorControlHighlight"></item>-->
+
+
+        <item name="textPrimaryHeadline1">@style/MaterialTextView.Roboto.BlackActive.Headline1</item>
+        <item name="textPrimaryHeadline2">@style/MaterialTextView.Roboto.BlackActive.Headline2</item>
+        <item name="textPrimaryHeadline3">@style/MaterialTextView.Roboto.BlackActive.Headline3</item>
+        <item name="textPrimaryHeadline4">@style/MaterialTextView.Roboto.BlackActive.Headline4</item>
+        <item name="textPrimaryHeadline5">@style/MaterialTextView.Roboto.BlackActive.Headline5</item>
+        <item name="textPrimaryHeadline6">@style/MaterialTextView.Roboto.BlackActive.Headline6</item>
+        <item name="textPrimarySubtitle1">@style/MaterialTextView.Roboto.BlackActive.SubTitle1</item>
+        <item name="textPrimarySubtitle2">@style/MaterialTextView.Roboto.BlackActive.SubTitle2</item>
+        <item name="textPrimaryBody1">@style/MaterialTextView.Roboto.BlackActive.Body1</item>
+        <item name="textPrimaryBody2">@style/MaterialTextView.Roboto.BlackActive.Body2</item>
+        <item name="textPrimaryCaption">@style/MaterialTextView.Roboto.BlackActive.Caption</item>
+        <item name="textPrimaryButton">@style/MaterialTextView.Roboto.BlackActive.Button</item>
+        <item name="textPrimaryOverline">@style/MaterialTextView.Roboto.BlackActive.Overline</item>
+
+        <item name="textSecondaryHeadline1">@style/MaterialTextView.Roboto.BlackInactive.Headline1</item>
+        <item name="textSecondaryHeadline2">@style/MaterialTextView.Roboto.BlackInactive.Headline2</item>
+        <item name="textSecondaryHeadline3">@style/MaterialTextView.Roboto.BlackInactive.Headline3</item>
+        <item name="textSecondaryHeadline4">@style/MaterialTextView.Roboto.BlackInactive.Headline4</item>
+        <item name="textSecondaryHeadline5">@style/MaterialTextView.Roboto.BlackInactive.Headline5</item>
+        <item name="textSecondaryHeadline6">@style/MaterialTextView.Roboto.BlackInactive.Headline6</item>
+        <item name="textSecondarySubtitle1">@style/MaterialTextView.Roboto.BlackInactive.SubTitle1</item>
+        <item name="textSecondarySubtitle2">@style/MaterialTextView.Roboto.BlackInactive.SubTitle2</item>
+        <item name="textSecondaryBody1">@style/MaterialTextView.Roboto.BlackInactive.Body1</item>
+        <item name="textSecondaryBody2">@style/MaterialTextView.Roboto.BlackInactive.Body2</item>
+        <item name="textSecondaryCaption">@style/MaterialTextView.Roboto.BlackInactive.Caption</item>
+        <item name="textSecondaryButton">@style/MaterialTextView.Roboto.BlackInactive.Button</item>
+        <item name="textSecondaryOverline">@style/MaterialTextView.Roboto.BlackInactive.Overline</item>
+
+        <item name="textDisabledHeadline1">@style/MaterialTextView.Roboto.BlackDisabled.Headline1</item>
+        <item name="textDisabledHeadline2">@style/MaterialTextView.Roboto.BlackDisabled.Headline2</item>
+        <item name="textDisabledHeadline3">@style/MaterialTextView.Roboto.BlackDisabled.Headline3</item>
+        <item name="textDisabledHeadline4">@style/MaterialTextView.Roboto.BlackDisabled.Headline4</item>
+        <item name="textDisabledHeadline5">@style/MaterialTextView.Roboto.BlackDisabled.Headline5</item>
+        <item name="textDisabledHeadline6">@style/MaterialTextView.Roboto.BlackDisabled.Headline6</item>
+        <item name="textDisabledSubtitle1">@style/MaterialTextView.Roboto.BlackDisabled.SubTitle1</item>
+        <item name="textDisabledSubtitle2">@style/MaterialTextView.Roboto.BlackDisabled.SubTitle2</item>
+        <item name="textDisabledBody1">@style/MaterialTextView.Roboto.BlackDisabled.Body1</item>
+        <item name="textDisabledBody2">@style/MaterialTextView.Roboto.BlackDisabled.Body2</item>
+        <item name="textDisabledCaption">@style/MaterialTextView.Roboto.BlackDisabled.Caption</item>
+        <item name="textDisabledButton">@style/MaterialTextView.Roboto.BlackDisabled.Button</item>
+        <item name="textDisabledOverline">@style/MaterialTextView.Roboto.BlackDisabled.Overline</item>
+
+        <item name="dividerHorizontal">@style/Divider.Black.Horizontal</item>
+        <item name="dividerVertical">@style/Divider.Black.Vertical</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="colorPrimaryDark">@color/md_grey900</item>
         <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:navigationBarColor">?attr/colorPrimaryDark</item>
     </style>
-
 
 </resources>

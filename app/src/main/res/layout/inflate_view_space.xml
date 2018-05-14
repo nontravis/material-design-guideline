@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_view"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/default_padding_margin"
+    android:paddingStart="@dimen/default_padding_margin_xx"
+    tools:ignore="HardcodedText">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/inflate_space_tv_title"
+        style="?attr/textPrimaryHeadline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_space_margin_box_top"
+        android:text="Johannes Gutengerg" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/inflate_space_tv_caption"
+        style="?attr/textPrimaryCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_space_margin_caption"
+        android:text="German Printer" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/inflate_space_tv_desc_1"
+        style="?attr/textPrimaryBody2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_space_margin_body_paragraph_top"
+        android:lineSpacingExtra="1dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam aliquid animi aspernatur autem consequuntur cupiditate dolore doloribus dolorum ea eaque fugiat ipsam, magni maiores odio odit" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/inflate_space_tv_desc_2"
+        style="?attr/textPrimaryBody2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_space_margin_body_paragraph_top"
+        android:lineSpacingExtra="1dp"
+        android:text="officiis omnis optio perferendis perspiciatis quo ratione recusandae reiciendis rerum tenetur vero voluptas. Autem, error est et facere quisquam voluptatibus? Eaque et, in." />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/inflate_space_tv_title_2"
+        style="?attr/textPrimarySubtitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_space_margin_title_top"
+        android:text="Born"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/inflate_space_tv_caption_2"
+        style="?attr/textPrimaryBody2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_space_margin_box_bottom"
+        android:text="c. 1400, Mainz Germany" />
+
+</LinearLayout>

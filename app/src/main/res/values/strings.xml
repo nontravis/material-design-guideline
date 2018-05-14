@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">MATERIAL GUIDELINE</string>
+    <string name="app_name">MATERIAL DESIGN</string>
+
+    <string name="foundation">FOUNDATION</string>
+    <string name="guildlines">GILDELINES</string>
+
+    <string name="color">Color</string>
+    <string name="typography">Typography</string>
+    <string name="elevation">Elevation</string>
+    <string name="layout">Layout</string>
+    <string name="icon">Icon</string>
+
+    <string name="component">Component</string>
 </resources>

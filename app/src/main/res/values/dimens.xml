@@ -1,31 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="icon_color_size">24dp</dimen>
 
-    <item name="default_alpha_primary_dark_theme" format="float" type="dimen">@dimen/md_alpha_text_primary_dark</item>
-    <item name="default_alpha_secondary_dark_theme" format="float" type="dimen">@dimen/md_alpha_text_secondary_dark</item>
-    <item name="default_alpha_disable_dark_theme" format="float" type="dimen">@dimen/md_alpha_text_disable_dark</item>
-    <item name="default_alpha_divider_dark_theme" format="float" type="dimen">@dimen/md_alpha_divider_dark</item>
+    <dimen name="margin_top_title">72dp</dimen>
+    <dimen name="margin_top_title_large">84dp</dimen>
 
-    <item name="default_alpha_primary_light_theme"  format="float" type="dimen">@dimen/md_alpha_text_primary_light</item>
-    <item name="default_alpha_secondary_light_theme" format="float" type="dimen">@dimen/md_alpha_text_secondary_light</item>
-    <item name="default_alpha_disable_light_theme" format="float" type="dimen">@dimen/md_alpha_text_disable_light</item>
-    <item name="default_alpha_divider_light_theme" format="float" type="dimen">@dimen/md_alpha_divider_light</item>
-
-    <item name="default_alpha_icon_active_dark_theme" format="float" type="dimen">@dimen/md_alpha_icon_active_dark</item>
-    <item name="default_alpha_icon_inactive_dark_theme" format="float" type="dimen">@dimen/md_alpha_icon_inactive_dark</item>
-    <item name="default_alpha_icon_active_light_theme" format="float" type="dimen">@dimen/md_alpha_icon_active_light</item>
-    <item name="default_alpha_icon_inactive_light_theme" format="float" type="dimen">@dimen/md_alpha_icon_inactive_light</item>
-
-    <dimen name="default_text_size_display_4">@dimen/md_text_size_display_4_light</dimen>
-    <dimen name="default_text_size_display_3">@dimen/md_text_size_display_3_regular</dimen>
-    <dimen name="default_text_size_display_2">@dimen/md_text_size_display_2_regular</dimen>
-    <dimen name="default_text_size_display_1">@dimen/md_text_size_display_1_regular</dimen>
-    <dimen name="default_text_headline">@dimen/md_text_headline_regular</dimen>
-    <dimen name="default_text_title">@dimen/md_text_title_medium</dimen>
-    <dimen name="default_text_subheading">@dimen/md_text_subheading_regular</dimen>
-    <dimen name="default_text_body">@dimen/md_text_body_regular</dimen>
-    <dimen name="default_text_caption">@dimen/md_text_caption_regular</dimen>
-    <dimen name="default_text_button">@dimen/md_text_button_medium</dimen>
+    <dimen name="text_space_margin_caption">2dp</dimen>
+    <dimen name="text_space_margin_title_top">16dp</dimen>
+    <dimen name="text_space_margin_box_top">44dp</dimen>
+    <dimen name="text_space_margin_box_bottom">56dp</dimen>
+    <dimen name="text_space_margin_body_paragraph">28dp</dimen>
+    <dimen name="text_space_margin_body_paragraph_top">22dp</dimen>
 
 </resources>

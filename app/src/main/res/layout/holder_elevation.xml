@@ -1,442 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:app="http://schemas.android.com/apk/res-auto"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/default_padding_margin_extra_large"
-              android:orientation="vertical">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/holder_elevation_card_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/default_padding_margin"
+    android:orientation="vertical">
 
-
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
+        android:id="@+id/holder_elevation_card"
         android:layout_width="200dp"
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="@dimen/md_elevation_dialog"
+        app:cardBackgroundColor="@color/md_white"
         app:cardElevation="@dimen/md_elevation_dialog">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                style="@style/MaterialTextView.LightTheme.Body.Regular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginEnd="@dimen/default_padding_margin_small"
-                android:text="Dialog"/>
-
-            <TextView
-                style="@style/MaterialTextView.LightTheme.Body.Regular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="24dp"
-                android:textColor="@color/md_pink500"/>
-
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:layout_width="200dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="@dimen/md_elevation_picker"
-        app:cardElevation="@dimen/md_elevation_picker">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                style="@style/MaterialTextView.LightTheme.Body.Regular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginEnd="@dimen/default_padding_margin_small"
-                android:text="Picker"/>
-
-            <TextView
-                style="@style/MaterialTextView.LightTheme.Body.Regular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="24dp"
-                android:textColor="@color/md_pink500"/>
-
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_marginBottom="@dimen/md_elevation_navigation_drawer"
-        android:layout_marginEnd="@dimen/md_margin_drawer_navigation"
-        android:layout_marginTop="@dimen/md_elevation_navigation_drawer"
-        app:cardElevation="@dimen/md_elevation_navigation_drawer">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                style="@style/MaterialTextView.LightTheme.Body.Regular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginEnd="@dimen/default_padding_margin_small"
-                android:text="Drawer navigation"/>
-
-            <TextView
-                style="@style/MaterialTextView.LightTheme.Body.Regular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="16dp"
-                android:textColor="@color/md_pink500"/>
-
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_gravity="end"
-        android:layout_marginBottom="@dimen/md_elevation_right_drawer"
-        android:layout_marginStart="@dimen/md_margin_drawer_navigation"
-        android:layout_marginTop="@dimen/md_elevation_right_drawer"
-        app:cardElevation="@dimen/md_elevation_right_drawer">
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                style="@style/MaterialTextView.LightTheme.Body.Regular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginEnd="@dimen/default_padding_margin_small"
-                android:text="Drawer navigation (end)"/>
-
-            <TextView
-                style="@style/MaterialTextView.LightTheme.Body.Regular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="16dp"
-                android:textColor="@color/md_pink500"/>
-
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="@dimen/md_elevation_bottom_sheet"
-        android:layout_marginTop="@dimen/md_elevation_bottom_sheet"
-        app:cardCornerRadius="0dp"
-        app:cardElevation="@dimen/md_elevation_bottom_sheet">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                style="@style/MaterialTextView.LightTheme.Body.Regular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginEnd="@dimen/default_padding_margin_small"
-                android:text="Bottom sheet"/>
-
-            <TextView
-                style="@style/MaterialTextView.LightTheme.Body.Regular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="16dp"
-                android:textColor="@color/md_pink500"/>
-
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
-
-
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="20dp"
-        android:fillViewport="true"
-        android:overScrollMode="never"
-        android:scrollbarStyle="insideOverlay">
-
-        <LinearLayout
-            android:layout_width="match_parent"
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/holder_elevation_tv_name"
+            style="?attr/textPrimaryBody1"
+            android:textColor="@color/md_pink500"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            tools:text="name" />
 
-            <android.support.v7.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="@dimen/md_elevation_menu"
-                android:layout_marginStart="@dimen/md_elevation_menu"
-                android:layout_marginTop="@dimen/md_elevation_menu"
-                app:cardElevation="@dimen/md_elevation_menu">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/MaterialTextView.LightTheme.Body.Regular"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginBottom="@dimen/default_padding_margin_small"
-                        android:text="Menu"/>
-
-                    <TextView
-                        style="@style/MaterialTextView.LightTheme.Body.Regular"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="8dp"
-                        android:textColor="@color/md_pink500"/>
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="@dimen/md_elevation_submenu_1"
-                android:layout_marginTop="@dimen/md_elevation_submenu_1"
-                app:cardElevation="@dimen/md_elevation_submenu_1">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/MaterialTextView.LightTheme.Body.Regular"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginBottom="@dimen/default_padding_margin_small"
-                        android:text="Submenu 1"/>
-
-                    <TextView
-                        style="@style/MaterialTextView.LightTheme.Body.Regular"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="9dp"
-                        android:textColor="@color/md_pink500"/>
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="@dimen/md_elevation_submenu_2"
-                android:layout_marginTop="@dimen/md_elevation_submenu_2"
-                app:cardElevation="@dimen/md_elevation_submenu_2">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/MaterialTextView.LightTheme.Body.Regular"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginBottom="@dimen/default_padding_margin_small"
-                        android:text="Submenu 2"/>
-
-                    <TextView
-                        style="@style/MaterialTextView.LightTheme.Body.Regular"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="10dp"
-                        android:textColor="@color/md_pink500"/>
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="@dimen/md_elevation_submenu_3"
-                android:layout_marginTop="@dimen/md_elevation_submenu_3"
-                app:cardElevation="@dimen/md_elevation_submenu_3">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/MaterialTextView.LightTheme.Body.Regular"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginBottom="@dimen/default_padding_margin_small"
-                        android:text="Submenu 3"/>
-
-                    <TextView
-                        style="@style/MaterialTextView.LightTheme.Body.Regular"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="11dp"
-                        android:textColor="@color/md_pink500"/>
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="@dimen/md_elevation_submenu_4"
-                android:layout_marginEnd="@dimen/md_elevation_submenu_4"
-                android:layout_marginTop="@dimen/md_elevation_submenu_4"
-                app:cardElevation="@dimen/md_elevation_submenu_4">
+    </androidx.cardview.widget.CardView>
 
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/MaterialTextView.LightTheme.Body.Regular"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginBottom="@dimen/default_padding_margin_small"
-                        android:text="Submenu 4"/>
-
-                    <TextView
-                        style="@style/MaterialTextView.LightTheme.Body.Regular"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:text="12dp"
-                        android:textColor="@color/md_pink500"/>
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-        </LinearLayout>
-
-    </HorizontalScrollView>
 
 
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/md_toolbar_height"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="@dimen/md_elevation_toolbar"
-        app:cardCornerRadius="0dp"
-        app:cardElevation="@dimen/md_elevation_toolbar">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="horizontal">
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/md_toolbar_height"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginBottom="20dp"-->
+    <!--android:layout_marginTop="@dimen/md_elevation_toolbar"-->
+    <!--app:cardCornerRadius="0dp"-->
+    <!--app:cardElevation="@dimen/md_elevation_toolbar">-->
 
-            <TextView
-                style="@style/MaterialTextView.LightTheme.Title.Medium"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginEnd="@dimen/default_padding_margin_small"
-                android:text="Toolbar"/>
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal">-->
 
-            <TextView
-                style="@style/MaterialTextView.LightTheme.Title.Medium"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="4dp"
-                android:textColor="@color/md_pink500"/>
+    <!--<TextView-->
+    <!--style="@style/MaterialTextView.LightTheme.Title.Medium"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginEnd="@dimen/default_padding_margin_small"-->
+    <!--android:text="Toolbar"/>-->
 
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+    <!--<TextView-->
+    <!--style="@style/MaterialTextView.LightTheme.Title.Medium"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:text="4dp"-->
+    <!--android:textColor="@color/md_pink500"/>-->
 
-    <android.support.v7.widget.CardView
-        android:layout_width="150dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="@dimen/md_elevation_toolbar"
-        android:clickable="true"
-        android:stateListAnimator="@drawable/md_selector_anim_cardview_elevation"
-        app:cardElevation="@dimen/md_elevation_card">
+    <!--</LinearLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="vertical">
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginBottom="20dp"-->
+    <!--android:layout_marginTop="@dimen/md_elevation_toolbar"-->
+    <!--android:clickable="true"-->
+    <!--android:stateListAnimator="@drawable/md_selector_anim_cardview_elevation"-->
+    <!--app:cardElevation="@dimen/md_elevation_card">-->
 
-            <TextView
-                style="@style/MaterialTextView.LightTheme.Body.Regular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="@dimen/default_padding_margin_small"
-                android:text="Cardview"/>
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical">-->
 
-            <TextView
-                style="@style/MaterialTextView.LightTheme.Body.Regular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="2dp to 8dp"
-                android:textColor="@color/md_pink500"/>
+    <!--<TextView-->
+    <!--style="@style/MaterialTextView.BlackActive.Body1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginBottom="@dimen/default_padding_margin_small"-->
+    <!--android:text="Cardview"/>-->
 
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+    <!--<TextView-->
+    <!--style="@style/MaterialTextView.BlackActive.Body1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:text="2dp to 8dp"-->
+    <!--android:textColor="@color/md_pink500"/>-->
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:stateListAnimator="@drawable/md_selector_anim_button_elevation"
-        android:text="Button\n2dp to 8dp"/>
+    <!--</LinearLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
 
-</LinearLayout>
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_margin="20dp"-->
+    <!--android:stateListAnimator="@drawable/md_selector_anim_button_elevation"-->
+    <!--android:text="Button\n2dp to 8dp"/>-->
+
+</FrameLayout>

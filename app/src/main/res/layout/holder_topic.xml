@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:orientation="vertical">
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/tv_topic"
-        style="@style/MaterialTextView.LightTheme.Display1.Regular"
-        android:layout_gravity="center_horizontal"
+        style="?attr/textPrimaryHeadline4"
         android:layout_width="match_parent"
-        android:gravity="center_vertical"
         android:layout_height="wrap_content"
-        android:minHeight="@dimen/md_list_item_height"
-        android:layout_marginEnd="@dimen/md_margin_content"
-        android:layout_marginStart="@dimen/md_margin_content"
-        tools:text="Color palette"/>
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="@dimen/default_padding_margin_xx"
+        android:layout_marginStart="@dimen/default_padding_margin_xx"
+        android:gravity="center_vertical"
+        app:fontFamily="@font/font_product_sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Color palette" />
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>

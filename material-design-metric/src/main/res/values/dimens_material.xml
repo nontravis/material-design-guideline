@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ========================== Md default alpha =========================================== -->
+    <item name="md_alpha_text_active_light_theme" format="float" type="dimen">0.87</item>
+    <item name="md_alpha_text_inactive_light_theme" format="float" type="dimen">0.60</item>
+    <item name="md_alpha_text_disable_light_theme" format="float" type="dimen">0.38</item>
+
+    <item name="md_alpha_text_active_dark_theme" format="float" type="dimen">1.0</item>
+    <item name="md_alpha_text_inactive_dark_theme" format="float" type="dimen">0.60</item>
+    <item name="md_alpha_text_disable_dark_theme" format="float" type="dimen">0.38</item>
+
+    <item name="md_alpha_icon_active_light_theme" format="float" type="dimen">0.87</item>
+    <item name="md_alpha_icon_inactive_light_theme" format="float" type="dimen">0.54</item>
+    <item name="md_alpha_icon_disable_light_theme" format="float" type="dimen">0.38</item>
+
+    <item name="md_alpha_icon_active_dark_theme" format="float" type="dimen">1.0</item>
+    <item name="md_alpha_icon_inactive_dark_theme" format="float" type="dimen">0.54</item>
+    <item name="md_alpha_icon_disable_dark_theme" format="float" type="dimen">0.38</item>
+
+    <!-- ========================== Md aspect =========================================== -->
+    <item name="md_aspect_16_9" format="float" type="dimen">1.7777777</item>
+    <item name="md_aspect_3_2" format="float" type="dimen">1.5</item>
+    <item name="md_aspect_4_3" format="float" type="dimen">1.333333</item>
+    <item name="md_aspect_1_1" format="float" type="dimen">1</item>
+
+
+    <!-- ========================== Md default icon size ======================================= -->
+    <dimen name="md_icon_touch_size_small">36dp</dimen>
+    <dimen name="md_icon_touch_padding_small">8dp</dimen>
+    <dimen name="md_icon_touch_size">48dp</dimen>
+    <dimen name="md_icon_touch_padding">12dp</dimen>
+    <dimen name="md_avatar_size">40dp</dimen>
+
+
+    <!-- ========================== Md component size ========================================== -->
+    <dimen name="md_button_height">36dp</dimen>
+    <dimen name="md_button_height_large">42dp</dimen>
+    <dimen name="md_button_min_width">72dp</dimen>
+
+    <dimen name="md_toolbar_height">56dp</dimen>
+
+    <dimen name="md_tab_layout_height">48dp</dimen>
+    <dimen name="md_tab_layout_with_icon_height">72dp</dimen>
+
+
+    <!-- ========================== Md default Text size ======================================= -->
+    <!-- https://material.io/design/typography/#type-scale -->
+    <dimen name="md_text_size_headline_1_light">96sp</dimen>
+    <dimen name="md_text_size_headline_2_light">60sp</dimen>
+    <dimen name="md_text_size_headline_3_regular">48sp</dimen>
+    <dimen name="md_text_size_headline_4_regular">34sp</dimen>
+    <dimen name="md_text_size_headline_5_regular">24sp</dimen>
+    <dimen name="md_text_size_headline_6_medium">20sp</dimen>
+
+    <dimen name="md_text_size_subtitle_1_regular">16sp</dimen>
+    <dimen name="md_text_size_subtitle_2_medium">14sp</dimen>
+    <dimen name="md_text_size_body_1_regular">16sp</dimen>
+    <dimen name="md_text_size_body_2_regular">14sp</dimen>
+    <dimen name="md_text_size_button_medium">14sp</dimen>
+    <dimen name="md_text_size_caption_regular">12sp</dimen>
+    <dimen name="md_text_size_overline_regular">10sp</dimen>
+
+    <!-- ========================= Md Elevation ================================================ -->
+    <dimen name="md_elevation_dialog">24dp</dimen>
+
+    <dimen name="md_elevation_navigation_drawer">16dp</dimen>
+    <dimen name="md_elevation_side_sheet_modal">16dp</dimen>
+    <dimen name="md_elevation_bottom_sheet_modal">16dp</dimen>
+
+    <dimen name="md_elevation_fab_pressed">12dp</dimen>
+
+    <dimen name="md_elevation_side_sheet_standard">8dp</dimen>
+    <dimen name="md_elevation_bottom_sheet_standard">8dp</dimen>
+    <dimen name="md_elevation_bottom_navigation_bar">8dp</dimen>
+    <dimen name="md_elevation_bottom_app_bar">8dp</dimen>
+    <dimen name="md_elevation_menu">8dp</dimen>
+    <dimen name="md_elevation_sub_menu">8dp</dimen>
+    <dimen name="md_elevation_button_pressed">8dp</dimen>
+    <dimen name="md_elevation_card_pressed">8dp</dimen>
+
+    <dimen name="md_elevation_fab">6dp</dimen>
+    <dimen name="md_elevation_snackbar">6dp</dimen>
+
+    <dimen name="md_elevation_top_app_bar_scrolled_state">4dp</dimen>
+    <dimen name="md_elevation_top_app_bar_no_elevation">0dp</dimen>
+    <dimen name="md_elevation_top_app_bar">4dp</dimen>
+    <dimen name="md_elevation_toolbar">4dp</dimen>
+
+    <dimen name="md_elevation_refresh_indicator">3dp</dimen>
+    <dimen name="md_elevation_search_bar_scrolled_state">3dp</dimen>
+
+    <dimen name="md_elevation_button">2dp</dimen>
+
+    <dimen name="md_elevation_card">1dp</dimen>
+    <dimen name="md_elevation_search_bar">1dp</dimen>
+    <dimen name="md_elevation_switch">1dp</dimen>
+
+    <dimen name="md_elevation_text_button">0dp</dimen>
+    <dimen name="md_elevation_standard_side_sheet">0dp</dimen>
+
+
+
+    <!-- ========================== Material default alpha =========================================== -->
+    <item name="material_alpha_text_active_light_theme" format="float" type="dimen">0.87</item>
+    <item name="material_alpha_text_inactive_light_theme" format="float" type="dimen">0.60</item>
+    <item name="material_alpha_text_disable_light_theme" format="float" type="dimen">0.38</item>
+
+    <item name="material_alpha_text_active_dark_theme" format="float" type="dimen">1.0</item>
+    <item name="material_alpha_text_inactive_dark_theme" format="float" type="dimen">0.60</item>
+    <item name="material_alpha_text_disable_dark_theme" format="float" type="dimen">0.38</item>
+
+    <item name="material_alpha_icon_active_light_theme" format="float" type="dimen">0.87</item>
+    <item name="material_alpha_icon_inactive_light_theme" format="float" type="dimen">0.54</item>
+    <item name="material_alpha_icon_disable_light_theme" format="float" type="dimen">0.38</item>
+
+    <item name="material_alpha_icon_active_dark_theme" format="float" type="dimen">1.0</item>
+    <item name="material_alpha_icon_inactive_dark_theme" format="float" type="dimen">0.54</item>
+    <item name="material_alpha_icon_disable_dark_theme" format="float" type="dimen">0.38</item>
+
+    <!-- ========================== Material aspect =========================================== -->
+    <item name="material_aspect_16_9" format="float" type="dimen">1.7777777</item>
+    <item name="material_aspect_3_2" format="float" type="dimen">1.5</item>
+    <item name="material_aspect_4_3" format="float" type="dimen">1.333333</item>
+    <item name="material_aspect_1_1" format="float" type="dimen">1</item>
+
+
+    <!-- ========================== Material default icon size ======================================= -->
+    <dimen name="material_icon_touch_size_small">36dp</dimen>
+    <dimen name="material_icon_touch_padding_small">8dp</dimen>
+    <dimen name="material_icon_touch_size">48dp</dimen>
+    <dimen name="material_icon_touch_padding">12dp</dimen>
+    <dimen name="material_avatar_size">40dp</dimen>
+
+
+    <!-- ========================== Material component size ========================================== -->
+    <dimen name="material_button_height">36dp</dimen>
+    <dimen name="material_button_height_large">42dp</dimen>
+    <dimen name="material_button_min_width">72dp</dimen>
+
+    <dimen name="material_toolbar_height">56dp</dimen>
+
+    <dimen name="material_tab_layout_height">48dp</dimen>
+    <dimen name="material_tab_layout_with_icon_height">72dp</dimen>
+
+
+    <!-- ========================== Material default Text size ======================================= -->
+    <!-- https://material.io/design/typography/#type-scale -->
+    <dimen name="material_text_size_headline_1_light">96sp</dimen>
+    <dimen name="material_text_size_headline_2_light">60sp</dimen>
+    <dimen name="material_text_size_headline_3_regular">48sp</dimen>
+    <dimen name="material_text_size_headline_4_regular">34sp</dimen>
+    <dimen name="material_text_size_headline_5_regular">24sp</dimen>
+    <dimen name="material_text_size_headline_6_medium">20sp</dimen>
+
+    <dimen name="material_text_size_subtitle_1_regular">16sp</dimen>
+    <dimen name="material_text_size_subtitle_2_medium">14sp</dimen>
+    <dimen name="material_text_size_body_1_regular">16sp</dimen>
+    <dimen name="material_text_size_body_2_regular">14sp</dimen>
+    <dimen name="material_text_size_button_medium">14sp</dimen>
+    <dimen name="material_text_size_caption_regular">12sp</dimen>
+    <dimen name="material_text_size_overline_regular">10sp</dimen>
+
+    <!-- ========================= Material Elevation ================================================ -->
+    <dimen name="material_elevation_dialog">24dp</dimen>
+
+    <dimen name="material_elevation_navigation_drawer">16dp</dimen>
+    <dimen name="material_elevation_side_sheet_modal">16dp</dimen>
+    <dimen name="material_elevation_bottom_sheet_modal">16dp</dimen>
+
+    <dimen name="material_elevation_fab_pressed">12dp</dimen>
+
+    <dimen name="material_elevation_side_sheet_standard">8dp</dimen>
+    <dimen name="material_elevation_bottom_sheet_standard">8dp</dimen>
+    <dimen name="material_elevation_bottom_navigation_bar">8dp</dimen>
+    <dimen name="material_elevation_bottom_app_bar">8dp</dimen>
+    <dimen name="material_elevation_menu">8dp</dimen>
+    <dimen name="material_elevation_sub_menu">8dp</dimen>
+    <dimen name="material_elevation_button_pressed">8dp</dimen>
+    <dimen name="material_elevation_card_pressed">8dp</dimen>
+
+    <dimen name="material_elevation_fab">6dp</dimen>
+    <dimen name="material_elevation_snackbar">6dp</dimen>
+
+    <dimen name="material_elevation_top_app_bar_scrolled_state">4dp</dimen>
+    <dimen name="material_elevation_top_app_bar_no_elevation">0dp</dimen>
+    <dimen name="material_elevation_top_app_bar">4dp</dimen>
+    <dimen name="material_elevation_toolbar">4dp</dimen>
+
+    <dimen name="material_elevation_refresh_indicator">3dp</dimen>
+    <dimen name="material_elevation_search_bar_scrolled_state">3dp</dimen>
+
+    <dimen name="material_elevation_button">2dp</dimen>
+
+    <dimen name="material_elevation_card">1dp</dimen>
+    <dimen name="material_elevation_search_bar">1dp</dimen>
+    <dimen name="material_elevation_switch">1dp</dimen>
+
+    <dimen name="material_elevation_text_button">0dp</dimen>
+    <dimen name="material_elevation_standard_side_sheet">0dp</dimen>
+
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/default_padding_margin_xx"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+
+
+    <TextView
+        android:id="@+id/tv_topic"
+        style="?attr/textPrimaryHeadline5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="@dimen/default_padding_margin_xx"
+        android:layout_marginStart="@dimen/default_padding_margin_xx"
+        android:gravity="center_vertical"
+        android:text="Button" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/holder_description_tv"
+        style="?attr/textSecondaryBody1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_space_margin_body_paragraph"
+        android:layout_marginTop="@dimen/text_space_margin_title_top"
+        android:lineSpacingExtra="2dp"
+        android:paddingEnd="@dimen/default_padding_margin_xx"
+        android:paddingStart="@dimen/default_padding_margin_xx"
+        android:text="Buttons allow users to take actions, and make choices, with a single tap." />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/default_padding_margin_small"
+        android:fillViewport="true">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/CodeView.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+Widget.MaterialComponents.Button\n
+Widget.MaterialComponents.Button.TextButton\n
+Widget.MaterialComponents.Button.TextButton.Dialog\n
+Widget.MaterialComponents.Button.UnelevatedButton" />
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/default_padding_margin">
+
+        <android.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/default_padding_margin_small"
+            android:text="button" />
+
+        <android.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Text Button" />
+
+        <android.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/default_padding_margin_small"
+        android:fontFamily="@font/font_raleway_semibold"
+        android:text="Complete Order"
+        app:cornerRadius="18dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/default_padding_margin_x"
+        android:layout_marginEnd="@dimen/default_padding_margin_xx"
+        android:layout_marginStart="@dimen/default_padding_margin_xx"
+        android:layout_marginTop="@dimen/default_padding_margin"
+        android:text="Outline Button"
+        app:strokeColor="@color/default_color_black_alpha_20"
+        app:strokeWidth="@dimen/default_stroke_small" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/MaterialTextView.Roboto.BlackActive.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            android:text="Button height" />
+
+        <TextView
+            style="@style/MaterialTextView.Roboto.BlackActive.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            android:text="36dp"
+            android:textColor="@color/md_pink500" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/MaterialTextView.Roboto.BlackActive.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            android:text="Button height large" />
+
+        <TextView
+            style="@style/MaterialTextView.Roboto.BlackActive.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_padding_margin_small"
+            android:text="42dp"
+            android:textColor="@color/md_pink500" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="SystemUISpace">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">#00FFFFFF</item>
+    </style>
+
+    <style name="SystemUISpace.Top">
+        <item name="android:layout_width">match_parent</item>
+        <item name="systemUI">top</item>
+    </style>
+
+    <style name="SystemUISpace.Left">
+        <item name="android:layout_height">match_parent</item>
+        <item name="systemUI">left</item>
+    </style>
+
+    <style name="SystemUISpace.Right">
+        <item name="android:layout_height">match_parent</item>
+        <item name="systemUI">right</item>
+    </style>
+
+    <style name="SystemUISpace.Bottom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="systemUI">bottom</item>
+    </style>
+
+
+    <!-- ============================= Divider ================================================= -->
+    <style name="Divider.Black.Horizontal" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/default_divider_size</item>
+        <item name="android:minHeight">@dimen/default_divider_size</item>
+        <item name="android:background">@color/md_divider_black</item>
+    </style>
+
+
+    <style name="Divider.Black.Vertical" parent="">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/default_divider_size</item>
+        <item name="android:minWidth">@dimen/default_divider_size</item>
+        <item name="android:background">@color/md_divider_black</item>
+    </style>
+
+
+    <style name="Divider.White.Horizontal" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/default_divider_size</item>
+        <item name="android:minHeight">@dimen/default_divider_size</item>
+        <item name="android:background">@color/md_divider_white</item>
+    </style>
+
+
+    <style name="Divider.White.Vertical" parent="">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/default_divider_size</item>
+        <item name="android:minWidth">@dimen/default_divider_size</item>
+        <item name="android:background">@color/md_divider_white</item>
+    </style>
+
+</resources>

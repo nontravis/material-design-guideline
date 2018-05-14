@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="md_pressed_animation_duration">100</integer>
+    <integer name="md_pressed_animation_delay">100</integer>
+
+    <integer name="md_anim_duration_icon_simple">100</integer>
+    <integer name="md_anim_duration_icon_average">200</integer>
+    <integer name="md_anim_duration_icon_complex">500</integer>
+
+
+    <integer name="material_pressed_animation_duration">@integer/md_pressed_animation_duration</integer>
+    <integer name="material_pressed_animation_delay">@integer/md_pressed_animation_delay</integer>
+
+    <integer name="material_anim_duration_icon_simple">@integer/md_anim_duration_icon_simple</integer>
+    <integer name="material_anim_duration_icon_average">@integer/md_anim_duration_icon_average</integer>
+    <integer name="material_anim_duration_icon_complex">@integer/md_anim_duration_icon_complex</integer>
+</resources>

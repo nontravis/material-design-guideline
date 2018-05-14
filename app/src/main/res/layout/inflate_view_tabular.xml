@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/default_padding_margin"
+        android:layout_marginTop="@dimen/default_padding_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/default_padding_margin_small"
+            android:paddingTop="@dimen/default_padding_margin_small">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/MaterialTextView.Roboto.BlackInactive.Headline5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_padding_margin_small"
+                android:layout_marginEnd="@dimen/default_padding_margin_x"
+                android:layout_marginTop="@dimen/default_padding_margin_small"
+                android:text="1,111,111"
+                android:textAlignment="textEnd" />
+
+            <View style="?attr/dividerHorizontal" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/MaterialTextView.Roboto.BlackInactive.Headline5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_padding_margin_small"
+                android:layout_marginEnd="@dimen/default_padding_margin_x"
+                android:layout_marginTop="@dimen/default_padding_margin_small"
+                android:text="9,000,000"
+                android:textAlignment="textEnd" />
+
+            <View style="?attr/dividerHorizontal" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/MaterialTextView.Roboto.BlackInactive.Headline5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_padding_margin_small"
+                android:layout_marginEnd="@dimen/default_padding_margin_x"
+                android:layout_marginTop="@dimen/default_padding_margin_small"
+                android:text="7,999,111"
+                android:textAlignment="textEnd" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>

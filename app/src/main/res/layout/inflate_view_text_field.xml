@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:id="@+id/tv_topic"
+        style="?attr/textPrimaryHeadline5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="@dimen/default_padding_margin_xx"
+        android:layout_marginStart="@dimen/default_padding_margin_xx"
+        android:gravity="center_vertical"
+        android:text="Text Fields" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/holder_description_tv"
+        style="?attr/textSecondaryBody1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_space_margin_body_paragraph"
+        android:layout_marginTop="@dimen/text_space_margin_title_top"
+        android:lineSpacingExtra="2dp"
+        android:paddingEnd="@dimen/default_padding_margin_xx"
+        android:paddingStart="@dimen/default_padding_margin_xx"
+        android:text="Text fields let users enter and edit text." />
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/default_padding_margin_small"
+        android:fillViewport="true">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/CodeView.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+Widget.MaterialComponents.TextInputLayout.OutlineBox\n
+Widget.MaterialComponents.TextInputLayout.OutlineBox.Dense\n
+Widget.MaterialComponents.TextInputLayout.FilledBox\n
+Widget.MaterialComponents.TextInputLayout.FilledBox.Dense" />
+
+    </HorizontalScrollView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlineBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_padding_margin"
+        android:layout_marginEnd="@dimen/default_padding_margin_xx"
+        app:helperTextEnabled="true"
+        app:helperText="helper test text"
+        android:layout_marginStart="@dimen/default_padding_margin_xx">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hint" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlineBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_padding_margin"
+        android:layout_marginEnd="@dimen/default_padding_margin_xx"
+        android:layout_marginStart="@dimen/default_padding_margin_xx"
+        android:layout_marginTop="@dimen/default_padding_margin">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hint" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_padding_margin"
+        android:layout_marginEnd="@dimen/default_padding_margin_xx"
+        android:layout_marginStart="@dimen/default_padding_margin_xx"
+        android:layout_marginTop="@dimen/default_padding_margin">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hint" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_padding_margin"
+        android:layout_marginEnd="@dimen/default_padding_margin_xx"
+        android:layout_marginStart="@dimen/default_padding_margin_xx"
+        android:layout_marginTop="@dimen/default_padding_margin">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hint" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</LinearLayout>
