@@ -571,7 +571,7 @@ use [Noto Font](https://www.google.com/get/noto/)
 
 ### STYLE
 
-It is a lot of style you can checkout [here](./material-design-guideline/src/main/res/values).
+It is a lot of style you can checkout [here](./material-design-metric/src/main/res/values).
 
 ```
 styles_text_material_product_sans_black.xml
