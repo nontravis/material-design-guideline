@@ -16,7 +16,7 @@
         <androidx.appcompat.widget.AppCompatImageView
             style="@style/IconClick.BlackActive.Small"
             android:layout_gravity="center"
-            android:src="@drawable/ic_settings_24dp" />
+            app:srcCompat="@drawable/ic_settings_24dp" />
 
         <View
             android:layout_width="match_parent"
@@ -88,7 +88,7 @@
         <androidx.appcompat.widget.AppCompatImageView
             style="@style/IconClick.BlackActive"
             android:layout_gravity="center"
-            android:src="@drawable/ic_settings_24dp" />
+            app:srcCompat="@drawable/ic_settings_24dp" />
 
         <View
             android:layout_width="match_parent"

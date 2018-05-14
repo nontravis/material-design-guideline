@@ -26,4 +26,4 @@ before_install:
  - touch ./pushlibrary-color.gradle
  - touch ./pushlibrary-metric.gradle
 
-script: ./gradlew clean build
+script: ./gradlew clean build -x lint
