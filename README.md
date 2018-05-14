@@ -42,8 +42,16 @@ The guideline is here. [Google Material guideline V.2](https://material.io/).
 
 ```gradle
 implementation 'com.github.thekhaeng:material-design-color:2.0.0' //only material color
-
 implementation 'com.github.thekhaeng:material-design-metric:2.0.0'
+
+// or 
+// If your project not use androidx you must exclulde this group out.
+implementation('com.github.thekhaeng:material-design-color:2.0.0') {
+    exclude group: 'androidx.annotation', module: 'annotation'
+}
+implementation('com.github.thekhaeng:material-design-metric:2.0.0') {
+    exclude group: 'androidx.appcompat', module: 'appcompat'
+}
 
 ```
 
