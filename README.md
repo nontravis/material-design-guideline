@@ -687,9 +687,9 @@ Most icons will fit into these three groups of recommended durations:
 
 |INTEGER NAMES                    | Integer (millisecond) |
 | ----------------------------- | :----------:|
-|material_anim_duration_icon_simple|100|
-|material_anim_duration_icon_average|200|
-|material_anim_duration_icon_complex|500|
+|md_anim_duration_icon_simple|100|
+|md_anim_duration_icon_average|200|
+|md_anim_duration_icon_complex|500|
 
 
 <br>
