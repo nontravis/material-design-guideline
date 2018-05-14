@@ -683,7 +683,7 @@ Most icons will fit into these three groups of recommended durations:
 - Average icon animations: `200ms`
 - Complex icon animations: `500ms`
 
-<img src="https://material.io/design/assets/1JURoEV03erE6RM2XaIB7ghoXOeToZqyK/04-duration-v1.mp4" width="1000">
+![anim-duration](./picture/anim-duration.gif)
 
 |INTEGER NAMES                    | Integer (millisecond) |
 | ----------------------------- | :----------:|
