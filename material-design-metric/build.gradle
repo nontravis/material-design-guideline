@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 'android-P'
     buildToolsVersion "27.0.3"
 
     defaultConfig {
