@@ -42,8 +42,8 @@ class SystemUISpaceView : View {
         setupStyleables(attrs, defStyleAttr, defStyleRes)
     }
 
-
-    protected fun setupStyleables(attrs: AttributeSet?, defStyleAttr: Int, defStyleRes: Int) {
+    @Suppress("UNUSED_PARAMETER")
+    protected fun setupStyleables(attrs: AttributeSet?,  defStyleAttr: Int, defStyleRes: Int) {
         attrs?.let {
             val attrArray = context.obtainStyledAttributes(attrs, R.styleable.SystemUISpaceView, defStyleRes, 0)
             isConsumedInsets = attrArray.getBoolean(R.styleable.SystemUISpaceView_isConsumeInsets, false)
