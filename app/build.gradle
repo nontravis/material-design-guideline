@@ -58,7 +58,6 @@ dependencies {
 //    implementation project(':material-design-core')
     implementation project(':material-design-color')
     implementation project(':material-design-metric')
-    //    implementation ('com.github.thekhaeng:material-design-guideline:1.0.4') {
-    //        exclude group: 'com.android.support', module: 'support-annotations'
-    //    }
+//    implementation 'com.github.thekhaeng:material-design-color:2.0.0' //only material color
+//    implementation 'com.github.thekhaeng:material-design-metric:2.0.0'
 }

@@ -26,10 +26,14 @@
 
 
     <!-- ========================== Md default icon size ======================================= -->
+    <dimen name="md_icon_touch_size_large">48dp</dimen>
+    <dimen name="md_icon_touch_padding_large">12dp</dimen>
+
+    <dimen name="md_icon_touch_size">40dp</dimen>
+    <dimen name="md_icon_touch_padding">8dp</dimen>
+
     <dimen name="md_icon_touch_size_small">36dp</dimen>
     <dimen name="md_icon_touch_padding_small">8dp</dimen>
-    <dimen name="md_icon_touch_size">48dp</dimen>
-    <dimen name="md_icon_touch_padding">12dp</dimen>
     <dimen name="md_avatar_size">40dp</dimen>
 
 

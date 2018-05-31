@@ -14,7 +14,7 @@
 
 
         <androidx.appcompat.widget.AppCompatImageView
-            style="@style/IconClick.BlackActive.Small"
+            style="@style/IconClickSmall.BlackActive"
             android:layout_gravity="center"
             app:srcCompat="@drawable/ic_settings_24dp" />
 
@@ -80,13 +80,13 @@
 
 
     <FrameLayout
-        android:layout_width="@dimen/md_icon_touch_size"
-        android:layout_height="@dimen/md_icon_touch_size"
+        android:layout_width="@dimen/md_icon_touch_size_large"
+        android:layout_height="@dimen/md_icon_touch_size_large"
         android:layout_gravity="center_horizontal">
 
 
         <androidx.appcompat.widget.AppCompatImageView
-            style="@style/IconClick.BlackActive"
+            style="@style/IconClick.LargeTouch.BlackActive"
             android:layout_gravity="center"
             app:srcCompat="@drawable/ic_settings_24dp" />
 
@@ -98,7 +98,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="12dp"
+            android:layout_margin="@dimen/md_icon_touch_padding_large"
             android:background="@drawable/board_keyline" />
 
     </FrameLayout>

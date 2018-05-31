@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
     <!-- ============================= Icon ==================================================== -->
     <style name="IconClick">
         <item name="android:scaleType">fitCenter</item>
@@ -34,20 +33,6 @@
     </style>
 
 
-    <style name="IconClick.BlackActive.Small" parent="IconClickSmall">
-        <item name="android:tint">@color/md_icon_color_active_light_theme</item>
-    </style>
-
-    <style name="IconClick.BlackInActive.Small" parent="IconClickSmall">
-        <item name="android:tint">@color/md_icon_color_inactive_light_theme</item>
-    </style>
-
-    <style name="IconClick.BlackDisabled.Small" parent="IconClickSmall">
-        <item name="android:tint">@color/md_icon_color_disabled_light_theme</item>
-    </style>
-
-
-
     <style name="IconClick.WhiteActive" parent="IconClick">
         <item name="android:tint">@color/md_icon_color_active_dark_theme</item>
     </style>
@@ -61,15 +46,72 @@
     </style>
 
 
-    <style name="IconClick.WhiteActive.Small" parent="IconClickSmall">
+    <style name="IconClick.LargeTouch.BlackActive" parent="IconClick">
+        <item name="android:tint">@color/md_icon_color_active_light_theme</item>
+        <item name="android:layout_width">@dimen/md_icon_touch_size_large</item>
+        <item name="android:layout_height">@dimen/md_icon_touch_size_large</item>
+        <item name="android:padding">@dimen/md_icon_touch_padding_large</item>
+    </style>
+
+    <style name="IconClick.LargeTouch.BlackInActive" parent="IconClick">
+        <item name="android:tint">@color/md_icon_color_inactive_light_theme</item>
+        <item name="android:layout_width">@dimen/md_icon_touch_size_large</item>
+        <item name="android:layout_height">@dimen/md_icon_touch_size_large</item>
+        <item name="android:padding">@dimen/md_icon_touch_padding_large</item>
+    </style>
+
+    <style name="IconClick.LargeTouch.BlackDisabled" parent="IconClick">
+        <item name="android:tint">@color/md_icon_color_disabled_light_theme</item>
+        <item name="android:layout_width">@dimen/md_icon_touch_size_large</item>
+        <item name="android:layout_height">@dimen/md_icon_touch_size_large</item>
+        <item name="android:padding">@dimen/md_icon_touch_padding_large</item>
+    </style>
+
+
+    <style name="IconClick.LargeTouch.WhiteActive" parent="IconClick">
+        <item name="android:tint">@color/md_icon_color_active_dark_theme</item>
+        <item name="android:layout_width">@dimen/md_icon_touch_size_large</item>
+        <item name="android:layout_height">@dimen/md_icon_touch_size_large</item>
+        <item name="android:padding">@dimen/md_icon_touch_padding_large</item>
+    </style>
+
+    <style name="IconClick.LargeTouch.WhiteInActive" parent="IconClick">
+        <item name="android:tint">@color/md_icon_color_inactive_dark_theme</item>
+        <item name="android:layout_width">@dimen/md_icon_touch_size_large</item>
+        <item name="android:layout_height">@dimen/md_icon_touch_size_large</item>
+        <item name="android:padding">@dimen/md_icon_touch_padding_large</item>
+    </style>
+
+    <style name="IconClick.LargeTouch.WhiteDisabled" parent="IconClick">
+        <item name="android:tint">@color/md_icon_color_disabled_dark_theme</item>
+        <item name="android:layout_width">@dimen/md_icon_touch_size_large</item>
+        <item name="android:layout_height">@dimen/md_icon_touch_size_large</item>
+        <item name="android:padding">@dimen/md_icon_touch_padding_large</item>
+    </style>
+
+
+    <style name="IconClickSmall.BlackActive" parent="IconClickSmall">
+        <item name="android:tint">@color/md_icon_color_active_light_theme</item>
+    </style>
+
+    <style name="IconClickSmall.BlackInActive" parent="IconClickSmall">
+        <item name="android:tint">@color/md_icon_color_inactive_light_theme</item>
+    </style>
+
+    <style name="IconClickSmall.BlackDisabled" parent="IconClickSmall">
+        <item name="android:tint">@color/md_icon_color_disabled_light_theme</item>
+    </style>
+
+
+    <style name="IconClickSmall.WhiteActive" parent="IconClickSmall">
         <item name="android:tint">@color/md_icon_color_active_dark_theme</item>
     </style>
 
-    <style name="IconClick.WhiteInActive.Small" parent="IconClickSmall">
+    <style name="IconClickSmall.WhiteInActive" parent="IconClickSmall">
         <item name="android:tint">@color/md_icon_color_inactive_dark_theme</item>
     </style>
 
-    <style name="IconClick.WhiteDisabled.Small" parent="IconClickSmall">
+    <style name="IconClickSmall.WhiteDisabled" parent="IconClickSmall">
         <item name="android:tint">@color/md_icon_color_disabled_dark_theme</item>
     </style>
 

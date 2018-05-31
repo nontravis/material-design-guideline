@@ -42,14 +42,14 @@ The guideline is here. [Google Material guideline V.2](https://material.io/).
 
 ```gradle
 implementation 'com.github.thekhaeng:material-design-color:2.0.0' //only material color
-implementation 'com.github.thekhaeng:material-design-metric:2.0.0'
+implementation 'com.github.thekhaeng:material-design-metric:2.0.1'
 
 // or 
 // If your project not use androidx you must exclulde this group out.
 implementation('com.github.thekhaeng:material-design-color:2.0.0') {
     exclude group: 'androidx.annotation', module: 'annotation'
 }
-implementation('com.github.thekhaeng:material-design-metric:2.0.0') {
+implementation('com.github.thekhaeng:material-design-metric:2.0.1') {
     exclude group: 'androidx.appcompat', module: 'appcompat'
 }
 
@@ -59,7 +59,10 @@ implementation('com.github.thekhaeng:material-design-metric:2.0.0') {
 
 ## Changelog
 
-- **2.0.0: lastest version**
+- **2.0.1: lastest version**
+	 - update **new icon click size**
+
+- 2.0.0
 	 - **update all new Material Design**
 
 - 1.0.4
@@ -391,21 +394,32 @@ You can use this style to change the normal view to `IconClick`.
 
 
 ```
+// size: 40dp, padding: 8dp
 IconClick.BlackActive
 IconClick.BlackInActive
 IconClick.BlackDisabled
-
-IconClick.BlackActive.Small
-IconClick.BlackInActive.Small
-IconClick.BlackDisabled.Small
 
 IconClick.WhiteActive
 IconClick.WhiteInActive
 IconClick.WhiteDisabled
 
-IconClick.WhiteActive.Small
-IconClick.WhiteInActive.Small
-IconClick.WhiteDisabled.Smalld
+// size: 48dp, padding: 12dp
+IconClick.LargeTouch.BlackActive
+IconClick.LargeTouch.BlackInActive
+IconClick.LargeTouch.BlackDisabled
+
+IconClick.LargeTouch.WhiteActive
+IconClick.LargeTouch.WhiteInActive
+IconClick.LargeTouch.WhiteDisabled
+
+// size: 36dp, padding: 8dp
+IconClickSmall.BlackActive
+IconClickSmall.BlackInActive
+IconClickSmall.BlackDisabled
+
+IconClickSmall.WhiteActive
+IconClickSmall.WhiteInActive
+IconClickSmall.WhiteDisabled
 
 ```
 
