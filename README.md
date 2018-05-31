@@ -49,7 +49,7 @@ implementation 'com.github.thekhaeng:material-design-metric:2.0.1'
 implementation('com.github.thekhaeng:material-design-color:2.0.0') {
     exclude group: 'androidx.annotation', module: 'annotation'
 }
-implementation('com.github.thekhaeng:material-design-metric:2.0.1') {
+implementation('com.github.thekhaeng:material-design-metric:2.0.2') {
     exclude group: 'androidx.appcompat', module: 'appcompat'
 }
 
@@ -59,7 +59,7 @@ implementation('com.github.thekhaeng:material-design-metric:2.0.1') {
 
 ## Changelog
 
-- **2.0.1: lastest version**
+- **2.0.2: lastest version**
 	 - update **new icon click size**
 
 - 2.0.0
@@ -394,6 +394,10 @@ You can use this style to change the normal view to `IconClick`.
 
 
 ```
+IconClick // size: 40dp, padding: 8dp
+IconClick.LargeTouch  // size: 48dp, padding: 12dp
+IconClickSmall // size: 36dp, padding: 8dp
+
 // size: 40dp, padding: 8dp
 IconClick.BlackActive
 IconClick.BlackInActive

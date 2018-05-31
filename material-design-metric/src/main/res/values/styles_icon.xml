@@ -12,13 +12,9 @@
     </style>
 
     <style name="IconClick.LargeTouch">
-        <item name="android:scaleType">fitCenter</item>
         <item name="android:layout_width">@dimen/md_icon_touch_size_large</item>
         <item name="android:layout_height">@dimen/md_icon_touch_size_large</item>
         <item name="android:padding">@dimen/md_icon_touch_padding_large</item>
-        <item name="android:clickable">true</item>
-        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
-
     </style>
 
     <style name="IconClickSmall">
